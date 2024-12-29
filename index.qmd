@@ -1,9 +1,448 @@
 ---
-title: "CS 1671/2071 Human Language Technologies, Spring 2025"
+title: "CS 2731 Introduction to Natural Language Processing"
 ---
 
-This is a Quarto website.
+::: {style="text-align: center"}
+School of Computing and Information, University of Pittsburgh  
+Fall 2024  
+:::
 
-TESTing
+![Peter Miller, *Communication*, 1940s](img/peter_miller_communication_cropped.png)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<!-- Should make this a quarto markdown table-->
+<table>
+	<tbody style="text-align:left">
+		<tr>
+			<td>Time</td>
+			<td>MW 2:30-3:45pm</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Sennott Square 5313</td>
+		</tr>
+		<tr>
+			<td>Instructor</td>
+			<td><a href="https://michaelmilleryoder.github.io">Michael Miller Yoder</a>, PhD<br /><i>Please call me "Michael"</i></td>
+		</tr>
+		<tr>
+			<td>Instructor contact</td>
+			<td><a href="mailto:mmyoder@pitt.edu">mmyoder@pitt.edu</a> or through Canvas messages</td>
+		</tr>
+		<tr>
+			<td style="width:200px">Instructor office hours</td>
+			<td>By appointment in person at IS 604B or on Zoom<br/>[Book an appointment](https://outlook-sdf.office.com/bookwithme/user/2536c861ee3f49ab9a4a872751754279@pitt.edu?anonymous&ep=plink)</td>
+		</tr>
+		<tr>
+			<td>TA</td>
+			<td>Dhanush Binu</td>
+		</tr>
+		<tr>
+			<td>TA contact</td>
+			<td><a href="mailto:dhb51@pitt.edu">dhb51@pitt.edu</a></td>
+		</tr>
+		<tr>
+			<td>TA office hours</td>
+			<td>By appointment</td>
+		</tr>
+		<tr>
+			<td>Textbook (free online)</td>
+			<td><a href="https://web.stanford.edu/~jurafsky/slp3">[J+M] Jurafsky and Martin, <i>Speech and Language Processing</i>, 3e draft, 2024-08-20</a></td>
+		</tr>
+	</tbody>
+</table>
+
+
+# Schedule
+*Subject to change. Last revised 2024-09-20. All due dates are at 11:59pm ET except when indicated.*
+
+<!-- Should convert this to quarto markdown-->
+<table class="schedule">
+    <thead>
+        <tr>
+            <th>Session</th>
+            <th style="width:85px">Date</th>
+            <!--<th>Date</th>-->
+            <th>Topic</th>
+            <th>Readings</th>
+            <th>Assignments</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 1: Introduction and text processing</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>08-26 M</td>
+            <td><a href="slides/session1_cs2731_fall2024.pdf">Course, NLP intro</a></td>
+            <td></td>
+            <td></td>
+            <!--<td><a href="https://forms.gle/dtRnWmCpe9C8TXSm9">Project survey</a> out</td>-->
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>08-28 W</td>
+            <td><a href="slides/session2_cs2731_fall2024.pdf">Text normalization</a></td>
+            <td>J+M 2-2.3, 2.5-2.7</td>
+            <td></td>
+        </tr>
+        <tr style="background-color:#cccccc">
+            <td></td>
+            <td>09-02 M</td>
+            <td style="font:italic">Labor Day. No class.</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: Text classification and representation learning</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>09-04 W</td>
+            <td><a href="slides/session3_cs2731_fall2024.pdf">Bag-of-words, tf-idf, PPMI</a></td>
+            <td>J+M 6.3-6.7</td>
+            <td>Reading quiz due; <br/><a href="hw1">HW1</a> out 09-05</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>09-09 M</td>
+            <td><a href="slides/session4_cs2731_fall2024.pdf">Logistic regression part 1</a></td>
+            <td>J+M 5-5.2</td>
+            <td>Reading quiz due</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>09-11 W</td>
+            <td><a href="slides/session5_cs2731_fall2024.pdf">Logistic regression part 2</a></td>
+            <td>J+M 5.3-5.9, 5.11</td>
+            <td>Reading quiz due;<br/><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> out</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>09-16 M</td>
+            <td><a href="slides/session6_cs2731_fall2024.pdf">Classifier evaluation, CRC intro</a></td>
+            <td>J+M 4 (intro), 4.7-4.10,<br /><a href="https://aclanthology.org/Q18-1041.pdf">Bender & Friedman 2018</a><br /><a href="https://arxiv.org/pdf/1810.03993.pdf">Mitchell et al. 2019</a></td>
+            <td>Reading quiz due</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>09-18 W</td>
+            <td><a href="slides/session7_cs2731_fall2024.pdf">Vector semantics, word2vec</a></td>
+            <td>J+M 6-6.2, 6.8-6.13,<br /><a href="https://aclanthology.org/2020.acl-main.485.pdf">Blodgett et al. 2020</a></td>
+            <td><strong><a href="hw1">HW1</a> due 09-19;</strong><br/><a href="hw2">HW2</a> out 09-19;<br/><strong><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> due 09-20</strong></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>09-23 M</td>
+            <td><a href="slides/session8_cs2731_fall2024.pdf">Feedforward neural networks</a></td>
+            <td>J+M 7-7.1, 7.3-7.5, 7.8</td>
+            <td>Discussion post due 1pm;<br/><a href="https://forms.office.com/r/JHL2QPxdPH">Project idea ranking form</a> out</td>
+        </tr>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 3: Language models and conditional language models</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>09-25 W</td>
+            <td><a href="slides/session9_cs2731_fall2024.pdf">N-gram language models part 1</a></td>
+            <td>J+M 3-3.3</td>
+            <td>Reading quiz due;<br/><strong><a href="https://forms.office.com/r/JHL2QPxdPH">Project idea ranking form</a> due 09-26</strong></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>09-30 M</td>
+            <td><a href="slides/session10_cs2731_fall2024.pdf">N-gram language models part 2, RNNs part 1</a></td>
+            <td>J+M 3.4-3.6, 3.9, 8-8.2</td>
+            <td>Reading quiz due</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>10-02 W</td>
+            <td><a href="slides/session11_cs2731_fall2024.pdf">RNNs part 2, encoder-decoder</a></td>
+            <td>J+M 8.3, 8.6-8.9</td>
+            <td>Reading quiz due; <br/><b><a href="hw2">HW2</a> due 10-03</b></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>10-07 M</td>
+            <td><a href="slides/session12_cs2731_fall2024.pdf">Transformers</a></td>
+            <td>J+M 9, 10-10.1</td>
+            <td>Reading quiz due;<br/><a href="hw3">HW3</a> out 10-08</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>10-09 W</td>
+            <td><a href="slides/session13_cs2731_fall2024.pdf">LLMs, BERT and GPT</td>
+            <td>J+M 10.2-10.3, 10.5.3-10.7, 11-11.4</td>
+            <td>Reading quiz due</td>
+        </tr>
+        <tr style="background-color:#cccccc">
+            <td></td>
+            <td>10-14 M</td>
+            <td style="font:italic">Fall Break. No class.</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>10-16 W</td>
+            <td><a href="slides/session14_cs2731_fall2024.pdf">Project proposal presentations</a></td>
+            <td></td>
+            <td><strong>Project proposal and literature review due 10-18</strong></td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>10-21 M</td>
+            <td><a href="slides/session15_cs2731_fall2024.pdf">Probabilistic Commonsense Knowledge Evaluation</a> (guest lecture, <a href="https://lorraine333.github.io/">Lorraine Li</a>)</td>
+            <td><em>Optional:</em><br/> <a href="https://arxiv.org/pdf/2406.04145">Cheng et al. 2024</a><br/> <a href="https://arxiv.org/pdf/2311.08469">Zhao et al. 2024</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>10-23 W</td>
+            <td><a href="slides/session16_cs2731_fall2024.pdf">LLM discussion and lab day</a></td>
+            <td>J+M 12<br/><a href="https://journals.sagepub.com/doi/full/10.1177/17456916231201401">Yiu et al. 2023</a></td>
+            <td>Discussion post due 1pm;<br/>Bring a laptop to class;<br/><a href="hw4">HW4</a> out 10-24</td>
+        </tr>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 4: Sequence labeling and parsing</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>10-28 M</td>
+            <td><a href="slides/session17_cs2731_fall2024.pdf">POS tagging, NER, HMMs part 1</a></td>
+            <td>J+M 17-17.4.4</td>
+            <td>Reading quiz due; <br/><b><a href="hw3">HW3</a> due</b></td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>10-30 W</td>
+            <td><a href="slides/session18_cs2731_fall2024.pdf">HMMs part 2, Viterbi alg, neural sequence labeling</a></td>
+            <td>J+M 17.4.5-17.4.6, 8.3.1, 11.5</td>
+            <td>Reading quiz due</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>11-04 M</td>
+            <td><a href="slides/session19_cs2731_fall2024.pdf">Dependency parsing</a></td>
+            <td>J+M 19-19.2, 19.4-19.5</td>
+            <td>Reading quiz due</td>
+        </tr>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 5: Application areas</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>11-06 W</td>
+            <td><a href="slides/session20_cs2731_fall2024.pdf">Machine translation part 1</a></td>
+            <td>J+M 13-13.3,<br/><a href="https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/">Bender 2019</a></td>
+            <td>Discussion post due 1pm; <br/><strong><a href="hw4">HW4</a> due 11-07</strong></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>11-11 M</td>
+            <td><a href="slides/session21_cs2731_fall2024.pdf">Machine translation part 2</a></td>
+            <td>J+M 13.4-13.8</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>11-13 W</td>
+            <td><a href="slides/session22_cs2731_fall2024.pdf">Speech technologies, ASR, TTS</a></td>
+            <td>J+M 16-16.3, 16.5-16.8</td>
+            <td><b>Project progress report due 11-14</b>;<br/><b><a href="https://forms.office.com/r/AjAW253DHT">Project peer review</a> due 11-14</b></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>11-18 M</td>
+            <td><a href="slides/session23_cs2731_fall2024.pdf">Dialogue systems</a></td>
+            <td>J+M 15-15.3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>11-20 W</td>
+            <td><a href="slides/session24_cs2731_fall2024.pdf">Chatbots</a></td>
+            <td>J+M 15.4-15.6</td>
+            <td></td>
+        </tr>
+        <tr style="background-color:#cccccc">
+            <td colspan=5 style="text-align:center; font:italic">Thanksgiving Break 11-24 to 12-01</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>12-02 M</td>
+            <td><a href="slides/session25_cs2731_fall2024.pdf">Information retrieval, RAG</a></td>
+            <td>J+M 14-14.3.1, 14.5</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>12-04 W</td>
+            <td><a href="slides/session26_cs2731_fall2024.pdf">Project work time</a></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>12-11 W</td>
+            <td><a href="slides/session27_cs2731_fall2024.pdf">Final project presentations</a></td>
+            <td></td>
+            <td><strong>Final projects due 12-12</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+
+# Assessments
+
+<!--
+Description | Points | Percentage of final grade
+---|---
+[Final project](project)<i><br />&ensp;[Survey](https://docs.google.com/forms/d/e/1FAIpQLSeH_NNke6ltoz9x0BZQzSPYoe-_Fw8S6Cl1YyTjeWQ6Nmd3AA/viewform) response 1%<br />&ensp;[Project area and type of contribution form](https://forms.gle/uxwAmLCL55SjLby5A) 2%<br />&ensp;Proposal 7%<br />&ensp;Basic working system 5%<br />&ensp;Final report and code 31%<br /></i>| 46%
+Homeworks (4 total, 11% each)<br />&ensp;[Homework 1: Vector space word similarity](hw1) <br />&ensp;[Homework 2: Text classification](hw2) <br/>&ensp;[Homework 3: Language modeling](hw3) <br/>&ensp;[Homework 4: Sequence labeling](hw4)| 44%
+Quizzes, discussion posts | 10%
+-->
+
+Description | Points | Percentage of final grade
+---|---:|---:
+**Homework assignments total** | **224** | **44.8**
+&ensp;Each homework of 4 total | 56 | 11.2
+**[Final project](project) total** | **203** | **40.6**
+&ensp;[Project idea submission](https://forms.office.com/r/ZkMKpcSfhw) response | 5 | 1.0
+&ensp;Project idea ranking response | 5 | 1.0
+&ensp;Proposal and literature review | 40 | 8.0
+&ensp;[Peer review](https://forms.office.com/r/AjAW253DHT) | 2 | 0.4
+&ensp;Progress report | 30 | 6.0
+&ensp;Final report | 121 | 24.2
+**Reading quizzes total** | **33** | **6.6**
+&ensp;Each reading quiz of 13 total, 2 lowest scores dropped | 3 | 0.6
+**Discussion posts total** | **15** | **3.0**
+&ensp;Each discussion post of 3 total required | 5 | 1.0
+**Participation total** | **25** | **5.0**
+&ensp;Attendance | 15 | 3.0
+&ensp;Engagement | 10 | 2.0
+**Grand total** | **500** | **100**
+
+## Participation grade
+In-class, collaborative activities are better learning experiences when students come to class and participate. 
+To encourage participation, there is a participation grade (5% of the total course grade).
+The majority of that grade comes from attendance, which will be taken via TopHat on randomly selected class sessions.
+The rest of the grade will be assigned based on whether a student asked questions in class or otherwise (such as during office hours),or partipated in in-class activites. If you did any of this basic engagement, full credit will be awarded.
+
+
+# Course description
+Computer programs that automatically process human language, such as chatbots, translation systems, and speech recognition systems, have become a part of everyday life. This course provides an introduction to the artificial intelligence research field that brought about these systems: natural language processing (NLP). Students will become familiar with foundational tasks in NLP such as language modeling, text classification, and sequence modeling. The course will cover both classic and contemporary approaches to these tasks, as well as how they are applied in language technologies. Topics of ethics, fairness, and bias in AI are incorporated throughout the course.
+
+# Learning objectives
+The overarching learning objective of this course is for students to be able to structure an NLP system to get a desired outcome from language data that may be required in a future job or research problem. This ability requires the development of many constituent skills. At the end of the course, students will be able to:
+
+* Relate a new problem to the most relevant existing NLP tasks, such as text classification, text generation, sequence modeling, language modeling, information retrieval, machine translation, dialogue systems, etc.
+* Choose relevant baseline machine learning approaches to try on a new task
+* Explain the basics of language structure that are relevant to NLP. These include syntax and semantics from linguistics
+* Preprocess text data into a machine-readable format
+* Define and scope an objective in terms of a machine learning or NLP system. This includes determining if human annotation is needed and if machine learning is needed.
+* Extract features from text that are required for running machine learning models
+* Choose suitable ML algorithms for a new NLP task
+* Evaluate machine learning algorithms, choices of training data and other NLP system decisions
+* Identify potential ethical pitfalls (such as imbalanced training data, model amplification of biases) in an NLP system and ways to address them
+* Communicate motivation, key components, and implications of an approach to NLP tasks in writing
+
+# Prerequisites
+* CS 1501: Algorithms, or the consent of the instructor
+* Basic Python knowledge
+
+# Learning resources
+**Textbook**: Dan Jurafsky and James H. Martin, *Speech and Language Processing*, 3rd edition draft, 2024-02-03. Available completely free online: [https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/)
+
+**Software and programming languages**: Python and associated data science libraries (pandas, numpy, scipy) are the preferred software for completing coding portions of homework assignments. Basic knowledge of Python is a prerequisite of the course, as some of the homework assignments require Python. Students wishing to use non-Python tools for homeworks should ask the instructor first. Final projects may be completed with any programming language or tools.
+
+**Tutorials on Python and data science**:
+
+* [Official Python tutorial](https://docs.python.org/3/tutorial/index.html)
+* [Sebastian Raschka’s notebook on intro to scientific computing](https://github.com/rasbt/stat451-machine-learning-fs20/blob/master/L04/04_scipython__code.ipynb)
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+* [David Bamman’s computational social science training program materials](https://github.com/dlab-berkeley/Computational-Social-Science-Training-Program)
+
+
+# Course infrastructure and communication
+The most recent syllabus, including a schedule, is posted here on the course website. This syllabus will contain links to homework and final project descriptions. Homeworks and the final project should be submitted through Canvas. Quizzes and discussion boards (including prompts) will be on Canvas. Course announcements will be given on Canvas, and questions should be submitted through Canvas (or over email to the instructor or TA).
+
+Feel free to email or send a Canvas message to the instructor or TA about any concerns or questions at any time. 
+Teaching staff will respond during hours that work best for them; please feel no obligation to respond to them outside of your regular working hours.
+
+# Policies
+
+## Grading scale
+
+Range | Letter grade
+----|----
+93.0 – 100% | A
+90.0 – <93.0% | A-
+86.7 – <90.0% |B+
+83.3 – <86.7% |B
+80.0 – <83.3% |B-
+76.7 – <80.0% |C+
+73.3 – <76.7% |C
+70.0 – <73.3% |C-
+66.7 – <70.0% |D+
+63.3 – <66.7% |D
+60.0 – <63.3% |D-
+< 60% | F
+
+The instructor reserves the right to change the grading scale depending on class performance, but only in the direction of raising grades for students. Feel free to stop by the instructor's office hours or make an additional appointment anytime to talk about any issues you might have with your grade.
+
+## Late work policy
+Students are granted 5 total late days across all homework assignments without penalty. After those five late days, you will be penalized 20% for each day that your submission is late except in extreme unforeseen circumstances.
+Group project work will be penalized 20% for each day late. No late work will be accepted for the final project report.
+Late days cannot be used for reading quizzes, as no late work is accepted for reading quizzes.
+
+## Assignment resubmission policy
+If you are unsatisfied with your grade on an assignment and wish to resubmit work, talk with the instructor. 
+Resubmissions are handled case by case, but are generally accepted in cases where parts of the assignment are missing (sections of the rubric are 0).
+Updated or added text in resubmitted reports must be highlighted in yellow.
+Resubmissions are subject to an automatic 10% deduction.
+Only 1 resubmission per homework assignment will be accepted.
+
+## Academic integrity policy
+Students in this course will be expected to comply with the [University of Pittsburgh’s Policy on Academic Integrity](https://www.provost.pitt.edu/info/ai1.html). Any student suspected of violating this obligation for any reason during the semester will be required to participate in the procedural process, initiated at the instructor level, as outlined in the University Guidelines on Academic Integrity To learn more about Academic Integrity, visit the [Academic Integrity Guide](http://pitt.libguides.com/academicintegrity/) for an overview of the topic. For hands-on practice, complete the [Academic Integrity Modules](http://pitt.libguides.com/academicintegrity/plagiarism).
+
+### Generative AI policy
+You are allowed to use generative AI programs (ChatGPT, DALL-E, etc.) as a student in this course in limited circumstances. Since much of this course is about developing such tools in NLP, using currently available tools can expose you to the current capabilities and limitations of such systems.
+
+However, your ethical responsibilities as a student remain the same. You must follow the [University of Pittsburgh’s Policy on Academic Integrity](https://www.provost.pitt.edu/info/ai1.html). 
+Here are some principles to keep in mind that can help you determine whether or not a specific use of generative AI is acceptable in this course (for all forms of generation: writing, code, images or other forms). Please ask the instructor if you are not sure about a specific use. You will not be blamed or retaliated against for asking.
+
+* **Use as an aid, not for a finished product.** LLMs could be used in this course to generate ideas, draft bibliographies, study guides, etc. Use for drafting entire homework or project reports is not acceptable, even if students revise this draft, since being able to communicate NLP procedures and research is a learning objective. Also keep in mind that language models have no notion of reality and will hallucinate facts and citations.
+
+* **Cite its use.** The University of Pittsburgh's academic integrity policy applies to all uncited or improperly cited use of content, whether that work is created by human beings alone or in collaboration with a generative AI. If you use a generative AI tool to develop content for an assignment, you are required to cite the tool’s contribution to your work. In practice, cutting and pasting content from any source without citation is plagiarism. Likewise, paraphrasing content from a generative AI without citation is plagiarism. Similarly, using any generative AI tool without appropriate acknowledgement will be treated as plagiarism. See the [APA guidelines on how to cite ChatGPT](https://apastyle.apa.org/blog/how-to-cite-chatgpt). Publicly available LLMs are very new, and so best practices in education are still being worked out. Citing your use of LLMs will also inform the instructor on how such tools are being used in education for developing better future policies.
+
+* **You are responsible for the work you turn in.** As we will discuss in this course, LLMs and other generative AI systems can and do generate biased, socially problematic language and assert unfounded claims. Ultimately the text you submit will be treated as reflecting your own work, and you are responsible for it.
+
+*Adapted from faculty in the Carnegie Mellon University Heinz College of Information Systems and Public Policy, with guidance from the Carnegie Mellon University Eberly Center for Teaching Excellence.*
+
+## Disability rights
+The teaching staff of this course view disabilities as deficits not in disabled people but in the institutions and societies that are structured to disadvantage disabled people. If you have a disability (visible or invisible), please let us know as soon as possible (you don't need to tell us the nature of the disability). You are encouraged to work with Disability Resources and Services (DRS), 140 William Pitt Union, (412) 648-7890, drsrecep@pitt.edu, (412) 228-5347 for P3 ASL users, as early as possible in the term. DRS will work with you to determine reasonable accommodations for this course. This might include lecture materials that are usable by people with visual disabilities, sign language interpretation, captioning, flexible due dates, etc.
+
+*Adapted from policies by David Mortensen and Lori Levin at Carnegie Mellon University.*
+
+## Religious Observances
+The observance of religious holidays (activities observed by a religious group of which a student is a member) and cultural practices are an important reflection of diversity. As your instructor, I am committed to providing equivalent educational opportunities to students of all belief systems. At the beginning of the semester, you should review the course requirements to identify foreseeable conflicts with assignments, exams, or other required attendance. Please contact me as early as possible to allow time for us to discuss and make fair and reasonable adjustments to the schedule and/or tasks.
+
+## Statement on scholarly discourse
+In this course we will be discussing some complex issues on which all of us have strong feelings and, in many cases, unfounded attitudes. It is essential that we approach this endeavor with our minds open to evidence that may conflict with our presuppositions. Moreover, it is vital that we treat each other’s opinions and comments with courtesy even when they diverge and conflict with our own. We must avoid personal attacks and the use of ad hominem arguments to invalidate each other’s positions. Instead, we must develop a culture of civil argumentation, wherein all positions have the right to be defended and argued against in intellectually reasoned ways. It is this standard that everyone must accept in order to stay in this class; a standard that applies to all inquiry in the university, but whose observance is especially important in a course whose subject matter is so emotionally charged.
+
+*Adapted from a California State University course: Race, Racism and Critical Thinking.*
+
+## Student wellness
+College/Graduate school can be an exciting and challenging time for students. Taking time to maintain your well-being and seek appropriate support can help you achieve your goals and lead a fulfilling life. It can be helpful to remember that we all benefit from assistance and guidance at times, and there are many resources available to support your well-being while you are at Pitt. You are encouraged to visit [Thrive@Pitt](https://www.thrive.pitt.edu/) to learn more about well-being and the many campus resources available to help you thrive. 
+ 
+If you or anyone you know experiences overwhelming academic stress, persistent difficult feelings and/or challenging life events, you are strongly encouraged to seek support. In addition to reaching out to friends and loved ones, consider connecting with a faculty member you trust for assistance connecting to helpful resources. 
+ 
+The [University Counseling Center](http://www.counseling.pitt.edu/) is also here for you. You can call 412-648-7930 at any time to connect with a clinician. If you or someone you know is feeling suicidal, please call the University Counseling Center at any time at 412-648-7930. You can also contact Resolve Crisis Network at 888-796-8226.
+
+## Equity and inclusion
+The University of Pittsburgh does not tolerate any form of discrimination, harassment, or retaliation based on disability, race, color, religion, national origin, ancestry, genetic information, marital status, familial status, sex, age, sexual orientation, veteran status or gender identity or other factors as stated in the University’s Title IX policy. The University is committed to taking prompt action to end a hostile environment that interferes with the University’s mission. For more information about policies, procedures, and practices, visit the [Civil Rights & Title IX Compliance web page](https://www.diversity.pitt.edu/civil-rights-title-ix-compliance).
+
+I ask that everyone in the class strive to help ensure that other members of this class can learn in a supportive and respectful environment. If there are instances of the aforementioned issues, please contact the Title IX Coordinator, by calling 412-648-7860, or emailing titleixcoordinator@pitt.edu. Reports can also be filed online. You may also choose to report this to a faculty/staff member; they are required to communicate this to the University’s Office of Diversity and Inclusion. If you wish to maintain complete confidentiality, you may also contact the University Counseling Center (412-648-7930).
