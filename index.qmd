@@ -1,62 +1,32 @@
 ---
-title: "CS 2731 Introduction to Natural Language Processing"
+title: "CS 1671/2071 Human Language Technologies"
 ---
 
 ::: {style="text-align: center"}
 School of Computing and Information, University of Pittsburgh  
-Fall 2024  
+Spring 2025  
 :::
 
-![Peter Miller, *Communication*, 1940s](img/peter_miller_communication_cropped.png)
+![<a href="https://commons.wikimedia.org/wiki/File:Wthout_Title_2_(199178691).jpeg">Photo</a> by Frits de Jong, art by Tjesje](img/frits_de_jong_without_title_2_768px_cropped.jpg)
 
+|||
+|-|---|
+|Time|MW 1-2:15pm|
+|Location|IS 405|
+|Instructor|[Michael Miller Yoder](https://michaelmilleryoder.github.io), PhD<br />*Please call me "Michael"*|
+|Instructor contact|[mmyoder@pitt.edu](mailto:mmyoder@pitt.edu) or through Canvas messages|
+|Instructor office hours|By appointment in person at IS 604B or on Zoom<br/>[Book an appointment](https://outlook-sdf.office.com/bookwithme/user/2536c861ee3f49ab9a4a872751754279@pitt.edu?anonymous&ep=plink)|
+|TA|*TBD*|
+|TA contact|*TBD*|
+|TA office hours|*TBD*|
+|Textbook (free online)|[[J+M] Jurafsky and Martin, *Speech and Language Processing*, 3e draft, 2024-08-20](https://web.stanford.edu/~jurafsky/slp3)|
 
-<!-- Should make this a quarto markdown table-->
-<table>
-	<tbody style="text-align:left">
-		<tr>
-			<td>Time</td>
-			<td>MW 2:30-3:45pm</td>
-		</tr>
-		<tr>
-			<td>Location</td>
-			<td>Sennott Square 5313</td>
-		</tr>
-		<tr>
-			<td>Instructor</td>
-			<td><a href="https://michaelmilleryoder.github.io">Michael Miller Yoder</a>, PhD<br /><i>Please call me "Michael"</i></td>
-		</tr>
-		<tr>
-			<td>Instructor contact</td>
-			<td><a href="mailto:mmyoder@pitt.edu">mmyoder@pitt.edu</a> or through Canvas messages</td>
-		</tr>
-		<tr>
-			<td style="width:200px">Instructor office hours</td>
-			<td>By appointment in person at IS 604B or on Zoom<br/>[Book an appointment](https://outlook-sdf.office.com/bookwithme/user/2536c861ee3f49ab9a4a872751754279@pitt.edu?anonymous&ep=plink)</td>
-		</tr>
-		<tr>
-			<td>TA</td>
-			<td>Dhanush Binu</td>
-		</tr>
-		<tr>
-			<td>TA contact</td>
-			<td><a href="mailto:dhb51@pitt.edu">dhb51@pitt.edu</a></td>
-		</tr>
-		<tr>
-			<td>TA office hours</td>
-			<td>By appointment</td>
-		</tr>
-		<tr>
-			<td>Textbook (free online)</td>
-			<td><a href="https://web.stanford.edu/~jurafsky/slp3">[J+M] Jurafsky and Martin, <i>Speech and Language Processing</i>, 3e draft, 2024-08-20</a></td>
-		</tr>
-	</tbody>
-</table>
 
 
 # Schedule
-*Subject to change. Last revised 2024-09-20. All due dates are at 11:59pm ET except when indicated.*
+*Subject to change. Last revised 2024-12-29. All due dates are at 11:59pm ET except when indicated.*
 
-<!-- Should convert this to quarto markdown-->
+<!-- Too complicated and long with links to convert to pipe or grid markdown table unfortunately -->
 <table class="schedule">
     <thead>
         <tr>
@@ -70,26 +40,27 @@ Fall 2024
     </thead>
     <tbody>
         <tr>
-            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 1: Introduction and text processing</td>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 1: Introduction and prerequisite skills for NLP</td>
         </tr>
         <tr>
             <td>1</td>
-            <td>08-26 M</td>
-            <td><a href="slides/session1_cs2731_fall2024.pdf">Course, NLP intro</a></td>
+            <td>01-08 W</td>
+            <td>Course, NLP intro</td>
+            <!--<td><a href="slides/session1_cs2731_fall2024.pdf">Course, NLP intro</a></td>-->
             <td></td>
             <td></td>
-            <!--<td><a href="https://forms.gle/dtRnWmCpe9C8TXSm9">Project survey</a> out</td>-->
         </tr>
         <tr>
             <td>2</td>
-            <td>08-28 W</td>
-            <td><a href="slides/session2_cs2731_fall2024.pdf">Text normalization</a></td>
+            <td>01-13 M</td>
+            <td>Text normalization</td>
+            <!--<td><a href="slides/session2_cs2731_fall2024.pdf">Text normalization</a></td>-->
             <td>J+M 2-2.3, 2.5-2.7</td>
             <td></td>
         </tr>
-        <tr style="background-color:#cccccc">
-            <td></td>
-            <td>09-02 M</td>
+        <tr>
+            <td>3</td>
+            <td>01-15 W</td>
             <td style="font:italic">Labor Day. No class.</td>
             <td></td>
             <td></td>
@@ -97,45 +68,48 @@ Fall 2024
         <tr>
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: Text classification and representation learning</td>
         </tr>
-        <tr>
-            <td>3</td>
-            <td>09-04 W</td>
-            <td><a href="slides/session3_cs2731_fall2024.pdf">Bag-of-words, tf-idf, PPMI</a></td>
-            <td>J+M 6.3-6.7</td>
-            <td>Reading quiz due; <br/><a href="hw1">HW1</a> out 09-05</td>
+        <tr style="background-color:#cccccc">
+            <td></td>
+            <td>01-20 M</td>
+            <td>MLK Day. No class.</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>4</td>
-            <td>09-09 M</td>
-            <td><a href="slides/session4_cs2731_fall2024.pdf">Logistic regression part 1</a></td>
+            <td>01-22 W</td>
+            <td>Logistic regression part 1</td>
             <td>J+M 5-5.2</td>
             <td>Reading quiz due</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>09-11 W</td>
-            <td><a href="slides/session5_cs2731_fall2024.pdf">Logistic regression part 2</a></td>
+            <td>01-27 M</td>
+            <td>Logistic regression part 2</td>
             <td>J+M 5.3-5.9, 5.11</td>
             <td>Reading quiz due;<br/><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> out</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>09-16 M</td>
-            <td><a href="slides/session6_cs2731_fall2024.pdf">Classifier evaluation, CRC intro</a></td>
+            <td>01-29 W</td>
+            <td><a href="slides/session6_cs2731_fall2024.pdf"></a></td>
+            <!--<td><a href="slides/session6_cs2731_fall2024.pdf"></a></td>-->
             <td>J+M 4 (intro), 4.7-4.10,<br /><a href="https://aclanthology.org/Q18-1041.pdf">Bender & Friedman 2018</a><br /><a href="https://arxiv.org/pdf/1810.03993.pdf">Mitchell et al. 2019</a></td>
             <td>Reading quiz due</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>09-18 W</td>
-            <td><a href="slides/session7_cs2731_fall2024.pdf">Vector semantics, word2vec</a></td>
+            <td>02-03 M</td>
+            <td><a href="slides/session7_cs2731_fall2024.pdf"></a></td>
+            <!--<td><a href="slides/session7_cs2731_fall2024.pdf"></a></td>-->
             <td>J+M 6-6.2, 6.8-6.13,<br /><a href="https://aclanthology.org/2020.acl-main.485.pdf">Blodgett et al. 2020</a></td>
             <td><strong><a href="hw1">HW1</a> due 09-19;</strong><br/><a href="hw2">HW2</a> out 09-19;<br/><strong><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> due 09-20</strong></td>
         </tr>
         <tr>
             <td>8</td>
-            <td>09-23 M</td>
-            <td><a href="slides/session8_cs2731_fall2024.pdf">Feedforward neural networks</a></td>
+            <td>02-05 W</td>
+            <td><a href="slides/session8_cs2731_fall2024.pdf"></a></td>
+            <!--<td><a href="slides/session8_cs2731_fall2024.pdf"></a></td>-->
             <td>J+M 7-7.1, 7.3-7.5, 7.8</td>
             <td>Discussion post due 1pm;<br/><a href="https://forms.office.com/r/JHL2QPxdPH">Project idea ranking form</a> out</td>
         </tr>
@@ -144,55 +118,58 @@ Fall 2024
         </tr>
         <tr>
             <td>9</td>
-            <td>09-25 W</td>
-            <td><a href="slides/session9_cs2731_fall2024.pdf">N-gram language models part 1</a></td>
+            <td>02-10 M</td>
+            <td>N-gram language models part 1</td>
             <td>J+M 3-3.3</td>
             <td>Reading quiz due;<br/><strong><a href="https://forms.office.com/r/JHL2QPxdPH">Project idea ranking form</a> due 09-26</strong></td>
         </tr>
         <tr>
             <td>10</td>
-            <td>09-30 M</td>
-            <td><a href="slides/session10_cs2731_fall2024.pdf">N-gram language models part 2, RNNs part 1</a></td>
+            <td>02-12 W</td>
+            <td>N-gram language models part 2, RNNs part 1</td>
             <td>J+M 3.4-3.6, 3.9, 8-8.2</td>
             <td>Reading quiz due</td>
         </tr>
         <tr>
             <td>11</td>
-            <td>10-02 W</td>
-            <td><a href="slides/session11_cs2731_fall2024.pdf">RNNs part 2, encoder-decoder</a></td>
+            <td>02-17 M</td>
+            <td>RNNs part 2, encoder-decoder</td>
             <td>J+M 8.3, 8.6-8.9</td>
             <td>Reading quiz due; <br/><b><a href="hw2">HW2</a> due 10-03</b></td>
         </tr>
         <tr>
             <td>12</td>
-            <td>10-07 M</td>
-            <td><a href="slides/session12_cs2731_fall2024.pdf">Transformers</a></td>
+            <td>02-19 W</td>
+            <td>Transformers</td>
             <td>J+M 9, 10-10.1</td>
             <td>Reading quiz due;<br/><a href="hw3">HW3</a> out 10-08</td>
         </tr>
         <tr>
             <td>13</td>
-            <td>10-09 W</td>
-            <td><a href="slides/session13_cs2731_fall2024.pdf">LLMs, BERT and GPT</td>
+            <td>02-24 M</td>
+            <td>LLMs, BERT and GPT</td>
             <td>J+M 10.2-10.3, 10.5.3-10.7, 11-11.4</td>
             <td>Reading quiz due</td>
         </tr>
-        <tr style="background-color:#cccccc">
-            <td></td>
-            <td>10-14 M</td>
-            <td style="font:italic">Fall Break. No class.</td>
+        <tr>
+            <td>14</td>
+            <td>02-26 W</td>
+            <td>Fall Break. No class.</td>
             <td></td>
             <td></td>
         </tr>
+        <tr style="background-color:#cccccc">
+            <td colspan=5 style="text-align:center; font:italic">Spring Break 03-03 to 03-07</td>
+        </tr>
         <tr>
-            <td>14</td>
-            <td>10-16 W</td>
-            <td><a href="slides/session14_cs2731_fall2024.pdf">Project proposal presentations</a></td>
+            <td>15</td>
+            <td>03-10 M</td>
+            <td>Project proposal presentations</td>
             <td></td>
             <td><strong>Project proposal and literature review due 10-18</strong></td>
         </tr>
         <tr>
-            <td>15</td>
+            <td>16</td>
             <td>10-21 M</td>
             <td><a href="slides/session15_cs2731_fall2024.pdf">Probabilistic Commonsense Knowledge Evaluation</a> (guest lecture, <a href="https://lorraine333.github.io/">Lorraine Li</a>)</td>
             <td><em>Optional:</em><br/> <a href="https://arxiv.org/pdf/2406.04145">Cheng et al. 2024</a><br/> <a href="https://arxiv.org/pdf/2311.08469">Zhao et al. 2024</a></td>
@@ -266,9 +243,6 @@ Fall 2024
             <td><a href="slides/session24_cs2731_fall2024.pdf">Chatbots</a></td>
             <td>J+M 15.4-15.6</td>
             <td></td>
-        </tr>
-        <tr style="background-color:#cccccc">
-            <td colspan=5 style="text-align:center; font:italic">Thanksgiving Break 11-24 to 12-01</td>
         </tr>
         <tr>
             <td>25</td>
