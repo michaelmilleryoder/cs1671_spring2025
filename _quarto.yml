@@ -1,5 +1,8 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - "!conda_env/"
 
 website:
   title: "CS 1671/2071 Human Language Technologies, Spring 2025"
