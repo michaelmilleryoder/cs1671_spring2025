@@ -26,7 +26,6 @@ Spring 2025
 # Schedule
 *Subject to change. Last revised 2024-12-29. All due dates are at 11:59pm ET except when indicated.*
 
-<!-- Too complicated and long with links to convert to pipe or grid markdown table unfortunately -->
 <table class="schedule">
     <thead>
         <tr>
@@ -61,207 +60,204 @@ Spring 2025
         <tr>
             <td>3</td>
             <td>01-15 W</td>
-            <td style="font:italic">Labor Day. No class.</td>
+            <td>NLP tasks and applications</td>
             <td></td>
             <td></td>
-        </tr>
-        <tr>
-            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: Text classification and representation learning</td>
         </tr>
         <tr style="background-color:#cccccc">
             <td></td>
             <td>01-20 M</td>
-            <td>MLK Day. No class.</td>
+            <td style="font-style:italic">MLK Day. No class.</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>4</td>
             <td>01-22 W</td>
-            <td>Logistic regression part 1</td>
-            <td>J+M 5-5.2</td>
+            <td>Linear algebra, probability review for NLP</td>
+            <td></td>
             <td>Reading quiz due</td>
         </tr>
         <tr>
             <td>5</td>
             <td>01-27 M</td>
-            <td>Logistic regression part 2</td>
+            <td>Machine learning introduction</td>
             <td>J+M 5.3-5.9, 5.11</td>
             <td>Reading quiz due;<br/><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> out</td>
         </tr>
         <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: N-grams and statistical NLP</td>
+        </tr>
+        <tr>
             <td>6</td>
             <td>01-29 W</td>
-            <td><a href="slides/session6_cs2731_fall2024.pdf"></a></td>
-            <!--<td><a href="slides/session6_cs2731_fall2024.pdf"></a></td>-->
-            <td>J+M 4 (intro), 4.7-4.10,<br /><a href="https://aclanthology.org/Q18-1041.pdf">Bender & Friedman 2018</a><br /><a href="https://arxiv.org/pdf/1810.03993.pdf">Mitchell et al. 2019</a></td>
+            <td>N-grams, bag-of-words</td>
+            <td></td>
             <td>Reading quiz due</td>
         </tr>
         <tr>
             <td>7</td>
             <td>02-03 M</td>
-            <td><a href="slides/session7_cs2731_fall2024.pdf"></a></td>
-            <!--<td><a href="slides/session7_cs2731_fall2024.pdf"></a></td>-->
-            <td>J+M 6-6.2, 6.8-6.13,<br /><a href="https://aclanthology.org/2020.acl-main.485.pdf">Blodgett et al. 2020</a></td>
-            <td><strong><a href="hw1">HW1</a> due 09-19;</strong><br/><a href="hw2">HW2</a> out 09-19;<br/><strong><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> due 09-20</strong></td>
+            <td>N-gram language models part 1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>8</td>
             <td>02-05 W</td>
-            <td><a href="slides/session8_cs2731_fall2024.pdf"></a></td>
-            <!--<td><a href="slides/session8_cs2731_fall2024.pdf"></a></td>-->
-            <td>J+M 7-7.1, 7.3-7.5, 7.8</td>
-            <td>Discussion post due 1pm;<br/><a href="https://forms.office.com/r/JHL2QPxdPH">Project idea ranking form</a> out</td>
-        </tr>
-        <tr>
-            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 3: Language models and conditional language models</td>
+            <td>N-gram language models part 2</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>9</td>
             <td>02-10 M</td>
-            <td>N-gram language models part 1</td>
-            <td>J+M 3-3.3</td>
-            <td>Reading quiz due;<br/><strong><a href="https://forms.office.com/r/JHL2QPxdPH">Project idea ranking form</a> due 09-26</strong></td>
+            <td>Tf-idf, PPMI</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>10</td>
             <td>02-12 W</td>
-            <td>N-gram language models part 2, RNNs part 1</td>
-            <td>J+M 3.4-3.6, 3.9, 8-8.2</td>
-            <td>Reading quiz due</td>
+            <td>Text classification, logistic regression part 1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>11</td>
             <td>02-17 M</td>
-            <td>RNNs part 2, encoder-decoder</td>
-            <td>J+M 8.3, 8.6-8.9</td>
-            <td>Reading quiz due; <br/><b><a href="hw2">HW2</a> due 10-03</b></td>
+            <td>Logistic regression part 2</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>12</td>
             <td>02-19 W</td>
-            <td>Transformers</td>
-            <td>J+M 9, 10-10.1</td>
-            <td>Reading quiz due;<br/><a href="hw3">HW3</a> out 10-08</td>
+            <td>Logistic regression part 3</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 3: Neural networks and word2vec</td>
         </tr>
         <tr>
             <td>13</td>
             <td>02-24 M</td>
-            <td>LLMs, BERT and GPT</td>
-            <td>J+M 10.2-10.3, 10.5.3-10.7, 11-11.4</td>
-            <td>Reading quiz due</td>
+            <td>Neural networks part 1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>14</td>
             <td>02-26 W</td>
-            <td>Fall Break. No class.</td>
+            <td>Neural networks part 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr style="background-color:#cccccc">
-            <td colspan=5 style="text-align:center; font:italic">Spring Break 03-03 to 03-07</td>
+            <td colspan=5 style="text-align:center; font-style:italic">Spring Break 03-03 to 03-07</td>
         </tr>
         <tr>
             <td>15</td>
             <td>03-10 M</td>
+            <td>Vector sematnics, word2vec</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>03-12 W</td>
             <td>Project proposal presentations</td>
             <td></td>
-            <td><strong>Project proposal and literature review due 10-18</strong></td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>10-21 M</td>
-            <td><a href="slides/session15_cs2731_fall2024.pdf">Probabilistic Commonsense Knowledge Evaluation</a> (guest lecture, <a href="https://lorraine333.github.io/">Lorraine Li</a>)</td>
-            <td><em>Optional:</em><br/> <a href="https://arxiv.org/pdf/2406.04145">Cheng et al. 2024</a><br/> <a href="https://arxiv.org/pdf/2311.08469">Zhao et al. 2024</a></td>
             <td></td>
         </tr>
         <tr>
-            <td>16</td>
-            <td>10-23 W</td>
-            <td><a href="slides/session16_cs2731_fall2024.pdf">LLM discussion and lab day</a></td>
-            <td>J+M 12<br/><a href="https://journals.sagepub.com/doi/full/10.1177/17456916231201401">Yiu et al. 2023</a></td>
-            <td>Discussion post due 1pm;<br/>Bring a laptop to class;<br/><a href="hw4">HW4</a> out 10-24</td>
-        </tr>
-        <tr>
-            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 4: Sequence labeling and parsing</td>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 4: Transformers and LLMs</td>
         </tr>
         <tr>
             <td>17</td>
-            <td>10-28 M</td>
-            <td><a href="slides/session17_cs2731_fall2024.pdf">POS tagging, NER, HMMs part 1</a></td>
-            <td>J+M 17-17.4.4</td>
-            <td>Reading quiz due; <br/><b><a href="hw3">HW3</a> due</b></td>
+            <td>03-17 M</td>
+            <td>Transformers part 1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>18</td>
-            <td>10-30 W</td>
-            <td><a href="slides/session18_cs2731_fall2024.pdf">HMMs part 2, Viterbi alg, neural sequence labeling</a></td>
-            <td>J+M 17.4.5-17.4.6, 8.3.1, 11.5</td>
-            <td>Reading quiz due</td>
+            <td>03-19 W</td>
+            <td>Transformers part 2</td>
+            <td></td>
+            <td>Reading quiz due; <br/><b><a href="hw3">HW3</a> due</b></td>
         </tr>
         <tr>
             <td>19</td>
-            <td>11-04 M</td>
-            <td><a href="slides/session19_cs2731_fall2024.pdf">Dependency parsing</a></td>
-            <td>J+M 19-19.2, 19.4-19.5</td>
-            <td>Reading quiz due</td>
-        </tr>
-        <tr>
-            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 5: Application areas</td>
+            <td>03-24 M</td>
+            <td>LLMs part 1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>20</td>
-            <td>11-06 W</td>
-            <td><a href="slides/session20_cs2731_fall2024.pdf">Machine translation part 1</a></td>
-            <td>J+M 13-13.3,<br/><a href="https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/">Bender 2019</a></td>
-            <td>Discussion post due 1pm; <br/><strong><a href="hw4">HW4</a> due 11-07</strong></td>
+            <td>03-26 W</td>
+            <td>LLMs part 2</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 5: NLP applications and ethics</td>
         </tr>
         <tr>
             <td>21</td>
-            <td>11-11 M</td>
-            <td><a href="slides/session21_cs2731_fall2024.pdf">Machine translation part 2</a></td>
-            <td>J+M 13.4-13.8</td>
+            <td>03-31 M</td>
+            <td>In-context learning, post-training</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>22</td>
-            <td>11-13 W</td>
-            <td><a href="slides/session22_cs2731_fall2024.pdf">Speech technologies, ASR, TTS</a></td>
-            <td>J+M 16-16.3, 16.5-16.8</td>
-            <td><b>Project progress report due 11-14</b>;<br/><b><a href="https://forms.office.com/r/AjAW253DHT">Project peer review</a> due 11-14</b></td>
+            <td>04-02 W</td>
+            <td>Exam review</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>23</td>
-            <td>11-18 M</td>
-            <td><a href="slides/session23_cs2731_fall2024.pdf">Dialogue systems</a></td>
-            <td>J+M 15-15.3</td>
+            <td>04-07 M</td>
+            <td>Exam</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>24</td>
-            <td>11-20 W</td>
-            <td><a href="slides/session24_cs2731_fall2024.pdf">Chatbots</a></td>
-            <td>J+M 15.4-15.6</td>
+            <td>04-09 W</td>
+            <td>Dialogue systems</td>
+            <td>J+M 15-15.3</td>
             <td></td>
         </tr>
         <tr>
             <td>25</td>
-            <td>12-02 M</td>
-            <td><a href="slides/session25_cs2731_fall2024.pdf">Information retrieval, RAG</a></td>
-            <td>J+M 14-14.3.1, 14.5</td>
+            <td>04-14 M</td>
+            <td>Chatbots</td>
+            <td>J+M 15.4-15.6</td>
             <td></td>
         </tr>
         <tr>
             <td>26</td>
-            <td>12-04 W</td>
-            <td><a href="slides/session26_cs2731_fall2024.pdf">Project work time</a></td>
-            <td></td>
+            <td>04-16 W</td>
+            <td>Information retrieval, RAG</td>
+            <td>J+M 14-14.3.1, 14.5</td>
             <td></td>
         </tr>
         <tr>
             <td>27</td>
-            <td>12-11 W</td>
-            <td><a href="slides/session27_cs2731_fall2024.pdf">Final project presentations</a></td>
+            <td>04-21 M</td>
+            <td>Project work time</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td><em>TBD</em></td>
+            <td>Final project presentations</td>
             <td></td>
             <td><strong>Final projects due 12-12</strong></td>
         </tr>
