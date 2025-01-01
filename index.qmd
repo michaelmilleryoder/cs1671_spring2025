@@ -31,7 +31,6 @@ Spring 2025
         <tr>
             <th>Session</th>
             <th style="width:85px">Date</th>
-            <!--<th>Date</th>-->
             <th>Topic</th>
             <th>Readings</th>
             <th>Assignments</th>
@@ -60,7 +59,7 @@ Spring 2025
         <tr>
             <td>3</td>
             <td>01-15 W</td>
-            <td>NLP tasks and applications</td>
+            <td>Linear algebra, probability review for NLP</td>
             <td></td>
             <td></td>
         </tr>
@@ -74,65 +73,58 @@ Spring 2025
         <tr>
             <td>4</td>
             <td>01-22 W</td>
-            <td>Linear algebra, probability review for NLP</td>
+            <td>Machine learning intro, NLP tasks and applications</td>
             <td></td>
-            <td>Reading quiz due</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>01-27 M</td>
-            <td>Machine learning introduction</td>
-            <td>J+M 5.3-5.9, 5.11</td>
-            <td>Reading quiz due;<br/><a href="https://forms.office.com/r/ZkMKpcSfhw">Project idea submission form</a> out</td>
+            <td></td>
         </tr>
         <tr>
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: N-grams and statistical NLP</td>
         </tr>
         <tr>
-            <td>6</td>
-            <td>01-29 W</td>
+            <td>5</td>
+            <td>01-27 M</td>
             <td>N-grams, bag-of-words</td>
             <td></td>
-            <td>Reading quiz due</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>01-29 W</td>
+            <td>N-gram language models part 1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>7</td>
             <td>02-03 M</td>
-            <td>N-gram language models part 1</td>
+            <td>N-gram language models part 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>8</td>
             <td>02-05 W</td>
-            <td>N-gram language models part 2</td>
+            <td>Tf-idf, PPMI, stopwords</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>9</td>
             <td>02-10 M</td>
-            <td>Tf-idf, PPMI</td>
+            <td>Text classification, logistic regression part 1</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>10</td>
             <td>02-12 W</td>
-            <td>Text classification, logistic regression part 1</td>
+            <td>Logistic regression part 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>11</td>
             <td>02-17 M</td>
-            <td>Logistic regression part 2</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>02-19 W</td>
             <td>Logistic regression part 3</td>
             <td></td>
             <td></td>
@@ -141,16 +133,23 @@ Spring 2025
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 3: Neural networks and word2vec</td>
         </tr>
         <tr>
+            <td>12</td>
+            <td>02-19 W</td>
+            <td>Neural networks part 1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td>13</td>
             <td>02-24 M</td>
-            <td>Neural networks part 1</td>
+            <td>Neural networks part 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>14</td>
             <td>02-26 W</td>
-            <td>Neural networks part 2</td>
+            <td>Vector semantics, word2vec</td>
             <td></td>
             <td></td>
         </tr>
@@ -160,13 +159,6 @@ Spring 2025
         <tr>
             <td>15</td>
             <td>03-10 M</td>
-            <td>Vector sematnics, word2vec</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>03-12 W</td>
             <td>Project proposal presentations</td>
             <td></td>
             <td></td>
@@ -175,30 +167,51 @@ Spring 2025
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 4: Transformers and LLMs</td>
         </tr>
         <tr>
+            <td>16</td>
+            <td>03-12 W</td>
+            <td>Transformers part 1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td>17</td>
             <td>03-17 M</td>
-            <td>Transformers part 1</td>
+            <td>Transformers part 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>18</td>
             <td>03-19 W</td>
-            <td>Transformers part 2</td>
+            <td>LLMs part 1</td>
             <td></td>
-            <td>Reading quiz due; <br/><b><a href="hw3">HW3</a> due</b></td>
+            <td></td>
         </tr>
         <tr>
             <td>19</td>
             <td>03-24 M</td>
-            <td>LLMs part 1</td>
+            <td>LLMs part 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>20</td>
             <td>03-26 W</td>
-            <td>LLMs part 2</td>
+            <td>In-context learning, post-training</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>03-31 M</td>
+            <td>Midterm exam review</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>04-02 W</td>
+            <td style="font-weight:bold">Midterm exam</td>
             <td></td>
             <td></td>
         </tr>
@@ -206,45 +219,31 @@ Spring 2025
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 5: NLP applications and ethics</td>
         </tr>
         <tr>
-            <td>21</td>
-            <td>03-31 M</td>
-            <td>In-context learning, post-training</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>22</td>
-            <td>04-02 W</td>
-            <td>Exam review</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
             <td>23</td>
             <td>04-07 M</td>
-            <td>Exam</td>
+            <td>Machine translation</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>24</td>
             <td>04-09 W</td>
-            <td>Dialogue systems</td>
-            <td>J+M 15-15.3</td>
+            <td>Dialogue systems, chatbots</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>25</td>
             <td>04-14 M</td>
-            <td>Chatbots</td>
-            <td>J+M 15.4-15.6</td>
+            <td>Information retrieval, RAG</td>
+            <td>J+M 14-14.3.1, 14.5</td>
             <td></td>
         </tr>
         <tr>
             <td>26</td>
             <td>04-16 W</td>
-            <td>Information retrieval, RAG</td>
-            <td>J+M 14-14.3.1, 14.5</td>
+            <td>Social factors, bias and ethics in NLP</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
