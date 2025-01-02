@@ -46,7 +46,7 @@ Spring 2025
             <td>Course, NLP intro</td>
             <!--<td><a href="slides/session1_cs2731_fall2024.pdf">Course, NLP intro</a></td>-->
             <td></td>
-            <td></td>
+            <td>HW1 out 01-09</td>
         </tr>
         <tr>
             <td>2</td>
@@ -75,7 +75,7 @@ Spring 2025
             <td>01-22 W</td>
             <td>Machine learning intro, NLP tasks and applications</td>
             <td></td>
-            <td></td>
+            <td><strong>HW1 due 01-23</td>
         </tr>
         <tr>
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: N-grams and statistical NLP</td>
@@ -92,7 +92,7 @@ Spring 2025
             <td>01-29 W</td>
             <td>N-gram language models part 1</td>
             <td></td>
-            <td></td>
+            <td>Quiz due 01-30,<br/> Project idea submission form due 01-30,<br/>HW2 out</td>
         </tr>
         <tr>
             <td>7</td>
@@ -106,7 +106,7 @@ Spring 2025
             <td>02-05 W</td>
             <td>Tf-idf, PPMI, stopwords</td>
             <td></td>
-            <td></td>
+            <td>Quiz due 02-06,<br/> Project idea ranking form due 02-06</td>
         </tr>
         <tr>
             <td>9</td>
@@ -120,7 +120,7 @@ Spring 2025
             <td>02-12 W</td>
             <td>Logistic regression part 2</td>
             <td></td>
-            <td></td>
+            <td>Quiz due 02-13</td>
         </tr>
         <tr>
             <td>11</td>
@@ -137,7 +137,7 @@ Spring 2025
             <td>02-19 W</td>
             <td>Neural networks part 1</td>
             <td></td>
-            <td></td>
+            <td><strong>HW2 due 02-20</strong></td>
         </tr>
         <tr>
             <td>13</td>
@@ -151,7 +151,7 @@ Spring 2025
             <td>02-26 W</td>
             <td>Vector semantics, word2vec</td>
             <td></td>
-            <td></td>
+            <td><strong>Project proposal due 02-28</strong></td>
         </tr>
         <tr style="background-color:#cccccc">
             <td colspan=5 style="text-align:center; font-style:italic">Spring Break 03-03 to 03-07</td>
@@ -159,7 +159,7 @@ Spring 2025
         <tr>
             <td>15</td>
             <td>03-10 M</td>
-            <td>Project proposal presentations</td>
+            <td style="font-weight:bold">Project proposal presentations</td>
             <td></td>
             <td></td>
         </tr>
@@ -171,7 +171,7 @@ Spring 2025
             <td>03-12 W</td>
             <td>Transformers part 1</td>
             <td></td>
-            <td></td>
+            <td>Quiz due 03-13,<br/>HW3 out</td>
         </tr>
         <tr>
             <td>17</td>
@@ -185,7 +185,7 @@ Spring 2025
             <td>03-19 W</td>
             <td>LLMs part 1</td>
             <td></td>
-            <td></td>
+            <td><strong>Project progress report due 03-20</strong></td>
         </tr>
         <tr>
             <td>19</td>
@@ -199,7 +199,7 @@ Spring 2025
             <td>03-26 W</td>
             <td>In-context learning, post-training</td>
             <td></td>
-            <td></td>
+            <td>Quiz due 03-27</td>
         </tr>
         <tr>
             <td>21</td>
@@ -230,7 +230,7 @@ Spring 2025
             <td>04-09 W</td>
             <td>Dialogue systems, chatbots</td>
             <td></td>
-            <td></td>
+            <td><strong>HW3 due</strong></td>
         </tr>
         <tr>
             <td>25</td>
@@ -256,9 +256,9 @@ Spring 2025
         <tr>
             <td>28</td>
             <td><em>TBD</em></td>
-            <td>Final project presentations</td>
+            <td style="font-weight:bold">Project presentations</td>
             <td></td>
-            <td><strong>Final projects due 12-12</strong></td>
+            <td><strong>Project report due 04-24</strong></td>
         </tr>
     </tbody>
 </table>
@@ -266,66 +266,53 @@ Spring 2025
 
 # Assessments
 
-<!--
-Description | Points | Percentage of final grade
----|---
-[Final project](project)<i><br />&ensp;[Survey](https://docs.google.com/forms/d/e/1FAIpQLSeH_NNke6ltoz9x0BZQzSPYoe-_Fw8S6Cl1YyTjeWQ6Nmd3AA/viewform) response 1%<br />&ensp;[Project area and type of contribution form](https://forms.gle/uxwAmLCL55SjLby5A) 2%<br />&ensp;Proposal 7%<br />&ensp;Basic working system 5%<br />&ensp;Final report and code 31%<br /></i>| 46%
-Homeworks (4 total, 11% each)<br />&ensp;[Homework 1: Vector space word similarity](hw1) <br />&ensp;[Homework 2: Text classification](hw2) <br/>&ensp;[Homework 3: Language modeling](hw3) <br/>&ensp;[Homework 4: Sequence labeling](hw4)| 44%
-Quizzes, discussion posts | 10%
--->
-
 Description | Points | Percentage of final grade
 ---|---:|---:
-**Homework assignments total** | **224** | **44.8**
-&ensp;Each homework of 4 total | 56 | 11.2
-**[Final project](project) total** | **203** | **40.6**
-&ensp;[Project idea submission](https://forms.office.com/r/ZkMKpcSfhw) response | 5 | 1.0
-&ensp;Project idea ranking response | 5 | 1.0
-&ensp;Proposal and literature review | 40 | 8.0
-&ensp;[Peer review](https://forms.office.com/r/AjAW253DHT) | 2 | 0.4
-&ensp;Progress report | 30 | 6.0
-&ensp;Final report | 121 | 24.2
-**Reading quizzes total** | **33** | **6.6**
-&ensp;Each reading quiz of 13 total, 2 lowest scores dropped | 3 | 0.6
-**Discussion posts total** | **15** | **3.0**
-&ensp;Each discussion post of 3 total required | 5 | 1.0
-**Participation total** | **25** | **5.0**
-&ensp;Attendance | 15 | 3.0
-&ensp;Engagement | 10 | 2.0
-**Grand total** | **500** | **100**
+**Homework assignments total** | **270** | **27**
+&ensp;Each homework of 3 total | 90 | 9
+**[Project](project) total** | **230** | **23**
+&ensp;Project idea submission form | 5 | 0.5
+&ensp;Project idea ranking form | 5 | 0.5
+&ensp;Project proposal | 60 | 6
+&ensp;Project progress report | 40 | 4
+&ensp;Project report | 120 | 12
+**Quizzes total** | **200** | **20**
+&ensp;Each quiz of 5 total | 40 | 4
+**Midterm exam** | **200** | **20**
+**Participation total** | **100** | **10**
+&ensp;Attendance | 60 | 6
+&ensp;Engagement | 40 | 4
+**Grand total** | **1000** | **100**
 
 ## Participation grade
 In-class, collaborative activities are better learning experiences when students come to class and participate. 
-To encourage participation, there is a participation grade (5% of the total course grade).
-The majority of that grade comes from attendance, which will be taken via TopHat on randomly selected class sessions.
-The rest of the grade will be assigned based on whether a student asked questions in class or otherwise (such as during office hours),or partipated in in-class activites. If you did any of this basic engagement, full credit will be awarded.
+To encourage participation, there is a participation grade worth 10% of the total course grade.
+The majority of that grade comes from attendance, which will be taken via Top Hat on randomly selected class sessions.
+The rest of the grade will be assigned based on whether a student asked questions in class or otherwise (such as during office hours), or partipated in in-class activites. If you did any of this basic engagement, full credit will be awarded.
 
 
 # Course description
-Computer programs that automatically process human language, such as chatbots, translation systems, and speech recognition systems, have become a part of everyday life. This course provides an introduction to the artificial intelligence research field that brought about these systems: natural language processing (NLP). Students will become familiar with foundational tasks in NLP such as language modeling, text classification, and sequence modeling. The course will cover both classic and contemporary approaches to these tasks, as well as how they are applied in language technologies. Topics of ethics, fairness, and bias in AI are incorporated throughout the course.
+Computer programs that automatically process human language, such as chatbots, translation systems, and speech recognition systems, have become a part of everyday life. This course provides an introduction to the subfield of artificial intelligence that brought about these systems: natural language processing (NLP). Students will become familiar with foundational tasks in NLP such as language modeling, text classification, and sequence modeling. The course will cover both classic and contemporary approaches to these tasks, as well as how they are applied in language technologies. Topics of ethics, fairness, and bias in AI are incorporated throughout the course.
 
 # Learning objectives
-The overarching learning objective of this course is for students to be able to structure an NLP system to get a desired outcome from language data that may be required in a future job or research problem. This ability requires the development of many constituent skills. At the end of the course, students will be able to:
+The overarching learning objective of this course is for students to be able to design, implement, and evaluate natural language processing (NLP) systems to get desired output from language data. This skill will prepare students for NLP projects in future jobs or research problems. Being able to develop NLP systems requires many constituent skills. At the end of the course, students will be able to: 
 
-* Relate a new problem to the most relevant existing NLP tasks, such as text classification, text generation, sequence modeling, language modeling, information retrieval, machine translation, dialogue systems, etc.
-* Choose relevant baseline machine learning approaches to try on a new task
-* Explain the basics of language structure that are relevant to NLP. These include syntax and semantics from linguistics
-* Preprocess text data into a machine-readable format
-* Define and scope an objective in terms of a machine learning or NLP system. This includes determining if human annotation is needed and if machine learning is needed.
-* Extract features from text that are required for running machine learning models
-* Choose suitable ML algorithms for a new NLP task
-* Evaluate machine learning algorithms, choices of training data and other NLP system decisions
-* Identify potential ethical pitfalls (such as imbalanced training data, model amplification of biases) in an NLP system and ways to address them
-* Communicate motivation, key components, and implications of an approach to NLP tasks in writing
+* Preprocess text data into a machine-readable numeric format 
+* Extract features from text that are required for running machine learning models, such as with n-gram or dense vector representations 
+* Explain what is needed for machine learning-based NLP systems, including supervised training data, algorithms to learn patterns in that data (with possibly pretrained models), and unseen test data for evaluation 
+* Choose relevant machine learning algorithms to try on different types of NLP task 
+* Explain the basics of language structure that are relevant to NLP. These include syntax and semantics from linguistics 
+* Identify potential ethical pitfalls (such as imbalanced training data, model amplification of biases) in an NLP system and ways to address them 
+* Communicate motivation, key components, and implications of an approach to NLP tasks in writing 
 
 # Prerequisites
-* CS 1501: Algorithms, or the consent of the instructor
-* Basic Python knowledge
+* CS 1501: Algorithms and Data Structures 2 (grade C or better)
+* Some basic Python knowledge will be assumed. If you are not familiar with Python, see the learning resources below.
 
 # Learning resources
-**Textbook**: Dan Jurafsky and James H. Martin, *Speech and Language Processing*, 3rd edition draft, 2024-02-03. Available completely free online: [https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/)
+**Textbook**: Dan Jurafsky and James H. Martin, *Speech and Language Processing*, 3rd edition draft, 2024-08-20. Available completely free online: [https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/)
 
-**Software and programming languages**: Python and associated data science libraries (pandas, numpy, scipy) are the preferred software for completing coding portions of homework assignments. Basic knowledge of Python is a prerequisite of the course, as some of the homework assignments require Python. Students wishing to use non-Python tools for homeworks should ask the instructor first. Final projects may be completed with any programming language or tools.
+**Software and programming languages**: Python and associated data science libraries (pandas, numpy, scipy) are the preferred software for completing coding portions of homework assignments. Some basic knowledge of Python is a prerequisite of the course, as some of the homework assignments require Python. The project may be completed with any programming language or tools.
 
 **Tutorials on Python and data science**:
 
@@ -336,7 +323,7 @@ The overarching learning objective of this course is for students to be able to 
 
 
 # Course infrastructure and communication
-The most recent syllabus, including a schedule, is posted here on the course website. This syllabus will contain links to homework and final project descriptions. Homeworks and the final project should be submitted through Canvas. Quizzes and discussion boards (including prompts) will be on Canvas. Course announcements will be given on Canvas, and questions should be submitted through Canvas (or over email to the instructor or TA).
+The most recent syllabus, including a schedule, is posted here on the course website. This syllabus will contain links to homework and final project descriptions. Homework assignments and the project should be submitted through Canvas. Quizzes will be on Canvas. The midterm exam will be conducted in-person in class. Course announcements will be given on Canvas, and questions should be submitted through Canvas (or over email to the instructor or TA).
 
 Feel free to email or send a Canvas message to the instructor or TA about any concerns or questions at any time. 
 Teaching staff will respond during hours that work best for them; please feel no obligation to respond to them outside of your regular working hours.
@@ -347,25 +334,24 @@ Teaching staff will respond during hours that work best for them; please feel no
 
 Range | Letter grade
 ----|----
-93.0 – 100% | A
-90.0 – <93.0% | A-
-86.7 – <90.0% |B+
-83.3 – <86.7% |B
-80.0 – <83.3% |B-
-76.7 – <80.0% |C+
-73.3 – <76.7% |C
-70.0 – <73.3% |C-
-66.7 – <70.0% |D+
-63.3 – <66.7% |D
-60.0 – <63.3% |D-
+92.5 – 100% | A
+90.0 – <92.5% | A-
+87.5 – <90.0% |B+
+82.5 – <87.5% |B
+80.0 – <82.5% |B-
+77.5 – <80.0% |C+
+72.5 – <77.5% |C
+70.0 – <72.5% |C-
+67.5 – <70.0% |D+
+62.5 – <67.5% |D
+60.0 – <62.5% |D-
 < 60% | F
 
-The instructor reserves the right to change the grading scale depending on class performance, but only in the direction of raising grades for students. Feel free to stop by the instructor's office hours or make an additional appointment anytime to talk about any issues you might have with your grade.
+The instructor reserves the right to change the grading scale depending on class performance, but only in the direction of raising grades for students. Feel free to contact the instructor or schedule an office hours appointment to talk about any issues you might have with your grade.
 
 ## Late work policy
-Students are granted 5 total late days across all homework assignments without penalty. After those five late days, you will be penalized 20% for each day that your submission is late except in extreme unforeseen circumstances.
-Group project work will be penalized 20% for each day late. No late work will be accepted for the final project report.
-Late days cannot be used for reading quizzes, as no late work is accepted for reading quizzes.
+Students are granted 5 total late days across all homework assignments and quizzes without penalty. After those five late days, you will be penalized 10% for each day that your submission is late except in extreme unforeseen circumstances.
+Group project work will be penalized 10% for each day late. No late work will be accepted for the project report.
 
 ## Assignment resubmission policy
 If you are unsatisfied with your grade on an assignment and wish to resubmit work, talk with the instructor. 
@@ -375,24 +361,24 @@ Resubmissions are subject to an automatic 10% deduction.
 Only 1 resubmission per homework assignment will be accepted.
 
 ## Academic integrity policy
-Students in this course will be expected to comply with the [University of Pittsburgh’s Policy on Academic Integrity](https://www.provost.pitt.edu/info/ai1.html). Any student suspected of violating this obligation for any reason during the semester will be required to participate in the procedural process, initiated at the instructor level, as outlined in the University Guidelines on Academic Integrity To learn more about Academic Integrity, visit the [Academic Integrity Guide](http://pitt.libguides.com/academicintegrity/) for an overview of the topic. For hands-on practice, complete the [Academic Integrity Modules](http://pitt.libguides.com/academicintegrity/plagiarism).
+Students in this course will be expected to comply with the [University of Pittsburgh’s Policy on Academic Integrity](https://www.provost.pitt.edu/info/ai1.html). Any student suspected of violating this obligation for any reason during the semester will be required to participate in the procedural process, initiated at the instructor level, as outlined in the University Guidelines on Academic Integrity. To learn more about Academic Integrity, visit the [Academic Integrity Guide](http://pitt.libguides.com/academicintegrity/) for an overview of the topic. For hands-on practice, complete the [Academic Integrity Modules](http://pitt.libguides.com/academicintegrity/plagiarism).
 
 ### Generative AI policy
-You are allowed to use generative AI programs (ChatGPT, DALL-E, etc.) as a student in this course in limited circumstances. Since much of this course is about developing such tools in NLP, using currently available tools can expose you to the current capabilities and limitations of such systems.
+You are allowed to use generative AI programs (ChatGPT, etc.) as a student in this course in limited circumstances. Since much of this course is about developing such tools in NLP, using currently available tools can expose you to the current capabilities and limitations of such systems.
 
 However, your ethical responsibilities as a student remain the same. You must follow the [University of Pittsburgh’s Policy on Academic Integrity](https://www.provost.pitt.edu/info/ai1.html). 
 Here are some principles to keep in mind that can help you determine whether or not a specific use of generative AI is acceptable in this course (for all forms of generation: writing, code, images or other forms). Please ask the instructor if you are not sure about a specific use. You will not be blamed or retaliated against for asking.
 
-* **Use as an aid, not for a finished product.** LLMs could be used in this course to generate ideas, draft bibliographies, study guides, etc. Use for drafting entire homework or project reports is not acceptable, even if students revise this draft, since being able to communicate NLP procedures and research is a learning objective. Also keep in mind that language models have no notion of reality and will hallucinate facts and citations.
+* **Use as an aid, not for a finished product.** LLMs could be used in this course to generate ideas, draft bibliographies, study guides, or for revising their existing writing. Use for drafting entire homework or project reports is not acceptable, even if students revise this draft, since being able to communicate NLP procedures and research is a learning objective. Also keep in mind that language models have no notion of reality and will hallucinate facts and citations.
 
-* **Cite its use.** The University of Pittsburgh's academic integrity policy applies to all uncited or improperly cited use of content, whether that work is created by human beings alone or in collaboration with a generative AI. If you use a generative AI tool to develop content for an assignment, you are required to cite the tool’s contribution to your work. In practice, cutting and pasting content from any source without citation is plagiarism. Likewise, paraphrasing content from a generative AI without citation is plagiarism. Similarly, using any generative AI tool without appropriate acknowledgement will be treated as plagiarism. See the [APA guidelines on how to cite ChatGPT](https://apastyle.apa.org/blog/how-to-cite-chatgpt). Publicly available LLMs are very new, and so best practices in education are still being worked out. Citing your use of LLMs will also inform the instructor on how such tools are being used in education for developing better future policies.
+* **Cite its use.** The University of Pittsburgh's academic integrity policy applies to all uncited or improperly cited use of content, whether that work is created by human beings alone or in collaboration with a generative AI. If you use a generative AI tool to develop content for an assignment, you are required to cite the tool’s contribution to your work. In practice, cutting and pasting content from any source without citation is plagiarism. Likewise, paraphrasing content from a generative AI without citation is plagiarism. Similarly, using any generative AI tool without appropriate acknowledgement will be treated as plagiarism. See the [APA guidelines on how to cite ChatGPT](https://apastyle.apa.org/blog/how-to-cite-chatgpt). Publicly available LLMs are relatively new, and so best practices in education are still being worked out. Citing your use of LLMs will also inform the instructor on how such tools are being used in education for developing better future policies.
 
 * **You are responsible for the work you turn in.** As we will discuss in this course, LLMs and other generative AI systems can and do generate biased, socially problematic language and assert unfounded claims. Ultimately the text you submit will be treated as reflecting your own work, and you are responsible for it.
 
 *Adapted from faculty in the Carnegie Mellon University Heinz College of Information Systems and Public Policy, with guidance from the Carnegie Mellon University Eberly Center for Teaching Excellence.*
 
 ## Disability rights
-The teaching staff of this course view disabilities as deficits not in disabled people but in the institutions and societies that are structured to disadvantage disabled people. If you have a disability (visible or invisible), please let us know as soon as possible (you don't need to tell us the nature of the disability). You are encouraged to work with Disability Resources and Services (DRS), 140 William Pitt Union, (412) 648-7890, drsrecep@pitt.edu, (412) 228-5347 for P3 ASL users, as early as possible in the term. DRS will work with you to determine reasonable accommodations for this course. This might include lecture materials that are usable by people with visual disabilities, sign language interpretation, captioning, flexible due dates, etc.
+The teaching staff of this course view disabilities as deficits not in disabled people but in the institutions and societies that are structured to disadvantage disabled people. If you have a disability (visible or invisible), please let us know as soon as possible. You don't need to tell us the nature of the disability. You are encouraged to work with Disability Resources and Services (DRS), 140 William Pitt Union, (412) 648-7890, drsrecep@pitt.edu, (412) 228-5347 for P3 ASL users, as early as possible in the term. DRS will work with you to determine reasonable accommodations for this course. This might include lecture materials that are usable by people with visual disabilities, sign language interpretation, captioning, flexible due dates, etc.
 
 *Adapted from policies by David Mortensen and Lori Levin at Carnegie Mellon University.*
 
@@ -405,7 +391,7 @@ In this course we will be discussing some complex issues on which all of us have
 *Adapted from a California State University course: Race, Racism and Critical Thinking.*
 
 ## Student wellness
-College/Graduate school can be an exciting and challenging time for students. Taking time to maintain your well-being and seek appropriate support can help you achieve your goals and lead a fulfilling life. It can be helpful to remember that we all benefit from assistance and guidance at times, and there are many resources available to support your well-being while you are at Pitt. You are encouraged to visit [Thrive@Pitt](https://www.thrive.pitt.edu/) to learn more about well-being and the many campus resources available to help you thrive. 
+College can be an exciting and challenging time for students. Taking time to maintain your well-being and seek appropriate support can help you achieve your goals and lead a fulfilling life. It can be helpful to remember that we all benefit from assistance and guidance at times, and there are many resources available to support your well-being while you are at Pitt. You are encouraged to visit [Thrive@Pitt](https://www.thrive.pitt.edu/) to learn more about well-being and the many campus resources available to help you thrive. 
  
 If you or anyone you know experiences overwhelming academic stress, persistent difficult feelings and/or challenging life events, you are strongly encouraged to seek support. In addition to reaching out to friends and loved ones, consider connecting with a faculty member you trust for assistance connecting to helpful resources. 
  
