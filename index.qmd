@@ -24,7 +24,7 @@ Spring 2025
 
 
 # Schedule
-*Subject to change. Last revised 2024-12-29. All due dates are at 11:59pm ET except when indicated.*
+*Subject to change. Last revised 2025-01-02. All due dates are at 11:59pm ET except when indicated.*
 
 <table class="schedule">
     <thead>
@@ -83,50 +83,50 @@ Spring 2025
         <tr>
             <td>5</td>
             <td>01-27 M</td>
-            <td>N-grams, bag-of-words</td>
-            <td></td>
+            <td>Bag-of-words and n-grams</td>
+            <td>J+M 6.3-6.4</td>
             <td></td>
         </tr>
         <tr>
             <td>6</td>
             <td>01-29 W</td>
             <td>N-gram language models part 1</td>
-            <td></td>
+            <td>J+M 3-3.3</td>
             <td>Quiz due 01-30,<br/> Project idea submission form due 01-30,<br/>HW2 out</td>
         </tr>
         <tr>
             <td>7</td>
             <td>02-03 M</td>
             <td>N-gram language models part 2</td>
-            <td></td>
+            <td>J+M 3.4-3.6, 3.8</td>
             <td></td>
         </tr>
         <tr>
             <td>8</td>
             <td>02-05 W</td>
-            <td>Tf-idf, PPMI, stopwords</td>
-            <td></td>
+            <td>Tf-idf, PPMI</td>
+            <td>J+M 6.5-6.7</td>
             <td>Quiz due 02-06,<br/> Project idea ranking form due 02-06</td>
         </tr>
         <tr>
             <td>9</td>
             <td>02-10 M</td>
             <td>Text classification, logistic regression part 1</td>
-            <td></td>
+            <td>J+M 4 (intro), 5-5.2</td>
             <td></td>
         </tr>
         <tr>
             <td>10</td>
             <td>02-12 W</td>
             <td>Logistic regression part 2</td>
-            <td></td>
+            <td>J+M 5.3-5.6</td>
             <td>Quiz due 02-13</td>
         </tr>
         <tr>
             <td>11</td>
             <td>02-17 M</td>
             <td>Logistic regression part 3</td>
-            <td></td>
+            <td>J+M 5.9, 5.11</td>
             <td></td>
         </tr>
         <tr>
@@ -270,7 +270,7 @@ Description | Points | Percentage of final grade
 ---|---:|---:
 **Homework assignments total** | **270** | **27**
 &ensp;Each homework of 3 total | 90 | 9
-**[Project](project) total** | **230** | **23**
+**Project total** | **230** | **23**
 &ensp;Project idea submission form | 5 | 0.5
 &ensp;Project idea ranking form | 5 | 0.5
 &ensp;Project proposal | 60 | 6
