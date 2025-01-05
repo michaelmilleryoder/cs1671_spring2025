@@ -75,7 +75,7 @@ Spring 2025
             <td>01-22 W</td>
             <td>Machine learning intro, NLP tasks and applications</td>
             <td></td>
-            <td><strong>HW1 due 01-23</td>
+            <td><strong>HW1 due 01-23</strong>,<br/>Project idea submission form out</td>
         </tr>
         <tr>
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: N-grams and statistical NLP</td>
@@ -92,21 +92,21 @@ Spring 2025
             <td>01-29 W</td>
             <td>N-gram language models part 1</td>
             <td>J+M 3-3.3</td>
-            <td>Quiz due 01-30,<br/> Project idea submission form due 01-30,<br/>HW2 out</td>
+            <td>Quiz due 01-30,<br/><strong>Project idea submission form due 01-30</strong>,<br/>HW2 out</td>
         </tr>
         <tr>
             <td>7</td>
             <td>02-03 M</td>
             <td>N-gram language models part 2</td>
             <td>J+M 3.4-3.6, 3.8</td>
-            <td></td>
+            <td>Project idea ranking form out</td>
         </tr>
         <tr>
             <td>8</td>
             <td>02-05 W</td>
             <td>Tf-idf, PPMI</td>
             <td>J+M 6.5-6.7</td>
-            <td>Quiz due 02-06,<br/> Project idea ranking form due 02-06</td>
+            <td>Quiz due 02-06,<br/><strong>Project idea ranking form due 02-06</strong></td>
         </tr>
         <tr>
             <td>9</td>
