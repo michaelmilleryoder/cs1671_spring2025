@@ -11,6 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: project.qmd
+        text: Project
 
 format:
   html:

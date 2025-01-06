@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project",
+    "section": "",
+    "text": "Last revised 2025-01-06.\nA major component of this course is a hands-on final project. In this project, students will demonstrate an ability to build and evaluate an NLP system that takes in language data and automatically produces some sort of output.\nProjects will be done in groups of 2-4 students. Groups will be assigned by teaching staff based on interests, skills, and group preferences from students."
+  },
+  {
+    "objectID": "project.html#project-idea-submission-form",
+    "href": "project.html#project-idea-submission-form",
+    "title": "Project",
+    "section": "Project idea submission form",
+    "text": "Project idea submission form\nDue 01-30.\nWith this form, you can fill out potential project ideas you might be interested in working on. You can fill out ideas from the example projects listed on this website or other possible ideas you have for computer systems that process language, interesting text datasets you’d like to work on, really anything! You can fill out as many ideas as you’d like in this form. Ideas do not have to be fully sketched out. Submitting an idea does mean you will necessarily work on it. These ideas will be presented to all students anonymously. Each student must submit at least one idea for credit on this assignment, even if it’s just chosen from the example projects."
+  },
+  {
+    "objectID": "project.html#project-idea-ranking-form",
+    "href": "project.html#project-idea-ranking-form",
+    "title": "Project",
+    "section": "Project idea ranking form",
+    "text": "Project idea ranking form\nDue 02-06.\nIn a form, students will rank which project ideas they would prefer to work on, as well as list any personnel preferences, interests and skills you have. Teaching staff will take all of this information into account when assigning groups."
+  },
+  {
+    "objectID": "project.html#project-proposal",
+    "href": "project.html#project-proposal",
+    "title": "Project",
+    "section": "Project proposal",
+    "text": "Project proposal\nDue 02-28.\nPlease submit one per group on Canvas. There is no required length or format for this report. This proposal will be a report with answers to a series of questions. More information will be added later. This proposal will include a peer review where you will rate your own performance the performance of other group members."
+  },
+  {
+    "objectID": "project.html#project-proposal-presentation",
+    "href": "project.html#project-proposal-presentation",
+    "title": "Project",
+    "section": "Project proposal presentation",
+    "text": "Project proposal presentation\nIn class 03-12.\nGroups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. Please plan for maximum 5-minute presentations not including Q&A, which will be held right afterward for each group.  Presentations are not graded. Cover at least these key points (more information will be added later):\n\nWhat data you are planning to use\nWhat approach/methods will you be taking\nEvaluation of your approach (or dataset, if it’s a dataset contribution)"
+  },
+  {
+    "objectID": "project.html#progress-report",
+    "href": "project.html#progress-report",
+    "title": "Project",
+    "section": "Progress report",
+    "text": "Progress report\nDue 03-20.\nRequirements TBD. Also list any questions you have or resources you will need to successfully complete the project by the final deadline, if you have any. You do not have to repeat information from the project proposal except for basic descriptions of the project."
+  },
+  {
+    "objectID": "project.html#final-presentation",
+    "href": "project.html#final-presentation",
+    "title": "Project",
+    "section": "Final presentation",
+    "text": "Final presentation\nIn class TBD.\nRequirements TBD. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation."
+  },
+  {
+    "objectID": "project.html#final-report",
+    "href": "project.html#final-report",
+    "title": "Project",
+    "section": "Final report",
+    "text": "Final report\nDue 04-24.\nRequirements TBD. At the end of the course, groups will provide a written report of their project."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "CS 1671/2071 Human Language Technologies",
