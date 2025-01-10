@@ -16,8 +16,8 @@ Spring 2025
 |Instructor|[Michael Miller Yoder](https://michaelmilleryoder.github.io), PhD<br />*Please call me "Michael"*|
 |Instructor contact|[mmyoder@pitt.edu](mailto:mmyoder@pitt.edu) or through Canvas messages|
 |Instructor office hours|By appointment in person at IS 604B or on Zoom<br/>[Book an appointment](https://outlook-sdf.office.com/bookwithme/user/2536c861ee3f49ab9a4a872751754279@pitt.edu?anonymous&ep=plink)|
-|TA|*TBD*|
-|TA contact|*TBD*|
+|TA|Norah Almousa|
+|TA contact|[nia135@pitt.edu](mailto:nia135@pitt.edu)|
 |TA office hours|*TBD*|
 |Textbook (free online)|[[J+M] Jurafsky and Martin, *Speech and Language Processing*, 3e draft, 2024-08-20](https://web.stanford.edu/~jurafsky/slp3)|
 
@@ -45,7 +45,7 @@ Spring 2025
             <td>01-08 W</td>
             <td><a href="slides/session1_cs1671_spring2025.pdf">Course, NLP intro</a></td>
             <td></td>
-            <td>HW1 out 01-09</td>
+            <td><a href="hw1">HW1</a> out 01-09</td>
         </tr>
         <tr>
             <td>2</td>
@@ -74,7 +74,7 @@ Spring 2025
             <td>01-22 W</td>
             <td>Machine learning intro, NLP tasks and applications</td>
             <td></td>
-            <td><strong>HW1 due 01-23</strong>,<br/>Project idea submission form out</td>
+            <td><strong><a href="hw1">HW1</a> due 01-23</strong>,<br/>Project idea submission form out</td>
         </tr>
         <tr>
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 2: N-grams and statistical NLP</td>

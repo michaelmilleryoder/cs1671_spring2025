@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project – CS 1671/2071 Human Language Technologies</title>
+<title>Homework 1: Text and string processing in Python – CS 1671/2071 Human Language Technologies</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,11 +93,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hw1.html"> 
+    <a class="nav-link active" href="./hw1.html" aria-current="page"> 
 <span class="menu-text">HW1</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./project.html" aria-current="page"> 
+    <a class="nav-link" href="./project.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
 </ul>
@@ -116,13 +116,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-idea-submission-form" id="toc-project-idea-submission-form" class="nav-link active" data-scroll-target="#project-idea-submission-form">Project idea submission form</a></li>
-  <li><a href="#project-idea-ranking-form" id="toc-project-idea-ranking-form" class="nav-link" data-scroll-target="#project-idea-ranking-form">Project idea ranking form</a></li>
-  <li><a href="#project-proposal" id="toc-project-proposal" class="nav-link" data-scroll-target="#project-proposal">Project proposal</a></li>
-  <li><a href="#project-proposal-presentation" id="toc-project-proposal-presentation" class="nav-link" data-scroll-target="#project-proposal-presentation">Project proposal presentation</a></li>
-  <li><a href="#progress-report" id="toc-progress-report" class="nav-link" data-scroll-target="#progress-report">Progress report</a></li>
-  <li><a href="#final-presentation" id="toc-final-presentation" class="nav-link" data-scroll-target="#final-presentation">Final presentation</a></li>
-  <li><a href="#final-report" id="toc-final-report" class="nav-link" data-scroll-target="#final-report">Final report</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#resources-to-download" id="toc-resources-to-download" class="nav-link" data-scroll-target="#resources-to-download">Resources to download</a>
+  <ul class="collapse">
+  <li><a href="#skeleton-code" id="toc-skeleton-code" class="nav-link" data-scroll-target="#skeleton-code">Skeleton code</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul></li>
+  <li><a href="#part-1-file-inputoutput-io" id="toc-part-1-file-inputoutput-io" class="nav-link" data-scroll-target="#part-1-file-inputoutput-io">Part 1: File input/output (I/O)</a></li>
+  <li><a href="#part-2-regular-expressions" id="toc-part-2-regular-expressions" class="nav-link" data-scroll-target="#part-2-regular-expressions">Part 2: Regular expressions</a></li>
+  <li><a href="#part-3-text-processing-in-python" id="toc-part-3-text-processing-in-python" class="nav-link" data-scroll-target="#part-3-text-processing-in-python">Part 3: Text Processing in Python</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
   </ul>
 </nav>
     </div>
@@ -131,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project</h1>
+<h1 class="title">Homework 1: Text and string processing in Python</h1>
 </div>
 
 
@@ -148,164 +153,151 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Last revised 2025-01-06.</em></p>
-<p>A major component of this course is a hands-on final project. In this project, students will demonstrate an ability to build and evaluate an NLP system that takes in language data and automatically produces some sort of output.</p>
-<p>Projects will be done in groups of 2-4 students. Groups will be assigned by teaching staff based on interests, skills, and group preferences from students.</p>
-<section id="project-idea-submission-form" class="level2">
-<h2 class="anchored" data-anchor-id="project-idea-submission-form">Project idea submission form</h2>
-<p><em>Due 01-30</em>.<br>
-With this form, you can fill out potential project ideas you might be interested in working on. You can fill out ideas from the example projects listed on this website or other possible ideas you have for computer systems that process language, interesting text datasets you’d like to work on, really anything! You can fill out as many ideas as you’d like in this form. Ideas do not have to be fully sketched out. Submitting an idea does mean you will necessarily work on it. These ideas will be presented to all students <strong>anonymously</strong>. Each student must submit at least one idea for credit on this assignment, even if it’s just chosen from the example projects.</p>
+<p><strong>Due 2025-01-23, 11:59pm</strong>. <em>Instructions last updated 2025-01-09.</em></p>
+<p>Welcome to CS 1671/2071! In this first assignment, you’ll learn and practice some coding skills that will help you deal with text data for NLP. You will be reading/writing files, using regular expressions, and processing strings in Python. Please make sure to use Python 3 in your code. You may use any Python packages you like.</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>After completing this assignments, you will be able to:</p>
+<ul>
+<li>Load in text files into different data structures in Python</li>
+<li>Use regular expressions in Python to find and manipulate strings</li>
+<li>Write Python code to produce basic statistics about a dataset of text</li>
+<li>Specify the Python software environment you used to run a script</li>
+</ul>
 </section>
-<section id="project-idea-ranking-form" class="level2">
-<h2 class="anchored" data-anchor-id="project-idea-ranking-form">Project idea ranking form</h2>
-<p><em>Due 02-06</em>.<br>
-In a form, students will rank which project ideas they would prefer to work on, as well as list any personnel preferences, interests and skills you have. Teaching staff will take all of this information into account when assigning groups.</p>
+<section id="resources-to-download" class="level2">
+<h2 class="anchored" data-anchor-id="resources-to-download">Resources to download</h2>
+<section id="skeleton-code" class="level3">
+<h3 class="anchored" data-anchor-id="skeleton-code">Skeleton code</h3>
+<p>Please download and add all your answers to the following Python script template file. It is a “skeleton” script where only the formatting is provided and you fill in the code for the rest of the file.</p>
+<ul>
+<li><a href="hw1/hw1_skeleton.py" download="">hw1_skeleton.py</a></li>
+</ul>
+<p>Please use a version of Python 3 to run your filled-out script. We encourage you to use a Python virtual environment to code this and future course assignments. Virtual environments are a way to isolate your code and its dependencies from the rest of the python programs and packages installed on your system. This is very helpful for ‘good science’ as we avoid any issues sharing our work with others and having packages break, and having a saved state where we know code works. This is a feature baked into Python with the <a href="https://docs.python.org/3/library/venv.html"><code>venv</code> module</a>. Third-party tools are another way to create and manage virtual environments. <a href="https://www.anaconda.com/download/success">Anaconda</a> is a free one that I recommend.</p>
+<p>One of the deliverables for this assignment is to specify the packages and package versions in the Python environment you used while running your code. This is most straightforward within a virtual environment, though you can provide all the Python packages installed on your system as an alternative.</p>
 </section>
-<section id="project-proposal" class="level2">
-<h2 class="anchored" data-anchor-id="project-proposal">Project proposal</h2>
-<p><em>Due 02-28</em>.<br>
-Please submit one per group on Canvas. There is no required length or format for this report. This proposal will be a report with answers to a series of questions. <strong>More information will be added later.</strong> This proposal will include a peer review where you will rate your own performance the performance of other group members.</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>For Part 1, you will need the following text file:</p>
+<ul>
+<li><a href="hw1/spanish_test.txt" download="">spanish_test.txt</a></li>
+</ul>
+<p>For Part 3, you will need a small dataset of wine reviews. You can download it and unpack it as follows:</p>
+<pre><code>$&nbsp;wget&nbsp;http://computational-linguistics-class.org/homework/python-and-bash/data.tgz
+$&nbsp;tar&nbsp;-xzvf&nbsp;data.tgz&nbsp;
+$&nbsp;ls&nbsp;data
+stopwords.txt&nbsp;&nbsp;&nbsp;&nbsp;wine.txt</code></pre>
 </section>
-<section id="project-proposal-presentation" class="level2">
-<h2 class="anchored" data-anchor-id="project-proposal-presentation">Project proposal presentation</h2>
-<p><em>In class 03-12</em>.<br>
-Groups will make a brief presentation to the class outlining their proposed project, with Q&amp;A and opportunities for feedback from other students. Please plan for maximum 5-minute presentations not including Q&amp;A, which will be held right afterward for each group. <!--Please add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/EZ-R5EtO8uBIiPfiAhdqOdYBSzH011O79AnfIODMJ0Q9qQ?e=VmKgkU). --> Presentations are not graded. Cover at least these key points (<strong>more information will be added later</strong>):</p>
-<ol type="1">
-<li>What data you are planning to use</li>
-<li>What approach/methods will you be taking</li>
-<li>Evaluation of your approach (or dataset, if it’s a dataset contribution)</li>
-</ol>
 </section>
-<section id="progress-report" class="level2">
-<h2 class="anchored" data-anchor-id="progress-report">Progress report</h2>
-<p><em>Due 03-20</em>.<br>
-<strong>Requirements TBD</strong>. Also list any questions you have or resources you will need to successfully complete the project by the final deadline, if you have any. You do not have to repeat information from the project proposal except for basic descriptions of the project.</p>
-</section>
-<section id="final-presentation" class="level2">
-<h2 class="anchored" data-anchor-id="final-presentation">Final presentation</h2>
-<p><em>In class TBD</em>.<br>
-<strong>Requirements TBD</strong>. Groups will present their finished work to the group, with Q&amp;A and feedback opportunities from students. Please prepare a maximum 5-minute presentation. <!--Add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/ERvjnz_S-f9PlmDCYMWGBbkBheXSi4dRcAalYyMUOVaftQ).--> <!--
-Cover at least these key points:
-    1. Project motivation (briefly)
-    2. Data
-    3. Methods, or annotation/collection approach for dataset projects
-    4. Results
---></p>
-</section>
-<section id="final-report" class="level2">
-<h2 class="anchored" data-anchor-id="final-report">Final report</h2>
-<p><em>Due 04-24</em>.<br>
-<strong>Requirements TBD</strong>. At the end of the course, groups will provide a written report of their project. <!--
-There is flexibility in section names, but please provide information about the following aspects of the project:
-    1. Project motivation
-    2. Literature review. Please provide full citations in a references sections for works cited throughout the paper (not just URLs).
-    3. Data
-    4. Methods. Please clearly specify which techniques are novel/your own versus methods directly or indirectly from prior work (which is also fine).
-    5. Results
-    6. Discussion
-    9. Future work. This is a good place to describe things you thought about but never had time to complete!
-    7. Limitations (doesn't count toward page limit)
-    8. Ethical issues (doesn't count toward page limit)
-    10. Group member task breakdown (doesn't count toward page limit). This section details the high-level tasks that each group member completed.
-    11. References (doesn't count toward page limit)
-    12. Appendices (optional, doesn't count toward page limit). Additional figures or explanation in one or more appendices is allowed, but they will not necessarily be considered in grading. 
+<section id="part-1-file-inputoutput-io" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-file-inputoutput-io">Part 1: File input/output (I/O)</h2>
+<p>Given a file, it is important to know how to open, read, and write using Python functions: <code>open()</code>, <code>read()</code>, and <code>write()</code>. The <code>read()</code> function returns the entire contents of the file as a string. It is often useful to read each line of a file into a list. You can do this with the <code>readlines()</code>&nbsp;function, which will split on the newline character and return the lines as a list, presevering the newline character. You can also use the <code>splitlines()</code> function, which will remove the newline characters.</p>
+<p>Take some time to also read through the <code>encoding</code> argument for <a href="https://docs.python.org/3/library/functions.html#open"><code>open()</code></a> as that can be a source of trouble for files that aren’t being read in properly.</p>
+<p>Here’s some example code for reading and writing files in Python:</p>
+<pre><code># read files
+with open('test.txt') as f:
+  &nbsp; contents = f.read().splitlines()
+for s in contents:
+  &nbsp; print(s)
 
-Here is the rubric that will be used in grading:
-
-|Rubric category | Points|
-|-------------------|-:|
-|Clear motivation for the work is provided | 4|
-|Research questions and/or task definition is clear | 8|
-|Sufficient grounding in relevant related literature |  10 |
-|Applicable dataset/s are chosen | 5|
-|Methods are relevant.<br/>For new approach contributions, multiple methods are compared.<br/>For dataset contributions, annotation methodology is explained | 15|
-|Results are provided.<br/>For new approach contributions, results from multiple methods (at least one baseline) are presented.<br/>For dataset contributions, this may be a single set of results from a simple classifier, or other results if discussed with the instructor | 17|
-|Discussion is provided of the results and/or the potential uses or contributions of any new datasets contributed | 10|
-|Limitations of your approach or dataset are sufficiently discussed | 3|
-|Ethical issues that may be raised by your system or dataset are sufficiently discussed | 3|
-|Potential future work is discussed | 3|
-|***Project content total*** | ***78***|
-|Meets all formatting requirements. Is maximum 8 pages, not including references or group member task breakdown | 8|
-|Writing is clear | 9|
-|***Writing total*** | ***17***|
-|Group member had a sufficient amount of workload in the project | 13|
-|Task and roles assigned to this group member were completed sufficiently | 13|
-|***Individual contribution total*** | ***26***|
-|***Grand total*** | ***121***|
---></p>
+# write files
+with open('test.txt', 'w')
+    for s in ['line1', 'line2', 'line3', 'line4'] :
+        file.write(s+'\n')</code></pre>
+<p>Often we would like to associate metadata (such as a label) with lines or chunks of text in NLP. One way of doing this is by formatting the data as a table or spreadsheet with the text in a column and other columns of metadata about that text.</p>
+<p>You can use the <a href="https://docs.python.org/3/library/csv.html"><code>csv</code> module</a> or the more powerful <a href="https://pandas.pydata.org/docs/index.html#"><code>pandas</code> package</a>, particularly the <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files"><code>read_csv</code></a> and <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-csv-format"><code>to_csv</code></a> methods to handle data in this format.</p>
+<p>Fill in the <code>text_to_csv</code> function in <code>hw1_skeleton.py</code>. In this function, you will read in the <code>spanish_test.txt</code> file and produce a CSV file with the following columns:</p>
+<ul>
+<li><code>line_id</code>: an integer ID column for each line, starting from 1 and continuing.</li>
+<li><code>text</code>: the text of the line, without any newline character included</li>
+<li><code>character_length</code>: the number of characters (length) of the line. See the Python <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-csv-format">string module</a> or <a href="https://pandas.pydata.org/docs/user_guide/text.html#string-methods">pandas string functions</a>.</li>
+</ul>
+<p>Save this CSV file as <code>spanish_test.csv</code>. It will be part of your final submission.</p>
+</section>
+<section id="part-2-regular-expressions" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-regular-expressions">Part 2: Regular expressions</h2>
+<p>Regular expressions are a powerful way to process text by describing text patterns. Here are useful resources you may need:</p>
+<ul>
+<li>A fancy&nbsp;<a href="https://regex101.com/">website</a>&nbsp;to test your regex.</li>
+<li>Python&nbsp;<a href="https://docs.python.org/3/library/re.html">re</a>&nbsp;package that provides many regular expression functions for use.</li>
+<li><a href="https://web.stanford.edu/~jurafsky/slp3/2.pdf">Chapter 2</a> of the textbook</li>
+</ul>
+<pre><code># match patterns in given string
+import re
+pattern = 'pitt'
+test_string = 'pittsburgh'
+result = re.match(pattern, test_string)
+if result:
+    print("Search successful.")
+else:
+    print("Search unsuccessful.") </code></pre>
+<p>In this part, you need to fill in the functions&nbsp;<code>check_for_foo_or_bar</code>&nbsp;and&nbsp;<code>replace_rgb</code>&nbsp;in the skeleton script.</p>
+<p><strong>2.1.</strong> Check whether the input string meets the following condition. <em>Useful documentation</em>: <a href="https://docs.python.org/3/library/re.html#match-objects">Python match objects</a></p>
+<ul>
+<li>The string must have both the word&nbsp;<code>foo</code>&nbsp;and the word&nbsp;<code>bar</code>&nbsp;in it, whitespace- or punctuation-delimited from other words. (not, e.g., words like&nbsp;<code>foobar</code>&nbsp;or&nbsp;<code>bart</code>&nbsp;that merely contain the word&nbsp;bar). See the .</li>
+<li>Return True if the condition is met, false otherwise.</li>
+</ul>
+<p><strong>2.2.</strong> Replace all RGB or hex colors with the word&nbsp;COLOR. <em>Useful documentation</em>: <a href="https://docs.python.org/3/library/re.html#re.sub">Python regular expression substitutions</a></p>
+<ul>
+<li>Possible example formats for a color string:&nbsp;<code>#0f0</code>,&nbsp;<code>#0b013a</code>,&nbsp;<code>#37EfaA</code>,&nbsp;<code>rgb(1, 1, 1)</code>,&nbsp;<code>rgb(255, 19, 32)</code>,&nbsp;<code>rgb(00, 01, 18)</code>, or&nbsp;<code>rgb(0.1, 0.5, 1.0)</code>.</li>
+<li>Note that there is no need to try other formats that are not listed above. There is also no need to validate the ranges of the rgb values.</li>
+<li>However, you should make sure all numbers are indeed valid numbers. For example,&nbsp;<code>#xyzxyz</code>&nbsp;should return false as these are not valid hex digits. Similarly,&nbsp;<code>rgb(c00l, 255, 255)</code>&nbsp;should return false.</li>
+<li>Only replace matching colors which are at the beginning or end of the line, or are space separated from the text around them. For example, due to the trailing period:&nbsp;<code>I like rgb(1, 2, 3) and rgb(2, 3, 4).</code>&nbsp;becomes&nbsp;<code>I like COLOR and rgb(2, 3, 4).</code></li>
+<li>Return the text that replaced all RGB or hex colors replaces with the word&nbsp;COLOR.</li>
+</ul>
+</section>
+<section id="part-3-text-processing-in-python" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-text-processing-in-python">Part 3: Text Processing in Python</h2>
+<p>For this part, you will be playing with a small data set of wine reviews (see the <a href="#data">Data</a> section above for download instructions).</p>
+<p><code>wine.txt</code>&nbsp;is in the format of one review per line, followed but a star rating between 1 and 5 (except for 3 reviews, where the review decided to go rogue and give 6 stars. Pft.) The text of the review and the star rating are separated by a single tab character. There is also a file called&nbsp;<code>stopwords.txt</code>, which you will use for question 3.6.</p>
+<p><code>wine.txt</code> is also a little peculiar in its format. The encoding of the text file is <code>Latin1</code> / <code>ISO-8859-1</code> and depending on the OS of your machine, the default encoding used when running <code>open()</code> may be this encoding or it could be <code>utf-8</code> (the default encoding on Linux for example). To ensure compatibility specify the encoding when you read in text files.</p>
+<p>In the&nbsp;<code>wine_text_processing</code>&nbsp;function in&nbsp;<code>hw1_skeleton.py</code>, write code that answers each of the following questions and prints the answer to standard output, followed by a newline. If you get this output it’s very likely your code works correctly! For questions where there are ties, please break the tie alphabetically (e.g.&nbsp;apple would come before banana). We highly recommend looking into the functions available in the Python&nbsp;<a href="https://docs.python.org/3/library/string.html">string module</a>.</p>
+<p>You will need to write your code in the&nbsp;<code>wine_text_processing</code>&nbsp;function in the <code>hw1_skeleton.py</code>&nbsp;file to answer the following questions. Please note that you need to print out the answers to each of the following questions, like below:</p>
+<pre><code>Question&nbsp;3.1&nbsp;outputs:&nbsp;`your&nbsp;answer`.
+&nbsp;
+Question&nbsp;3.2&nbsp;outputs:&nbsp;`your&nbsp;answer`.
+&nbsp;
+Question&nbsp;3.3&nbsp;outputs:&nbsp;`your&nbsp;answer`.
+...</code></pre>
+<p><strong>3.1.</strong> What is the distribution of star ratings?</p>
+<p><strong>3.2.</strong> What are the 10 most common words used across all of the reviews, and how many times is each used?</p>
+<p><strong>3.3.</strong> How many times does the word&nbsp;<code>a</code>&nbsp;appear?</p>
+<p><strong>3.4.</strong> How many times does the word&nbsp;<code>fruit</code>&nbsp;appear?</p>
+<p><strong>3.5.</strong> How many times does the word&nbsp;<code>mineral</code>&nbsp;appear?</p>
+<p><strong>3.6.</strong> Common words (like&nbsp;<code>a</code>) are not as interesting as uncommon words (like&nbsp;<code>mineral</code>). In natural language processing, we call these common words&nbsp;<em>stop words</em>&nbsp;and often remove them before we process text.&nbsp;<code>stopwords.txt</code>&nbsp;gives you a list of some very common words. Remove these stopwords from your reviews. Also, try converting all the words to lowercase (since we probably don’t want to count&nbsp;<code>fruit</code>&nbsp;and&nbsp;<code>Fruit</code>&nbsp;as two different words). Now what are the 10 most common words across all of the reviews, and how many times is each used?</p>
+<p><strong>3.7.</strong> You should continue to use the preprocessed reviews for the following questions (lowercased, no stopwords). What are the 10 most used words among the 5-star reviews, and how many times is each used?</p>
+<p><strong>3.8.</strong> What are the 10 most used words among the 1-star reviews, and how many times is each used?</p>
+<p><strong>3.9.</strong> Gather two sets of reviews: 1) Those that use the word&nbsp;<code>red</code>&nbsp;and 2) those that use the word&nbsp;<code>white</code>. What are the 10 most frequent words in the&nbsp;<code>red</code>&nbsp;reviews which do <strong>not</strong> appear in the&nbsp;<code>white</code>&nbsp;reviews?</p>
+<p><strong>3.10.</strong> What are the 10 most frequent words in the&nbsp;<code>white</code>&nbsp;reviews which do <strong>not</strong> appear in the&nbsp;<code>red</code>&nbsp;reviews?</p>
 <!--
-## Example projects
-Your goal is to make a contribution, even a small one, to NLP research or practice. You can select from the following types of contributions, combine multiple of them, or define a different type of contribution with instructor approval. Example project ideas and projects are provided (with a bias toward computational social science and hate speech, the instructor's research area). You are also encouraged to come up with your own ideas, too! Is there a text dataset in a field or your industry that you are familiar with that has not been analyzed? Projects can be related to students' research, but should not be projects for other classes.
-
-### New dataset, annotations, or analysis of existing datasets
-Data is at the heart of machine learning and NLP systems; it enables further modeling and encapsulates what NLP systems "know".
-
-#### Example project ideas
-* Build a dataset of social media posts and ads discussing prescription drugs and natural medications for comparison, with Prof. Ryan Shi and a collaborator in Pitt Family Medicine.
-* Hate speech is culturally specific, yet the majority of NLP work focuses on English in North American and European contexts. A quantitative analysis of different features of datasets annotated for hate speech in multiple languages and from multiple cultural contexts would illuminate global similarities and culturally specific contexts.
-* Build a dataset of text from different personas from fiction roleplaying sites ("language cosplaying" in China). This could be useful for dialogue systems that adopt personas, or for story generation.
-
-### New approach or application 
-This is perhaps the most common sort of NLP research contribution, in which a new method or algorithm for approaching a task (which could be a new task) is presented. Applying an existing method in a new context or task, as might be necessary in an industry setting, would also fit within this contribution.
-
-#### Example project ideas
-New tasks and applications:
-
-* New identity terms are commonly developed in online communities, some of them hateful. Develop methods to find in-group hate jargon and identity terms.
-* Trace and compare the language of legislative bills introduced at state legislatures across US states. Data is provided by the instructor and a collaborator at Carnegie Mellon University.
-* Hate speech identification without the text: Identify the discourse contexts in which hate speech is likely to occur, without allowing classifiers to look at the exact text of the hate speech.
-* From a set of descriptions of characters, develop a classifier to predict which ones will generate the most fanfiction. This could be a lens into online community and media norms.
-* Fanfiction, online writing by fans of media works, is known for celebrating queer identity but still may center the experiences of white authors and characters. Use [FanfictionNLP](https://github.com/michaelmilleryoder/fanfiction-nlp/tree/main) to compare representations of characters of color to white characters in fanfiction at scale.
-* Analyze how different newspapers cover topics differently in English-language editorials from Sri Lankan newspapers. Data is provided by the instructor and a collaborator at Carnegie Mellon University.
-* Predict arch support, comfort and durability of shoes from Amazon reviews, with a collaborator in Pitt Engineering.
-* Quantitative analysis of hateful, white supremacist narratives usually centers on contemporary online discourse. Yet many white supremacist language and narratives has its roots before online discourse. Compare narratives, topics and themes presented in historic and contemporary white supremacist discourse with data provided by the instructor.
-* Evaluate LLMs for their factuality in summarization of class reflections using a dataset provided by the instructor and Prof. Diane Litman.
-* Evaluate the fairness of quality scores automatically assigned to sutdent reflections using a dataset provided by the instructor and Prof. Diane Litman.
-* Build networks of characters and predict relations among characters in fiction using this [dataset](https://github.com/dbamman/characterRelations).
-* Stancetaking, a concept from sociolinguistics, is when speakers take an evaluative position toward the concept (which are often nuanced, e.g. "No, I actually don't like Taylor Swift's music that much, but she's great as a person"). Develop automated methods for identifying the "stance object", who the speaker is evaluating, likely from Reddit data.
-* Automatically summarize movies based on their subtitles from this [dataset](https://github.com/VeerabadraLokesh/moviesubsummarize) developed by former students in the class.
-* Predict "speech acts", intentions behind utterances, based on emojis with a dataset assembled by former students in the class.
-* Explore similarities and differences between language in podcasts and Reddit communities based on those podcasts using a [dataset](https://github.com/FishOfPitt116/CS2731Project/tree/main) assembled by former students in the class.
-* Computational analysis of Nakba narratives. See [workshop](https://sina.birzeit.edu/nakba-nlp/) and [datasets](https://t.ly/00Ul6).
-* Examine the framing of different entities in police Facebook posts from the [Plain View Project](https://www.plainviewproject.org/).
-
-Existing tasks to work on (some ideas are drawn from Graham Neubig's Advanced NLP class):
-
-* Lexicons are often used to identify emotional language or other concepts text analysts may be interested in measuring in large corpora. Develop and evaluate approaches for expanding lexicons to specific contexts. This could be applied to expand lists of identity terms in a variety of online communities, with data supplied by the instructor.
-* [WASSA Shared Task on Empathy Detection and Emotion Classification and Personality Detection in Interaction](https://codalab.lisn.upsaclay.fr/competitions/18810)
-* [WASSA Shared Task on Explainability for Cross-Lingual Emotion in Tweets](https://lt3.ugent.be/exalt/)
-* [SemEval Multilingual characterization and extraction of narratives from online news](https://propaganda.math.unipd.it/semeval2025task10/)
-* Information retrieval from regulatory documents in a [shared task](https://www.codabench.org/competitions/3527/) and [RegNLP](https://regnlp.github.io/) workshop
-* Semantic pleonasm detection with LLMs, on a [dataset](https://pleonasm.cs.pitt.edu) developed here at Pitt
-* [Shared tasks](https://genai-content-detection.gitlab.io/) in identifying AI-generated content
-* Any of the [SemEval 2021 tasks](https://semeval.github.io/SemEval2021/tasks)
-* [Sexism identification in social networks shared task](http://nlp.uned.es/exist2024/)
-* [X-FACTR multilingual knowledge probing in QA](https://x-factr.github.io/)
-* [GoEmotions Fine-grained Emotion Detection Dataset](https://github.com/google-research/google-research/tree/master/goemotions)
-* [SciREX Scientific Information Extraction](https://github.com/allenai/SciREX)
-* [Subjective Intent Classification in Discourse](https://github.com/elisaF/subjective_discourse)
-* [Very Low Resource machine translation](http://statmt.org/wmt21/unsup_and_very_low_res.html)
-* Predict the points at which speakers switch languages when code-switching
-* Sign language translation
-* Develop best approaches for training hate speech classifiers that generalize across targeted identities. Data would be provided by the instructor
-* Style transfer of offensive language into inoffensive language. See [existing paper](https://aclanthology.org/2022.coling-1.530.pdf) and [dataset+code](https://github.com/sabithsn/APPDIA-Discourse-Style-Transfer).
-* Develop new approaches for hate speech detection by comparing with knowledge bases or pretrained models of stereotypes from a stereotype dataset
-* Cross-lingual emotion detection. See [existing paper](https://aclanthology.org/2022.lrec-1.751/).
-
-
-### New survey or position paper
-Surveys are especially needed for new, emerging research areas. All projects will require a literature review, but a survey paper would be both broader and deeper. It would summarize key approaches and key challenges and present lines for future work. Some sort of implementation is necessary for this type of contribution as well, such as applying multiple established methods to a new dataset or in a new context to show challenges that need to be addressed. Position papers argue for a certain viewpoint or shortcoming of existing approaches, e.g. arguing for the utility of techniques from a discipline outside NLP in NLP tasks.
-
-#### Example project ideas
-
-* Survey how NLP is used and applied in other fields. What has been our most useful contributions to scholars in the social sciences, physical sciences, or humanities? This survey would assemble papers across disciplines for mentions of NLP and summarize what is most useful, what is lacking, and what approaches from NLP could be helpful to others.
-* Computational social science using NLP generally relies on data from online communities. But this is missing non-online interactions and the practices of those who are not active online. Survey datasets and approaches that use quantitative and computational techniques on recordings of offline linguistic interaction.
-* A growing area of research in computational social science aims to capture the framing and portrayal of entities across large text corpora (such as in [news media](https://ojs.aaai.org/index.php/ICWSM/article/download/3358/3226/)). Survey existing approaches and challenges.
-
-
-## How your project will be graded
-To get an A, your group's project should make progress toward an achievable, concrete contribution specified in your project proposal. The project does not necessarily need to be successful in the sense that it outperforms baselines or contributes to our knowledge of a phenomenon. Sometimes ideas don't work, and that's okay. But you need to provide evidence of progress toward that contribution. If you are building a dataset, for example, the dataset needs to be built in some form, even if it is as not as large or as useful as you may have hoped. If you are evaluating a new method for a task, you must have an implementation that tests that method against other baselines, even if it doesn't perform as well as you would have hoped or you didn't get to evaluate it against all the baselines you wanted to. If you are doing a survey, you must distill a sufficient number of papers into themes that comprehensively describe a research area, even if you don't end up finding groundbreaking gaps in knowledge that must be addressed. Feel free to take on more risky ideas, but only if you know you'll have *something* to show for it at the end. Teaching staff will guide you toward scoping projects that should fulfill this goal in the planning phase through the proposal.
+Note: you can compare your answers against the key to see if you have done things correctly, but we will ultimately be running your code on a different input file.
 -->
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li>Your ouput CSV from Part 1, named <code>spanish_test.csv</code></li>
+<li>A modified <code>hw1_skeleton.py</code> file that contains your solutions</li>
+<li>A README.txt file explaining
+<ol type="1">
+<li>how to run your code</li>
+<li>what version of Python you used</li>
+<li>a <code>requirements.txt</code> file listing all Python packages and their versions in your environment (or on your system if you did not use a virtual environment). This may be created using <code>pip freeze &gt; requirements.txt</code>, <code>conda list -e &gt; requirements.txt</code> if using Anaconda, or through the <code>pipenv</code> package.</li>
+<li>any additional resources, references, or web pages you’ve consulted</li>
+<li>any person with whom you’ve discussed the assignment and describe the nature of your discussions</li>
+<li>any generative AI tool used, and how it was used</li>
+<li>any unresolved issues or problems</li>
+</ol></li>
+</ul>
+<p>Please submit this material on Canvas as individual files. Only files with <code>.py</code> or <code>.txt</code> file extensions will be accepted. If you used Jupyter Notebook to complete the assignment, please download it as a <code>.py</code> script.</p>
+</section>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<p>We will be running your code on a different input file to test its performance. <!-- See Canvas for a rubric. --> This assignment is worth 90 points.</p>
+</section>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>This assignment is adapted from Prof.&nbsp;Mark Yatskar and Prof.&nbsp;Lorraine Li.</p>
 
 
 </section>
