@@ -78,7 +78,7 @@ In this function, you will read in the `spanish_test.txt` file and produce a CSV
 
 * `line_id`: an integer ID column for each line, starting from 1 and continuing.
 * `text`: the text of the line, without any newline character included
-* `character_length`: the number of characters (length) of the line. See the Python [string module](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-csv-format) or [pandas string functions](https://pandas.pydata.org/docs/user_guide/text.html#string-methods).
+* `character_length`: the number of characters (length) of the line, including whitespace. See the Python [string module](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-csv-format) or [pandas string functions](https://pandas.pydata.org/docs/user_guide/text.html#string-methods).
 
 Save this CSV file as `spanish_test.csv`. It will be part of your final submission.
 
