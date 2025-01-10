@@ -37,7 +37,7 @@ For Part 1, you will need the following text file:
 * <a href="hw1/spanish_test.txt" download>spanish_test.txt</a>
 
 For Part 3, you will need a small dataset of wine reviews.
-You can download it and unpack it as follows:
+You can download it and unpack it in a terminal as follows:
 
 ```
 $ wget http://computational-linguistics-class.org/homework/python-and-bash/data.tgz
