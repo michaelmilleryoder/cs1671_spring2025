@@ -18,7 +18,7 @@ Spring 2025
 |Instructor office hours|By appointment in person at IS 604B or on Zoom<br/>[Book an appointment](https://outlook-sdf.office.com/bookwithme/user/2536c861ee3f49ab9a4a872751754279@pitt.edu?anonymous&ep=plink)|
 |TA|Norah Almousa|
 |TA contact|[nia135@pitt.edu](mailto:nia135@pitt.edu)|
-|TA office hours|*TBD*|
+|TA office hours|By appointment|
 |Textbook (free online)|[[J+M] Jurafsky and Martin, *Speech and Language Processing*, 3e draft, 2024-08-20](https://web.stanford.edu/~jurafsky/slp3)|
 
 
