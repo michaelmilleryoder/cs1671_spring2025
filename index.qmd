@@ -50,8 +50,7 @@ Spring 2025
         <tr>
             <td>2</td>
             <td>01-13 M</td>
-            <td>Text normalization</td>
-            <!--<td><a href="slides/session2_cs2731_fall2024.pdf">Text normalization</a></td>-->
+            <td><a href="slides/session2_cs1671_spring2025.pdf">Text normalization</a></td>
             <td>J+M 2-2.3, 2.5-2.7</td>
             <td></td>
         </tr>
