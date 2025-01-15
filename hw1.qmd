@@ -69,12 +69,11 @@ with open('test.txt', 'w')
 ```
 
 Often we would like to associate metadata (such as a label) with lines or chunks of text in NLP. 
-One way of doing this is by formatting the data as a table or spreadsheet with the text in a column and other columns of metadata about that text.
-
-You can use the [`csv` module](https://docs.python.org/3/library/csv.html) or the more powerful [`pandas` package](https://pandas.pydata.org/docs/index.html#), particularly the [`read_csv`](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files) and [`to_csv`](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-csv-format) methods to handle data in this format.
+One way of doing this is by formatting the data as a table or spreadsheet (a CSV, comma-separated value, file) with the text in a column and other columns of metadata about that text.
 
 Fill in the `text_to_csv` function in `hw1_skeleton.py`.
-In this function, you will read in the `spanish_test.txt` file and produce a CSV file with the following columns:
+You can use the [`csv` module](https://docs.python.org/3/library/csv.html) or the more powerful [`pandas` package](https://pandas.pydata.org/docs/index.html#), particularly the [`read_csv`](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files) and [`to_csv`](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-csv-format) methods to handle data in CSV format.
+In this function, please fill out code to read in the `spanish_test.txt` file and produce a CSV file with the following columns:
 
 * `line_id`: an integer ID column for each line, starting from 1 and continuing.
 * `text`: the text of the line, without any newline character included

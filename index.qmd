@@ -345,7 +345,7 @@ Range | Letter grade
 60.0 – <62.5% |D-
 < 60% | F
 
-The instructor reserves the right to change the grading scale depending on class performance, but only in the direction of raising grades for students. Feel free to contact the instructor or schedule an office hours appointment to talk about any issues you might have with your grade.
+Feel free to contact the instructor or schedule an office hours appointment to talk about any issues you might have with your grade.
 
 ## Late work policy
 Students are granted 5 total late days across all homework assignments and quizzes without penalty. After those five late days, you will be penalized 10% for each day that your submission is late except in extreme unforeseen circumstances.
