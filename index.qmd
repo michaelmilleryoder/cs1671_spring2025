@@ -57,7 +57,7 @@ Spring 2025
         <tr>
             <td>3</td>
             <td>01-15 W</td>
-            <td>Linear algebra, probability review for NLP</td>
+            <td><a href="slides/session3_cs1671_spring2025.pdf">Linear algebra, probability review for NLP</a></td>
             <td></td>
             <td></td>
         </tr>
