@@ -11,6 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: hw0.qmd
+        text: HW0
       - href: hw1.qmd
         text: HW1
       - href: project.qmd
