@@ -2,7 +2,7 @@
 title: "Homework 1: Text and string processing in Python"
 ---
 
-**Due 2025-01-23, 11:59pm**. *Instructions last updated 2025-01-17.*
+**Due 2025-01-23, 11:59pm**. *Instructions last updated 2025-01-21.*
 
 Welcome to CS 1671/2071! In this first assignment, you'll learn and practice some coding skills that will help you deal with text data for NLP. You will be reading/writing files, using regular expressions, and processing strings in Python. 
 Please make sure to use Python 3 in your code. You may use any Python packages you like.
@@ -128,7 +128,7 @@ In the `wine_text_processing` function in `hw1_skeleton.py`, write code that 
 
 You will need to write your code in the `wine_text_processing` function in the `hw1_skeleton.py` file to answer the following questions. Please note that you need to print out the answers to each of the following questions, like below:
 
-You can choose how you split the text into words (tokenize). Just make sure it's more sophisticated than splitting on whitespace. Any packages may be used for tokenization.
+You can choose how you split the text into words (tokenize) or otherwise identify the words in the following questions, for example through regular expressions. Any packages may be imported to aid this.
 
 ```
 Question 3.1 outputs: `your answer`.
