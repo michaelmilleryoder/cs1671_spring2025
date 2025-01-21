@@ -2,7 +2,7 @@
 title: "Homework 0: CRCD JupyterHub setup"
 ---
 
-**Due 2025-01-22, 11:59pm**. *Instructions last updated 2025-01-17.*
+**Due 2025-01-22, 11:59pm**. *Instructions last updated 2025-01-21.*
 
 [**This assignment is worth 5 points of extra credit. It is not required.**]{style="color:red"}
 
@@ -10,8 +10,9 @@ This assignment is simply for you to get set up with installing Python packages 
 
 ## Instructions
 
-1. Make sure you can log in to the CRCD JupyterHub at [jupyter.crc.pitt.edu](https://jupyter.crc.pitt.edu) with your Pitt credentials. If you are off-campus or not on WIRELESS-PITTNET, you will need to log in to the Pitt VPN through the GlobalProtect app. Instructions for setting that up are [here](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293).
-2. Click the following [nbgitpuller link](https://jupyter.crc.pitt.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmichaelmilleryoder%2Fcs1671_jupyterhub&urlpath=lab%2Ftree%2Fcs1671_jupyterhub%2F&branch=main){target="_blank"}. You can select the default **Teach - 6 cores, 3 hours** as your job profile.
+1. Make sure you can log in to the CRCD JupyterHub at [jupyter.crc.pitt.edu](https://jupyter.crc.pitt.edu) with your Pitt credentials. You can select the default **Teach - 6 cores, 3 hours** as your job profile. If you are off-campus or not on WIRELESS-PITTNET, you will need to log in to the Pitt VPN through the GlobalProtect app. Instructions for setting that up are [here](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293).
+2. Remove past versions of `session2_text_normalization.ipynb`. In the `cs1671_jupyterhub` folder (if you have one), delete `session2_text_normalization.ipynb`.
+2. Click the following [nbgitpuller link](https://jupyter.crc.pitt.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmichaelmilleryoder%2Fcs1671_jupyterhub&urlpath=lab%2Ftree%2Fcs1671_jupyterhub%2F&branch=main){target="_blank"}. This should load the newest version of `session2_text_normalization.ipynb`, which should look like [this](https://github.com/michaelmilleryoder/cs1671_jupyterhub/blob/main/session2_text_normalization.ipynb){target="_blank"} if you're curious.
 3. Double-click `session2_text_normalization.ipynb` on the left-hand side panel to open the Jupyter notebook. It should not matter what kernel is selected. The default **Python 3 (ipykernel)** is fine.
 4. Run the first set of cells under the **Setup** section. That is all you have to do. You do not have to run the rest of the notebook.
-5. Take a screenshot of the output of those cells and submit it on Canvas. Ideally you are able to `import nltk`, but even if there are errors, that's okay! You will still get extra credit, and I will message you on Canvas to try to figure any issues out.
+5. Take a screenshot of the output of those first cells, including `import nltk`, and submit it on Canvas. Ideally you are able to `import nltk`, but even if there are errors, that's okay! You will still get extra credit, and I will message you on Canvas to try to figure any issues out.
