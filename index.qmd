@@ -24,7 +24,7 @@ Spring 2025
 
 
 # Schedule
-*Subject to change. Last revised 2025-01-02. All due dates are at 11:59pm ET except when indicated.*
+*Subject to change. Last revised 2025-01-23. All due dates are at 11:59pm ET except when indicated.*
 
 <table class="schedule">
     <thead>
@@ -90,7 +90,7 @@ Spring 2025
             <td>01-29 W</td>
             <td>N-gram language models part 1</td>
             <td>J+M 3-3.3</td>
-            <td><strong>Quiz due 01-30</strong>,<br/><strong>Project idea submission form due 01-30</strong>,<br/>HW2 out</td>
+            <td><strong>Quiz due 01-30</strong>,<br/><strong>Project idea submission form due 01-30</strong>,<br/>HW2 out 01-30</td>
         </tr>
         <tr>
             <td>7</td>
