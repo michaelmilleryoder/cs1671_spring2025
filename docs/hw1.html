@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Due 2025-01-23, 11:59pm</strong>. <em>Instructions last updated 2025-01-22.</em></p>
+<p><strong>Due 2025-01-23, 11:59pm</strong>. <em>Instructions last updated 2025-01-23.</em></p>
 <p>Welcome to CS 1671/2071! In this first assignment, you’ll learn and practice some coding skills that will help you deal with text data for NLP. You will be reading/writing files, using regular expressions, and processing strings in Python. Please make sure to use Python 3 in your code. You may use any Python packages you like.</p>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
@@ -177,7 +177,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="hw1/hw1_skeleton.py" download="">hw1_skeleton.py</a></li>
 </ul>
-<p>Please use a version of Python 3 to run your filled-out script. We encourage you to use a Python virtual environment to code this and future course assignments. Virtual environments are a way to isolate your code and its dependencies from the rest of the python programs and packages installed on your system. This is very helpful for ‘good science’ as we avoid any issues sharing our work with others and having packages break, and having a saved state where we know code works. This is a feature baked into Python with the <a href="https://docs.python.org/3/library/venv.html"><code>venv</code> module</a>. Third-party tools are another way to create and manage virtual environments. <a href="https://www.anaconda.com/download/success">Anaconda</a> is a free one that I recommend.</p>
+<p>Please use a version of Python 3 to run your filled-out script. You do not have to run things on the CRCD JupyterHub unless you want to. You can just fill out and test your script locally on your own computer.</p>
+<p>We encourage you to use a Python virtual environment to code this and future course assignments. Virtual environments are a way to isolate your code and its dependencies from the rest of the python programs and packages installed on your system. This is very helpful for ‘good science’ as we avoid any issues sharing our work with others and having packages break, and having a saved state where we know code works. This is a feature baked into Python with the <a href="https://docs.python.org/3/library/venv.html"><code>venv</code> module</a>. Third-party tools are another way to create and manage virtual environments. <a href="https://www.anaconda.com/download/success">Anaconda</a> is a free one that I recommend.</p>
 <p>One of the deliverables for this assignment is to specify the packages and package versions in the Python environment you used while running your code. This is most straightforward within a virtual environment, though you can provide all the Python packages installed on your system as an alternative.</p>
 </section>
 <section id="data" class="level3">
@@ -256,7 +257,7 @@ else:
 <p><code>wine.txt</code> is also a little peculiar in its format. The encoding of the text file is <code>Latin1</code> / <code>ISO-8859-1</code> and depending on the OS of your machine, the default encoding used when running <code>open()</code> may be this encoding or it could be <code>utf-8</code> (the default encoding on Linux for example). To ensure compatibility specify the encoding when you read in text files.</p>
 <p>In the&nbsp;<code>wine_text_processing</code>&nbsp;function in&nbsp;<code>hw1_skeleton.py</code>, write code that answers each of the following questions and prints the answer to standard output, followed by a newline. If you get this output it’s very likely your code works correctly! For questions where there are ties, please break the tie alphabetically (e.g.&nbsp;apple would come before banana). We highly recommend looking into the functions available in the Python&nbsp;<a href="https://docs.python.org/3/library/string.html">string module</a>.</p>
 <p>You will need to write your code in the&nbsp;<code>wine_text_processing</code>&nbsp;function in the <code>hw1_skeleton.py</code>&nbsp;file to answer the following questions. Please note that you need to print out the answers to each of the following questions, like below:</p>
-<p>You can choose how you split the text into words (tokenize) or otherwise identify the words in the following questions, for example through regular expressions. Any packages may be imported to aid this.</p>
+<p>You can choose how you split the text into words (tokenize) or otherwise identify the words in the following questions. It is recommended to use a tokenization tool. Any packages may be imported to aid this.</p>
 <pre><code>Question&nbsp;3.1&nbsp;outputs:&nbsp;`your&nbsp;answer`.
 &nbsp;
 Question&nbsp;3.2&nbsp;outputs:&nbsp;`your&nbsp;answer`.
@@ -281,7 +282,7 @@ Note: you can compare your answers against the key to see if you have done thi
 <h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
 <ul>
 <li>Your ouput CSV from Part 1, named <code>spanish_test.csv</code></li>
-<li>A modified <code>hw1_skeleton.py</code> file that contains your solutions</li>
+<li>A modified <code>hw1_skeleton.py</code> file that contains your solutions. There is no need to put in a <code>main</code> function to run other functions. We will directly run the functions you filled in for grading.</li>
 <li>A README.txt file explaining
 <ol type="1">
 <li>how to run your code</li>
