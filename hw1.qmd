@@ -139,7 +139,7 @@ Question 3.3 outputs: `your answer`.
 ...
 ```
 
-**3.1.** What is the distribution of star ratings?
+**3.1.** What is the distribution of star ratings? Specifically, this is the counts of reviews per each star value (1 star, 2 star, etc).
 
 **3.2.** What are the 10 most common words used across all of the reviews, and how many times is each used? Don't include stars in the review, but it is okay to include other punctuation or not (your choice).
 
