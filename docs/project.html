@@ -120,7 +120,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-idea-submission-form" id="toc-project-idea-submission-form" class="nav-link active" data-scroll-target="#project-idea-submission-form">Project idea submission form</a></li>
+  <li><a href="#project-idea-submission-form" id="toc-project-idea-submission-form" class="nav-link active" data-scroll-target="#project-idea-submission-form">Project idea submission form</a>
+  <ul class="collapse">
+  <li><a href="#example-projects" id="toc-example-projects" class="nav-link" data-scroll-target="#example-projects">Example projects</a></li>
+  </ul></li>
   <li><a href="#project-idea-ranking-form" id="toc-project-idea-ranking-form" class="nav-link" data-scroll-target="#project-idea-ranking-form">Project idea ranking form</a></li>
   <li><a href="#project-proposal" id="toc-project-proposal" class="nav-link" data-scroll-target="#project-proposal">Project proposal</a></li>
   <li><a href="#project-proposal-presentation" id="toc-project-proposal-presentation" class="nav-link" data-scroll-target="#project-proposal-presentation">Project proposal presentation</a></li>
@@ -152,13 +155,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Last revised 2025-01-06.</em></p>
+<p><em>Last revised 2025-01-25.</em></p>
 <p>A major component of this course is a hands-on final project. In this project, students will demonstrate an ability to build and evaluate an NLP system that takes in language data and automatically produces some sort of output.</p>
 <p>Projects will be done in groups of 2-4 students. Groups will be assigned by teaching staff based on interests, skills, and group preferences from students.</p>
 <section id="project-idea-submission-form" class="level2">
-<h2 class="anchored" data-anchor-id="project-idea-submission-form">Project idea submission form</h2>
-<p><em>Due 01-30</em>.<br>
-With this form, you can fill out potential project ideas you might be interested in working on. You can fill out ideas from the example projects listed on this website or other possible ideas you have for computer systems that process language, interesting text datasets you’d like to work on, really anything! You can fill out as many ideas as you’d like in this form. Ideas do not have to be fully sketched out. Submitting an idea does mean you will necessarily work on it. These ideas will be presented to all students <strong>anonymously</strong>. Each student must submit at least one idea for credit on this assignment, even if it’s just chosen from the example projects.</p>
+<h2 class="anchored" data-anchor-id="project-idea-submission-form"><a href="https://forms.office.com/r/eZ1djDScD0">Project idea submission form</a></h2>
+<p><em>Due 01-30</em>.</p>
+<p>With <a href="https://forms.office.com/r/eZ1djDScD0">this form</a>, you can fill out project ideas you might be interested in working on. You can fill out ideas from the example projects listed below or one of your own ideas. For your own ideas, consider what computer system you’d like to build that processes language in some form, interesting text datasets you’d like to work on, really anything! It is best if your idea has a dataset in mind, but this is not required.</p>
+<p>You can fill out as many ideas as you’d like with this form. Ideas do not have to be fully sketched out. Submitting an idea does mean you will necessarily work on it. These ideas will be presented to all students <strong>anonymously</strong>. Each student must submit at least one idea for credit on this assignment, even if it’s just chosen from the example projects.</p>
+<section id="example-projects" class="level3">
+<h3 class="anchored" data-anchor-id="example-projects">Example projects</h3>
+<p>Many of these projects are drawn from “shared tasks” where NLP researchers compete for the best performance on certain datasets. The instructor will provide data for these projects, though it may still require further preprocessing for use.</p>
+<section id="text-classification" class="level4">
+<h4 class="anchored" data-anchor-id="text-classification">1. Text classification</h4>
+<ol type="1">
+<li>Given a short essay in response to a troubling news article, predict the level of empathy. See <a href="https://codalab.lisn.upsaclay.fr/competitions/18810">WASSA 2024 shared task Track 3</a>.</li>
+<li>Predict emotion labels from tweets across many languages. See <a href="https://codalab.lisn.upsaclay.fr/competitions/17730#learn_the_details">WASSA 2024 shared task</a></li>
+<li>Given a news article and a list of “entities” (people, organizations, etc), predict roles such as <em>protagonist</em>, <em>antagonist</em>, and <em>innocent</em>. See <a href="https://propaganda.math.unipd.it/semeval2025task10/">SemEval 2025 Task 10, Subtask 1 on entity framing</a></li>
+<li>Predict news genre or media “frames” such as <em>morality</em>, <em>economic</em>, or <em>crime and punishment</em> from news articles in multiple languages. See <a href="https://propaganda.math.unipd.it/semeval2023task3/">SemEval 2023 Task 3, Subtasks 1 or 2</a></li>
+<li>Predict whether text was written by humans or generated by AI. Tasks include predicting for data across languages and for academic essays. See <a href="https://genai-content-detection.gitlab.io/sharedtasks">GenAI Content Detection Workshop, Task 1 or 2</a></li>
+<li>Classify tweets as sexist or not, or predict the “intent” of sexist tweets as <em>direct</em>, <em>reported</em> or <em>judgemental</em>. See <a href="https://nlp.uned.es/exist2024/">EXIST 2024 Task 1 or Task 2</a></li>
+<li>Predict if similar words are redundant or not with the <a href="https://pleonasm.cs.pitt.edu/#">Semantic Pleonasm corpus</a> developed right here at Pitt.</li>
+<li>Predict whether bills will pass in US state legislatures (Minnesota, Pennsylvania, or Virginia) based solely on the text, or in combination with other metadata such as the party sponsoring the bill.</li>
+</ol>
+</section>
+<section id="machine-translation" class="level4">
+<h4 class="anchored" data-anchor-id="machine-translation">2. Machine translation</h4>
+<ol type="1">
+<li>Translate customer service chats in between languages. See the <a href="https://wmt-chat-task.github.io/2024/">WMT 2024 Chat Shared Task</a></li>
+<li>Translate code-mixed Hinglish to English. See the <a href="https://www.statmt.org/wmt22/code-mixed-translation-task.html">WMT 2022 Code-mixed Machine Translation Task</a></li>
+<li>Create a system to automatically correct (post-edit) machine translations. See the <a href="https://www.statmt.org/wmt22/ape-task.html">WMT 2022 Automatic Post-Editing Shared Task</a></li>
+</ol>
+</section>
+<section id="information-retrieval-and-extraction" class="level4">
+<h4 class="anchored" data-anchor-id="information-retrieval-and-extraction">3. Information retrieval and extraction</h4>
+<ol type="1">
+<li>Given a query, retrieve the most relevant passages from regulatory documents: <a href="https://www.codabench.org/competitions/3527/" class="uri">https://www.codabench.org/competitions/3527/</a></li>
+<li>Extract important entities from scientific articles with the <a href="https://github.com/allenai/SciREX?tab=readme-ov-file">SCIRex dataset</a></li>
+</ol>
+</section>
+<section id="question-answering" class="level4">
+<h4 class="anchored" data-anchor-id="question-answering">4. Question answering</h4>
+<ol type="1">
+<li>Train a system to predict abstract terms related to a passage and answer multiple choice questions. See <a href="https://competitions.codalab.org/competitions/26153">SemEval 2021 Task 4</a>.</li>
+</ol>
+</section>
+</section>
 </section>
 <section id="project-idea-ranking-form" class="level2">
 <h2 class="anchored" data-anchor-id="project-idea-ranking-form">Project idea ranking form</h2>
