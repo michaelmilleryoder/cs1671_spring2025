@@ -81,7 +81,7 @@ Spring 2025
         <tr>
             <td>5</td>
             <td>01-27 M</td>
-            <td>Bag-of-words and n-grams</td>
+            <td><a href="slides/session5_cs1671_spring2025.pdf">Bag-of-words and n-grams</a></td>
             <td>J+M 6.3-6.4</td>
             <td></td>
         </tr>
