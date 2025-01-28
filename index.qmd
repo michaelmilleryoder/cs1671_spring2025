@@ -266,16 +266,16 @@ Spring 2025
 
 Description | Points | Percentage of final grade
 ---|---:|---:
-**Homework assignments total** | **270** | **27**
-&ensp;Each homework of 3 total | 90 | 9
-**Project total** | **230** | **23**
+**Homework assignments total** | **300** | **30**
+&ensp;Each homework of 3 total | 100 | 10
+**Project total** | **250** | **25**
 &ensp;[Project idea submission form](https://forms.office.com/r/eZ1djDScD0) | 5 | 0.5
 &ensp;Project idea ranking form | 5 | 0.5
 &ensp;Project proposal | 60 | 6
 &ensp;Project progress report | 40 | 4
-&ensp;Project report | 120 | 12
-**Quizzes total** | **200** | **20**
-&ensp;Each quiz of 5 total | 40 | 4
+&ensp;Project report | 140 | 14
+**Quizzes total** | **150** | **15**
+&ensp;Each quiz of 5 total | 30 | 3
 **Midterm exam** | **200** | **20**
 **Participation total** | **100** | **10**
 &ensp;Attendance | 60 | 6
