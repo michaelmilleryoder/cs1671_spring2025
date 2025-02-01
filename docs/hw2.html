@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Homework 0: CRCD JupyterHub setup – CS 1671/2071 Human Language Technologies</title>
+<title>Homework 2: Text classification – CS 1671/2071 Human Language Technologies</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./hw0.html" aria-current="page"> 
+    <a class="nav-link" href="./hw0.html"> 
 <span class="menu-text">HW0</span></a>
   </li>  
   <li class="nav-item">
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">HW1</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hw2.html"> 
+    <a class="nav-link active" href="./hw2.html" aria-current="page"> 
 <span class="menu-text">HW2</span></a>
   </li>  
   <li class="nav-item">
@@ -124,7 +124,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#implement-a-deception-classifier" id="toc-implement-a-deception-classifier" class="nav-link" data-scroll-target="#implement-a-deception-classifier">Implement a deception classifier</a></li>
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
+  <li><a href="#part-1-feature-based-logistic-regression-models" id="toc-part-1-feature-based-logistic-regression-models" class="nav-link" data-scroll-target="#part-1-feature-based-logistic-regression-models">Part 1: Feature-based logistic regression models</a></li>
+  <li><a href="#part-2-optional-submit-your-classifier-in-the-class-challenge" id="toc-part-2-optional-submit-your-classifier-in-the-class-challenge" class="nav-link" data-scroll-target="#part-2-optional-submit-your-classifier-in-the-class-challenge">Part 2 <em>(Optional)</em> Submit your classifier in the class challenge</a>
+  <ul class="collapse">
+  <li><a href="#how-to-submit-your-classifier" id="toc-how-to-submit-your-classifier" class="nav-link" data-scroll-target="#how-to-submit-your-classifier">How to submit your classifier</a></li>
+  </ul></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Homework 0: CRCD JupyterHub setup</h1>
+<h1 class="title">Homework 2: Text classification</h1>
 </div>
 
 
@@ -150,19 +160,124 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Due 2025-01-22, 11:59pm</strong>. <em>Instructions last updated 2025-01-21.</em></p>
-<p><span style="color:red"><strong>This assignment is worth 5 points of extra credit. It is not required.</strong></span></p>
-<p>This assignment is simply for you to get set up with installing Python packages successfully on the CRCD JupyterHub, which we will use for in-class coding activities and likely some homework assignments and project work in this class.</p>
-<section id="instructions" class="level2">
-<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p><strong>Due 2025-02-20, 11:59pm</strong>. <em>Instructions last updated 2025-02-01.</em></p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>After completing this assignment, students will be able to:</p>
+<ul>
+<li>Implement a text classification system using logistic regression and feature-based approaches</li>
+<li>Design and implement a cross-validation evaluation for a text classification system</li>
+<li>Identify informative features in a feature-based text classification system</li>
+<li>Analyze errors in an NLP system</li>
+</ul>
+</section>
+<section id="implement-a-deception-classifier" class="level2">
+<h2 class="anchored" data-anchor-id="implement-a-deception-classifier">Implement a deception classifier</h2>
+<p>You will design and implement a program to classify if a comment from a player of the <a href="https://en.wikipedia.org/wiki/Diplomacy_(game)">Diplomacy</a> game is truthful or not.</p>
+<p>Your script should be able to take the filename of a dataset as a single keyword argument. You can use any packages you want for this (scikit-learn, spaCy, NLTK, Gensim, etc., as well as any code from Homework 1 or any in-class example notebook). Any packages used, along with verision numbers, should be specified in a <code>requirements.txt</code> file. The version of Python used should also be specified in your <code>README.txt</code> file. If you will be using a language other than Python, please let us know before submitting.</p>
+</section>
+<section id="dataset" class="level2">
+<h2 class="anchored" data-anchor-id="dataset">Dataset</h2>
+<p>Here is the dataset that you should download for this assignment:</p>
+<ul>
+<li><a href="hw2/diplomacy_cv.csv"><code>diplomacy_cv.csv</code></a>. This dataset has a variety of fields, but the most important are:
+<ul>
+<li><code>text</code>: the text of the comment</li>
+<li><code>intent</code>: 0 for truth, 1 for lie</li>
+</ul></li>
+<li><a href="hw2/diplomacy_kaggle.csv"><code>diplomacy_kaggle.csv</code></a> (only necessary if participating in the optional challenge). This data has the same fields as the training data, but does not have the “correct” intent filled in. This file is to be used as a test set for the optional challenge competition hosted on Kaggle.</li>
+</ul>
+<p>This dataset is from a recording of online players of Diplomacy, as presented in <a href="https://aclanthology.org/2020.acl-main.353/">Peskov et al.&nbsp;2020</a>. Negotiation and back-stabbing are key elements of the Diplomacy game.</p>
+</section>
+<section id="part-1-feature-based-logistic-regression-models" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-feature-based-logistic-regression-models">Part 1: Feature-based logistic regression models</h2>
+<p>In this section, you will build a logistic regression model based on bag-of-word features and/or features of your own design. You can do whatever preprocessing you see fit. You will report performance using 5-fold cross-validation on the <code>diplomacy_cv.csv</code> dataset, which you will set up. Make sure to just extract features (bag-of-words, etc) from the training set and not the test folds within cross-validation.</p>
+<p>Implement and try the following feature and model combinations:</p>
+<ul>
+<li><em>Logistic regression with bag-of-words (unigram) features</em>. Build a logistic regression classifier that uses bag-of-words (unigram) features.</li>
+<li><em>Logistic regression with your own features/change in preprocessing</em>. Design and test at least two modifications (custom features or preprocessing changes) to unweighted unigram features. Note that these features can be used in conjunction with bag-of-words features or by themselves. Possible features/changes to add and test include:
+<ul>
+<li>Tf-idf transformed bag-of-words features</li>
+<li>Changing count bag-of-words features to binary 0 or 1 for the presence of unigrams</li>
+<li>Higher order n-gram features (bigrams, trigrams, or combinations of them) beyond the unigrams used for the bag-of-words features</li>
+<li>Different preprocessing (stemming, different tokenizations, stopword removal)</li>
+<li>Reducing noisy features with feature selection</li>
+<li>Counts or added weight from custom word lists</li>
+<li>Any other custom-designed feature (such as length of input, number of capitalized words, etc)</li>
+</ul></li>
+</ul>
+<p>You will thus have 3 total logistic regression models: one using bag-of-word features and 2 with your own selected features or preprocessing changes.</p>
+<p>In the report, please provide:</p>
 <ol type="1">
-<li>Make sure you can log in to the CRCD JupyterHub at <a href="https://jupyter.crc.pitt.edu">jupyter.crc.pitt.edu</a> with your Pitt credentials. You can select the default <strong>Teach - 6 cores, 3 hours</strong> as your job profile. If you are off-campus or not on WIRELESS-PITTNET, you will need to log in to the Pitt VPN through the GlobalProtect app. Instructions for setting that up are <a href="https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=293">here</a>.</li>
-<li>Remove past versions of <code>session2_text_normalization.ipynb</code>. In the <code>cs1671_jupyterhub</code> folder (if you have one), delete <code>session2_text_normalization.ipynb</code>.</li>
-<li>Click the following <a href="https://jupyter.crc.pitt.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmichaelmilleryoder%2Fcs1671_jupyterhub&amp;urlpath=lab%2Ftree%2Fcs1671_jupyterhub%2F&amp;branch=main" target="_blank">nbgitpuller link</a>. This should load the newest version of <code>session2_text_normalization.ipynb</code>, which should look like <a href="https://github.com/michaelmilleryoder/cs1671_jupyterhub/blob/main/session2_text_normalization.ipynb" target="_blank">this</a> if you’re curious.</li>
-<li>Double-click <code>session2_text_normalization.ipynb</code> on the left-hand side panel to open the Jupyter notebook. It should not matter what kernel is selected. The default <strong>Python 3 (ipykernel)</strong> is fine.</li>
-<li>Run the first set of cells under the <strong>Setup</strong> section. That is all you have to do. You do not have to run the rest of the notebook.</li>
-<li>Take a screenshot of the output of those first cells, including <code>import nltk</code>, and submit it on Canvas. Ideally you are able to <code>import nltk</code>, but even if there are errors, that’s okay! You will still get extra credit, and I will message you on Canvas to try to figure any issues out.</li>
+<li>A table of 5-fold cross-validation performance scores for models trained on each set of features. Include accuracy as well as precision, recall, and f1-score for the positive (lying) class. Please average these scores across the 5 folds for each evaluation metric (there is no need to include scores for each fold).</li>
+<li>For each feature or change in input text processing:
+<ol type="1">
+<li>Describe your motivation for including the feature</li>
+<li>Discussion of results: Did it improve performance or not? (Either result is fine. It is not necessary to beat logistic regression with unigram features)</li>
+</ol></li>
+<li>For a feature-based model of your choice:
+<ol type="1">
+<li>Extract and discuss the most informative features that are mostly strongly positively and negatively associated with deception. Report the 5 features with the highest weights and 5 features with the lowest (negative) weights. Discuss how these may or may not make sense for this task. You may adapt code provided by the instructor, use another source online, or write your own. Give specific informative features, such as particular words (e.g.&nbsp;“actually”) for bag-of-words features, instead of sets of features like “tf-idf unigram features”.</li>
+<li>Do an error analysis. From one of the cross-validation runs, provide a confusion matrix <strong>on the test fold, not on training folds</strong>. You can also choose to create a separate development set from the data and provide a confusion matrix from that. Sample examples from both false negatives and false positives and present a few of them in the report. Do you see any patterns in these errors? How might these errors be addressed with different features or if the system could understand something else? (You don’t have to implement these, just speculate.)</li>
+</ol></li>
 </ol>
+</section>
+<section id="part-2-optional-submit-your-classifier-in-the-class-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-optional-submit-your-classifier-in-the-class-challenge">Part 2 <em>(Optional)</em> Submit your classifier in the class challenge</h2>
+<p>Optionally, you can submit your classifier to run on a hidden held-out test set as part of a class competition. Bonus points will be awarded in the competition as follows, as measured by accuracy on our held-out test set.</p>
+<ul>
+<li>6 bonus points for the best-performing logistic regression classifier</li>
+<li>4 bonus points for the 2nd best-performing logistic regression classifier</li>
+<li>2 bonus points for submitting any system (and not getting 1st or 2nd place)</li>
+</ul>
+<section id="how-to-submit-your-classifier" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-submit-your-classifier">How to submit your classifier</h3>
+<p>This optional competition is conducted on Kaggle. <strong>Check back for more details and a link to the Kaggle page for this competition.</strong></p>
+<!--See these pages for instructions on how to submit: -->
+<!--* [Logistic regression Kaggle competition](https://www.kaggle.com/t/8212bf24f3764f00a400b1d33f6585e9)-->
+<p>You will need to create a Kaggle account to submit. Please provide your Kaggle username used in the competition in your report so we can assign any bonus points. Note that this username will be visible in a leaderboard to other challenge competition participants.</p>
+</section>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>Don’t feel like you need to write things from scratch; use as many packages as you want. Google and Stack Overflow and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the <code>README.txt</code>. Just don’t use complete, fully-formed implementations for this (including from generative AI tools). Use all resources as aids, not as a final product.</li>
+<li>Optionally, you may incorporate any form of regularization that you like</li>
+</ul>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li>Your report with results and answers to questions in Part 1, named <code>hw2_{your pitt email id}.pdf</code>. No need to include <span class="citation" data-cites="pitt.edu">@pitt.edu</span>, just use the email ID before that part. For example: <code>report_mmyoder_hw2.pdf</code>.
+<ul>
+<li>If participating in the challenge, the Kaggle username you used to submit your predictions</li>
+<li>If participating in the challenge, your code used for that in a file named <code>hw2_{your pitt email id}_test.py</code>.</li>
+</ul></li>
+<li>Your code used to train models and estimate performance with cross-validation in a file named <code>hw2_{your pitt email id}_cv.py</code>.</li>
+<li>A <code>README.txt</code> file explaining
+<ul>
+<li>how to run the code you used to train your models and estimate cross-validation performance</li>
+<li>the version of Python used</li>
+<li>any additional files needed to run the code</li>
+<li>any additional resources, references, or web pages you’ve consulted</li>
+<li>any person with whom you’ve discussed the assignment and describe the nature of your discussions</li>
+<li>any generative AI tool used, and how it was used</li>
+<li>any unresolved issues or problems</li>
+</ul></li>
+<li>A <code>requirements.txt</code> file with:
+<ul>
+<li>all Python packages and package versions in the computing environment you used in case we replicate your experiments</li>
+</ul></li>
+</ul>
+<p>Please submit all of this material on Canvas. We will grade your report and look over your code.</p>
+<!--
+## Grading
+See rubric on Canvas.
+-->
+</section>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>This assignment is inspired from a homework assignment by Prof.&nbsp;Diane Litman. Data is from <a href="https://aclanthology.org/2020.acl-main.353/">Peskov et al.&nbsp;2020</a>.</p>
 
 
 </section>

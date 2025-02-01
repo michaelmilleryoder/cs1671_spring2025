@@ -91,7 +91,7 @@ Spring 2025
             <td>01-29 W</td>
             <td><a href="slides/session6_cs1671_spring2025.pdf">N-gram language models part 1</a></td>
             <td>J+M 3-3.3</td>
-            <td><strong>Quiz due 01-30</strong>,<br/><strong><a href="https://forms.office.com/r/eZ1djDScD0">Project idea submission form</a> due 01-30</strong>,<br/>HW2 out 02-01</td>
+            <td><strong>Quiz due 01-30</strong>,<br/><strong><a href="https://forms.office.com/r/eZ1djDScD0">Project idea submission form</a> due 01-30</strong>,<br/><a href="hw2">HW2</a> out 02-01</td>
         </tr>
         <tr>
             <td>7</td>
@@ -136,7 +136,7 @@ Spring 2025
             <td>02-19 W</td>
             <td>Neural networks part 1</td>
             <td></td>
-            <td><strong>HW2 due 02-20</strong></td>
+            <td><strong><a href="hw2">HW2</a> due 02-20</strong></td>
         </tr>
         <tr>
             <td>13</td>
