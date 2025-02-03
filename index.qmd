@@ -96,7 +96,7 @@ Spring 2025
         <tr>
             <td>7</td>
             <td>02-03 M</td>
-            <td>N-gram language models part 2</td>
+            <td><a href="slides/session7_cs1671_spring2025.pdf">N-gram language models part 2</a></td>
             <td>J+M 3.4-3.6, 3.8</td>
             <td>Project idea ranking form out</td>
         </tr>
