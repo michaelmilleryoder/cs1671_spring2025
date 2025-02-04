@@ -60,7 +60,7 @@ Students will form groups of 2-4 people around the following list of potential p
 1. Predict bullish/bearish sentiment toward companies from sites like r/WSB or Yahoo Finance.
 1. Develop language technologies for endangered languages and less-commonly spoken languages. This could involve building language models or machine translation systems for [Ligurian](https://github.com/ConseggioLigure/data), or automatically labeling syntax in Yupik or [other languages](https://universaldependencies.org/)
 1. Predict if a given text is a "dad joke" using [this dataset](https://www.kaggle.com/datasets/usamabuttar/dad-jokes).
-1. Compare sentiment toward bikes and bicyclists across biking-oriented and non-biking-oriented subreddits.
+1. Compare sentiment toward bikes and bicyclists across biking-oriented and non-biking-oriented subreddits, with a focus on Pittsburgh.
 1. Build a system to automatically simplify complex articles or papers into simple, easily digestible versions.
 
 ## Project proposal
