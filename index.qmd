@@ -98,14 +98,14 @@ Spring 2025
             <td>02-03 M</td>
             <td><a href="slides/session7_cs1671_spring2025.pdf">N-gram language models part 2</a></td>
             <td>J+M 3.4-3.6, 3.8</td>
-            <td>Project idea ranking form out</td>
+            <td></td>
         </tr>
         <tr>
             <td>8</td>
             <td>02-05 W</td>
-            <td>Tf-idf, PPMI</td>
+            <td>Project match day, tf-idf, PPMI</td>
             <td>J+M 6.5-6.7</td>
-            <td><strong>Quiz due 02-06</strong>,<br/><strong>Project idea ranking form due 02-06</strong></td>
+            <td><strong>Quiz due 02-06</strong></td>
         </tr>
         <tr>
             <td>9</td>
@@ -271,9 +271,8 @@ Description | Points | Percentage of final grade
 &ensp;Each homework of 3 total | 100 | 10
 **Project total** | **250** | **25**
 &ensp;[Project idea submission form](https://forms.office.com/r/eZ1djDScD0) | 5 | 0.5
-&ensp;Project idea ranking form | 5 | 0.5
 &ensp;Project proposal | 60 | 6
-&ensp;Project progress report | 40 | 4
+&ensp;Project progress report | 45 | 4.5
 &ensp;Project report | 140 | 14
 **Quizzes total** | **150** | **15**
 &ensp;Each quiz of 5 total | 30 | 3
