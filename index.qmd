@@ -103,7 +103,7 @@ Spring 2025
         <tr>
             <td>8</td>
             <td>02-05 W</td>
-            <td><a href="slides/session7_cs1671_spring2025.pdf">Project match day, tf-idf, PPMI</a></td>
+            <td><a href="slides/session8_cs1671_spring2025.pdf">Project match day, tf-idf, PPMI</a></td>
             <td>J+M 6.5-6.7</td>
             <td><strong>Quiz due 02-06</strong></td>
         </tr>
