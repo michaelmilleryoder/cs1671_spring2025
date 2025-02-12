@@ -25,7 +25,7 @@ Spring 2025
 
 
 # Schedule
-*Subject to change. Last revised 2025-01-31. All due dates are at 11:59pm ET except when indicated.*
+*Subject to change. Last revised 2025-02-12. All due dates are at 11:59pm ET except when indicated.*
 
 <table class="schedule">
     <thead>
@@ -135,21 +135,21 @@ Spring 2025
             <td>12</td>
             <td>02-19 W</td>
             <td>Neural networks part 1</td>
-            <td></td>
+            <td>J+M 7-7.1, 7.3</td>
             <td><strong><a href="hw2">HW2</a> due 02-20</strong></td>
         </tr>
         <tr>
             <td>13</td>
             <td>02-24 M</td>
             <td>Neural networks part 2</td>
-            <td></td>
+            <td>J+M 7.4-7.5, 7.8</td>
             <td></td>
         </tr>
         <tr>
             <td>14</td>
             <td>02-26 W</td>
             <td>Vector semantics, word2vec</td>
-            <td></td>
+            <td>J+M 6-6.2, 6.8-6.11, 6.13</td>
             <td><strong>Project proposal due 02-28</strong></td>
         </tr>
         <tr style="background-color:#cccccc">
@@ -169,35 +169,35 @@ Spring 2025
             <td>16</td>
             <td>03-12 W</td>
             <td>Transformers part 1</td>
-            <td></td>
+            <td>J+M 9-9.1</td>
             <td><strong>Quiz due 03-13</strong>,<br/>HW3 out</td>
         </tr>
         <tr>
             <td>17</td>
             <td>03-17 M</td>
             <td>Transformers part 2</td>
-            <td></td>
+            <td>J+M 9.2, 9.4-9.6</td>
             <td></td>
         </tr>
         <tr>
             <td>18</td>
             <td>03-19 W</td>
-            <td>LLMs part 1</td>
-            <td></td>
+            <td>LLMs</td>
+            <td>J+M 10-10.3, 10.6-10.7</td>
             <td><strong>Project progress report due 03-20</strong></td>
         </tr>
         <tr>
             <td>19</td>
             <td>03-24 M</td>
-            <td>LLMs part 2</td>
-            <td></td>
+            <td>Masked Language Modeling (BERT)</td>
+            <td>J+M 11-11.2, 11.4-11.6</td>
             <td></td>
         </tr>
         <tr>
             <td>20</td>
             <td>03-26 W</td>
             <td>In-context learning, post-training</td>
-            <td></td>
+            <td>J+M 12-12.5, 12.8</td>
             <td><strong>Quiz due 03-27</strong></td>
         </tr>
         <tr>
@@ -221,14 +221,14 @@ Spring 2025
             <td>23</td>
             <td>04-07 M</td>
             <td>Machine translation</td>
-            <td></td>
+            <td>J+M 13-13.3, 13.6-13.8</td>
             <td></td>
         </tr>
         <tr>
             <td>24</td>
             <td>04-09 W</td>
             <td>Dialogue systems, chatbots</td>
-            <td></td>
+            <td>J+M 15</td>
             <td><strong>HW3 due</strong></td>
         </tr>
         <tr>
@@ -242,7 +242,7 @@ Spring 2025
             <td>26</td>
             <td>04-16 W</td>
             <td>Social factors, bias and ethics in NLP</td>
-            <td></td>
+            <td><a href="https://aclanthology.org/P16-2096.pdf">Hovy and Spruit 2016</a>,<br/><a href="https://aclanthology.org/2020.acl-main.485.pdf">Blodgett et al. 2020</a></td>
             <td></td>
         </tr>
         <tr>
