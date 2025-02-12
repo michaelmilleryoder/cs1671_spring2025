@@ -182,7 +182,7 @@ Spring 2025
         <tr>
             <td>18</td>
             <td>03-19 W</td>
-            <td>LLMs</td>
+            <td>Introduction to LLMs</td>
             <td>J+M 10-10.3, 10.6-10.7</td>
             <td><strong>Project progress report due 03-20</strong></td>
         </tr>
@@ -196,7 +196,7 @@ Spring 2025
         <tr>
             <td>20</td>
             <td>03-26 W</td>
-            <td>In-context learning, post-training</td>
+            <td>LLM in-context learning, post-training</td>
             <td>J+M 12-12.5, 12.8</td>
             <td><strong>Quiz due 03-27</strong></td>
         </tr>
