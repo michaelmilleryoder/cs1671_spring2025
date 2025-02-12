@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Due 2025-02-20, 11:59pm</strong>. <em>Instructions last updated 2025-02-01.</em></p>
+<p><strong>Due 2025-02-20, 11:59pm</strong>. <em>Instructions last updated 2025-02-12.</em></p>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
 <p>After completing this assignment, students will be able to:</p>
@@ -198,9 +198,10 @@ ul.task-list li input[type="checkbox"] {
 <li><em>Logistic regression with your own features/change in preprocessing</em>. Design and test at least two modifications (custom features or preprocessing changes) to unweighted unigram features. Note that these features can be used in conjunction with bag-of-words features or by themselves. Possible features/changes to add and test include:
 <ul>
 <li>Tf-idf transformed bag-of-words features</li>
-<li>Changing count bag-of-words features to binary 0 or 1 for the presence of unigrams</li>
 <li>Higher order n-gram features (bigrams, trigrams, or combinations of them) beyond the unigrams used for the bag-of-words features</li>
 <li>Different preprocessing (stemming, different tokenizations, stopword removal)</li>
+<li>Changing count bag-of-words features to binary 0 or 1 for the presence of unigrams</li>
+<li>Incorporating features from columns in the dataset other than <code>text</code></li>
 <li>Reducing noisy features with feature selection</li>
 <li>Counts or added weight from custom word lists</li>
 <li>Any other custom-designed feature (such as length of input, number of capitalized words, etc)</li>
@@ -232,17 +233,15 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <section id="how-to-submit-your-classifier" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-submit-your-classifier">How to submit your classifier</h3>
-<p>This optional competition is conducted on Kaggle. <strong>Check back for more details and a link to the Kaggle page for this competition.</strong></p>
-<!--See these pages for instructions on how to submit: -->
-<!--* [Logistic regression Kaggle competition](https://www.kaggle.com/t/8212bf24f3764f00a400b1d33f6585e9)-->
-<p>You will need to create a Kaggle account to submit. Please provide your Kaggle username used in the competition in your report so we can assign any bonus points. Note that this username will be visible in a leaderboard to other challenge competition participants.</p>
+<p>This optional competition is conducted on Kaggle. See this page for instructions on how to submit: <a href="https://www.kaggle.com/t/86f51f2238334c41b13bdb6c4f1b6fa6" class="uri">https://www.kaggle.com/t/86f51f2238334c41b13bdb6c4f1b6fa6</a></p>
+<p>You will need to create a Kaggle account to submit. <strong>Please provide your Kaggle username used in the competition in your report so we can assign any bonus points.</strong> Note that this username will be visible in a leaderboard to other challenge competition participants.</p>
 </section>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
 <ul>
-<li>Don’t feel like you need to write things from scratch; use as many packages as you want. Google and Stack Overflow and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the <code>README.txt</code>. Just don’t use complete, fully-formed implementations for this (including from generative AI tools). Use all resources as aids, not as a final product.</li>
-<li>Optionally, you may incorporate any form of regularization that you like</li>
+<li>Don’t feel like you need to write things from scratch; use as many packages as you want. Class Jupyter notebooks, Google, Stack Overflow, and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the <code>README.txt</code>. Just don’t use complete, fully-formed implementations, including from generative AI tools. Use all resources as aids, not as a final product.</li>
+<li>Optionally, you may incorporate any form of regularization that you like.</li>
 </ul>
 </section>
 <section id="deliverables" class="level2">
@@ -251,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Your report with results and answers to questions in Part 1, named <code>hw2_{your pitt email id}.pdf</code>. No need to include <span class="citation" data-cites="pitt.edu">@pitt.edu</span>, just use the email ID before that part. For example: <code>report_mmyoder_hw2.pdf</code>.
 <ul>
 <li>If participating in the challenge, the Kaggle username you used to submit your predictions</li>
-<li>If participating in the challenge, your code used for that in a file named <code>hw2_{your pitt email id}_test.py</code>.</li>
+<li>If participating in the challenge, your code used for that in a file named <code>hw2_{your pitt email id}_kaggle.py</code>.</li>
 </ul></li>
 <li>Your code used to train models and estimate performance with cross-validation in a file named <code>hw2_{your pitt email id}_cv.py</code>.</li>
 <li>A <code>README.txt</code> file explaining

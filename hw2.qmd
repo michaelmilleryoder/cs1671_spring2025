@@ -2,7 +2,7 @@
 title: "Homework 2: Text classification"
 ---
 
-**Due 2025-02-20, 11:59pm**. *Instructions last updated 2025-02-01.*
+**Due 2025-02-20, 11:59pm**. *Instructions last updated 2025-02-12.*
 
 ## Learning objectives
 After completing this assignment, students will be able to:
@@ -37,9 +37,10 @@ Implement and try the following feature and model combinations:
 * *Logistic regression with bag-of-words (unigram) features*. Build a logistic regression classifier that uses bag-of-words (unigram) features.
 * *Logistic regression with your own features/change in preprocessing*. Design and test at least two modifications (custom features or preprocessing changes) to unweighted unigram features. Note that these features can be used in conjunction with bag-of-words features or by themselves. Possible features/changes to add and test include:
 	* Tf-idf transformed bag-of-words features
-	* Changing count bag-of-words features to binary 0 or 1 for the presence of unigrams
 	* Higher order n-gram features (bigrams, trigrams, or combinations of them) beyond the unigrams used for the bag-of-words features
 	* Different preprocessing (stemming, different tokenizations, stopword removal)
+	* Changing count bag-of-words features to binary 0 or 1 for the presence of unigrams
+	* Incorporating features from columns in the dataset other than `text`
 	* Reducing noisy features with feature selection
 	* Counts or added weight from custom word lists
 	* Any other custom-designed feature (such as length of input, number of capitalized words, etc)
@@ -65,25 +66,21 @@ Optionally, you can submit your classifier to run on a hidden held-out test set 
 * 2 bonus points for submitting any system (and not getting 1st or 2nd place)
 
 ### How to submit your classifier
-This optional competition is conducted on Kaggle. **Check back for more details and a link to the Kaggle page for this competition.**
+This optional competition is conducted on Kaggle. See this page for instructions on how to submit: <https://www.kaggle.com/t/86f51f2238334c41b13bdb6c4f1b6fa6>
 
-<!--See these pages for instructions on how to submit: -->
-
-<!--* [Logistic regression Kaggle competition](https://www.kaggle.com/t/8212bf24f3764f00a400b1d33f6585e9)-->
-
-You will need to create a Kaggle account to submit. Please provide your Kaggle username used in the competition in your report so we can assign any bonus points. Note that this username will be visible in a leaderboard to other challenge competition participants.
+You will need to create a Kaggle account to submit. **Please provide your Kaggle username used in the competition in your report so we can assign any bonus points.** Note that this username will be visible in a leaderboard to other challenge competition participants.
 
 ## Notes
 
-* Don't feel like you need to write things from scratch; use as many packages as you want. Google and Stack Overflow and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the `README.txt`. Just don't use complete, fully-formed implementations for this (including from generative AI tools). Use all resources as aids, not as a final product.
-* Optionally, you may incorporate any form of regularization that you like
+* Don't feel like you need to write things from scratch; use as many packages as you want. Class Jupyter notebooks, Google, Stack Overflow, and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the `README.txt`. Just don't use complete, fully-formed implementations, including from generative AI tools. Use all resources as aids, not as a final product.
+* Optionally, you may incorporate any form of regularization that you like.
 
 
 ## Deliverables
 
 * Your report with results and answers to questions in Part 1, named `hw2_{your pitt email id}.pdf`. No need to include @pitt.edu, just use the email ID before that part. For example: `report_mmyoder_hw2.pdf`.
 	* If participating in the challenge, the Kaggle username you used to submit your predictions
-	* If participating in the challenge, your code used for that in a file named `hw2_{your pitt email id}_test.py`. 
+	* If participating in the challenge, your code used for that in a file named `hw2_{your pitt email id}_kaggle.py`. 
 * Your code used to train models and estimate performance with cross-validation in a file named `hw2_{your pitt email id}_cv.py`.
 * A `README.txt` file explaining
 	* how to run the code you used to train your models and estimate cross-validation performance
