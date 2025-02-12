@@ -117,7 +117,7 @@ Spring 2025
         <tr>
             <td>10</td>
             <td>02-12 W</td>
-            <td>Logistic regression part 1</td>
+            <td><a href="slides/session10_cs1671_spring2025.pdf">Logistic regression part 1</a></td>
             <td>J+M 5-5.3</td>
             <td><strong>Quiz due 02-13</strong></td>
         </tr>
