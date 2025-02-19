@@ -134,7 +134,7 @@ Spring 2025
         <tr>
             <td>12</td>
             <td>02-19 W</td>
-            <td>Neural networks part 1</td>
+            <td><a href="slides/session12_cs1671_spring2025.pdf">Neural networks part 1</a></td>
             <td>J+M 7-7.1, 7.3</td>
             <td><strong><a href="hw2">HW2</a> due 02-20</strong></td>
         </tr>
