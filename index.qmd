@@ -189,7 +189,7 @@ Spring 2025
         <tr>
             <td>19</td>
             <td>03-24 M</td>
-            <td>Masked Language Modeling (BERT)</td>
+            <td>BERT</td>
             <td>J+M 11-11.2, 11.4-11.6</td>
             <td></td>
         </tr>
