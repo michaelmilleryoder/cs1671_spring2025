@@ -166,16 +166,16 @@ Note: you can compare your answers against the key to see if you have done thi
 -->
 
 ## Deliverables
-* Your ouput CSV from Part 1, named `spanish_test.csv`
+* Your output CSV from Part 1, named `spanish_test.csv`
 * A modified `hw1_skeleton.py` file that contains your solutions. There is no need to put in a `main` function to run other functions. We will directly run the functions you filled in for grading.
 * A README.txt file explaining
 	1. how to run your code
 	2. what version of Python you used
-	3. a `requirements.txt` file listing all Python packages and their versions in your environment (or on your system if you did not use a virtual environment). This may be created using `pip freeze > requirements.txt`, `conda list -e > requirements.txt` if using Anaconda, or through the `pipenv` package.
 	4. any additional resources, references, or web pages you've consulted
 	5. any person with whom you've discussed the assignment and describe the nature of your discussions
 	6. any generative AI tool used, and how it was used
 	7. any unresolved issues or problems
+* A `requirements.txt` file listing all Python packages and their versions in your environment (or on your system if you did not use a virtual environment). This may be created using `pip freeze > requirements.txt`, `conda list -e > requirements.txt` if using Anaconda, or through the `pipenv` package.
 
 Please submit this material on Canvas as individual files. Only files with `.py` or `.txt` file extensions will be accepted. If you used Jupyter Notebook to complete the assignment, please download it as a `.py` script.
 
