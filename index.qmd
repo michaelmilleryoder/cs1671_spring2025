@@ -150,7 +150,7 @@ Spring 2025
             <td>02-26 W</td>
             <td>Vector semantics, word2vec</td>
             <td>J+M 6-6.2, 6.8-6.11, 6.13</td>
-            <td><strong>Project proposal due 02-28</strong></td>
+            <td><strong><a href="project.html#project-proposal">Project proposal</a> due 02-28</strong></td>
         </tr>
         <tr style="background-color:#cccccc">
             <td colspan=5 style="text-align:center; font-style:italic">Spring Break 03-03 to 03-07</td>
@@ -271,7 +271,7 @@ Description | Points | Percentage of final grade
 &ensp;Each homework of 3 total | 100 | 10
 **Project total** | **250** | **25**
 &ensp;[Project idea submission form](https://forms.office.com/r/eZ1djDScD0) | 5 | 0.5
-&ensp;Project proposal | 60 | 6
+&ensp;[Project proposal](project.html#project-proposal) | 60 | 6
 &ensp;Project progress report | 45 | 4.5
 &ensp;Project report | 140 | 14
 **Quizzes total** | **150** | **15**
