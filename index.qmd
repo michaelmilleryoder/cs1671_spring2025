@@ -271,8 +271,8 @@ Description | Points | Percentage of final grade
 &ensp;Each homework of 3 total | 100 | 10
 **Project total** | **250** | **25**
 &ensp;[Project idea submission form](https://forms.office.com/r/eZ1djDScD0) | 5 | 0.5
-&ensp;[Project proposal](project.html#project-proposal) | 60 | 6
-&ensp;Project progress report | 45 | 4.5
+&ensp;[Project proposal](project.html#project-proposal) | 50 | 5
+&ensp;Project progress report | 55 | 5.5
 &ensp;Project report | 140 | 14
 **Quizzes total** | **150** | **15**
 &ensp;Each quiz of 5 total | 30 | 3
