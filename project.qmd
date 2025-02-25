@@ -2,7 +2,7 @@
 title: "Project"
 ---
 
-*Last revised 2025-02-19.*
+*Last revised 2025-02-25.*
 
 A major component of this course is a hands-on final project. In this project, students will demonstrate an ability to build and evaluate an NLP system that takes in language data and automatically produces some sort of output.
 
@@ -71,7 +71,7 @@ Please submit one per group on Canvas. There is no required length or format for
 1. What is the format of the input and output of this task? For example, each input could be a sentence of text and the output could be a label from a discrete set of possible labels. Provide at least one example of input and output from your data.
 1. What data are you using? Please explain where these datasets are from and how they were constructed. Provide links to any URLs if the data is hosted online or links to papers if the dataset is published somewhere. If the data has labels or "gold" text that you are predicting or generating, where do those labels come from?
 1. What approach are you taking to building a NLP system to handle this task? What software packages are you planning to use to build this system? Except in some cases, the approach should draw on statistical approaches we've covered in class so far, such as n-gram representations of text. Talk to the instructor if you are not sure about this.
-1. How are you evaluating your contribution? What performance metrics are you going to use?
+1. How are you evaluating your approach? What performance metrics are you going to use?
 1. What kinds of ethical issues may be raised by your model or data?
 1. What are the proposed steps needed for completion of the project?
 1. What are roles and tasks of each person in the group? Though group members will contribute in various capacities, it is best if each person is responsible for at least one aspect of the project.
