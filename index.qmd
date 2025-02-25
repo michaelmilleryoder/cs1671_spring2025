@@ -148,7 +148,7 @@ Spring 2025
         <tr>
             <td>14</td>
             <td>02-26 W</td>
-            <td>Vector semantics, word2vec</td>
+            <td><a href="slides/session14_cs1671_spring2025.pdf">Vector semantics, word2vec</a></td>
             <td>J+M 6-6.2, 6.8-6.11, 6.13</td>
             <td><strong><a href="project.html#project-proposal">Project proposal</a> due 02-28</strong></td>
         </tr>
@@ -158,7 +158,7 @@ Spring 2025
         <tr>
             <td>15</td>
             <td>03-10 M</td>
-            <td style="font-weight:bold">Project proposal presentations</td>
+            <td style="font-weight:bold"><a href="https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/EeSMJg2bTTRPowVW_nEg_KoBJ2FEDwcwF5miQ-WuAi5QsA?e=OigMxy">Project proposal presentations</a></td>
             <td></td>
             <td></td>
         </tr>

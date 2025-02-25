@@ -78,13 +78,14 @@ Please submit one per group on Canvas. There is no required length or format for
 
 ## Project proposal presentation 
 *In class 03-10*.  
-Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. Please plan for maximum 5-minute presentations not including Q&A, which will be held right afterward for each group. 
-<!--Please add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/EZ-R5EtO8uBIiPfiAhdqOdYBSzH011O79AnfIODMJ0Q9qQ?e=VmKgkU). -->
-Presentations are not graded. Cover at least these key points (**more information will be added later**):
+Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. Please plan for maximum **5-minute** presentations not including Q&A, which will be held right afterward for each group. 
+Please add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/EeSMJg2bTTRPowVW_nEg_KoBJ2FEDwcwF5miQ-WuAi5QsA?e=OigMxy).
+Presentations are not graded. Cover at least these key points:
 
+1. Project motivation
 1. What data you are planning to use
-1. What approach/methods will you be taking
-1. Evaluation of your approach (or dataset, if it’s a dataset contribution)
+1. What approach/methods you plan to take
+1. How you will evaluate your approach
 
 ## Progress report
 *Due 03-20*.  
