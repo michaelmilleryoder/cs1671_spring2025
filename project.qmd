@@ -2,7 +2,7 @@
 title: "Project"
 ---
 
-*Last revised 2025-02-25.*
+*Last revised 2025-02-27.*
 
 A major component of this course is a hands-on final project. In this project, students will demonstrate an ability to build and evaluate an NLP system that takes in language data and automatically produces some sort of output.
 
@@ -73,7 +73,7 @@ Please submit one per group on Canvas. There is no required length or format for
 1. What approach are you taking to building a NLP system to handle this task? What software packages are you planning to use to build this system? Except in some cases, the approach should draw on statistical approaches we've covered in class so far, such as n-gram representations of text. Talk to the instructor if you are not sure about this.
 1. How are you evaluating your approach? What performance metrics are you going to use?
 1. What kinds of ethical issues may be raised by your model or data?
-1. What are the proposed steps needed for completion of the project?
+1. What are the proposed steps needed for completion of (your proposed part) of the project? This should be in some detail, for example, loading and potentially cleaning the data, training models, trying different parameters, evaluating models, etc.
 1. What are roles and tasks of each person in the group? Though group members will contribute in various capacities, it is best if each person is responsible for at least one aspect of the project.
 
 ## Project proposal presentation 
