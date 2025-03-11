@@ -168,14 +168,14 @@ Spring 2025
         <tr>
             <td>16</td>
             <td>03-12 W</td>
-            <td>Transformers part 1</td>
+            <td><em>No class. Michael sick.</em></td>
             <td>J+M 9-9.1</td>
             <td><strong>Quiz due 03-13</strong>,<br/>HW3 out</td>
         </tr>
         <tr>
             <td>17</td>
             <td>03-17 M</td>
-            <td>Transformers part 2</td>
+            <td>Transformers</td>
             <td>J+M 9.2, 9.4-9.6</td>
             <td></td>
         </tr>
