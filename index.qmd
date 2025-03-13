@@ -184,7 +184,7 @@ Spring 2025
             <td>03-19 W</td>
             <td>Transformers part 2, introduction to LLMs</td>
             <td>J+M 9.4-9.6, 10-10.3, 10.6-10.7</td>
-            <td>HW3 out 03-21</td>
+            <td><strong>Quiz due 03-20</strong>,<br/>HW3 out 03-21</td>
         </tr>
         <tr>
             <td>18</td>
@@ -198,7 +198,7 @@ Spring 2025
             <td>03-26 W</td>
             <td>LLM in-context learning, post-training</td>
             <td>J+M 12-12.5, 12.8</td>
-            <td><strong>Project progress report due 03-27</strong>,<br/><strong>Quiz due 03-27</strong></td>
+            <td><strong>Project progress report due 03-27</strong></td>
         </tr>
         <tr>
             <td>20</td>
