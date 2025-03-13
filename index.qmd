@@ -166,49 +166,49 @@ Spring 2025
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 4: Transformers and LLMs</td>
         </tr>
         <tr>
-            <td>16</td>
+            <td></td>
             <td>03-12 W</td>
             <td><em>No class. Michael sick.</em></td>
             <td></td>
             <td><strong>Quiz due 03-13</strong></td>
         </tr>
         <tr>
-            <td>17</td>
+            <td>16</td>
             <td>03-17 M</td>
             <td>Transformers part 1</td>
             <td>J+M 9-9.2</td>
             <td></td>
         </tr>
         <tr>
-            <td>18</td>
+            <td>17</td>
             <td>03-19 W</td>
             <td>Transformers part 2, introduction to LLMs</td>
             <td>J+M 9.4-9.6, 10-10.3, 10.6-10.7</td>
             <td>HW3 out 03-21</td>
         </tr>
         <tr>
-            <td>19</td>
+            <td>18</td>
             <td>03-24 M</td>
             <td>BERT</td>
             <td>J+M 11-11.2, 11.4-11.6</td>
             <td></td>
         </tr>
         <tr>
-            <td>20</td>
+            <td>19</td>
             <td>03-26 W</td>
             <td>LLM in-context learning, post-training</td>
             <td>J+M 12-12.5, 12.8</td>
             <td><strong>Project progress report due 03-27</strong>,<br/><strong>Quiz due 03-27</strong></td>
         </tr>
         <tr>
-            <td>21</td>
+            <td>20</td>
             <td>03-31 M</td>
             <td>Exam review</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>22</td>
+            <td>21</td>
             <td>04-02 W</td>
             <td style="font-weight:bold">Exam</td>
             <td></td>
@@ -218,42 +218,42 @@ Spring 2025
             <td colspan=5 style="text-align:center; background-color:#000057; color:white">Module 5: NLP applications and ethics</td>
         </tr>
         <tr>
-            <td>23</td>
+            <td>22</td>
             <td>04-07 M</td>
             <td>Machine translation</td>
             <td>J+M 13-13.3, 13.6-13.8</td>
             <td></td>
         </tr>
         <tr>
-            <td>24</td>
+            <td>23</td>
             <td>04-09 W</td>
             <td>Dialogue systems, chatbots</td>
             <td>J+M 15</td>
             <td><strong>HW3 due</strong></td>
         </tr>
         <tr>
-            <td>25</td>
+            <td>24</td>
             <td>04-14 M</td>
             <td>Information retrieval, RAG</td>
             <td>J+M 14-14.3.1, 14.5</td>
             <td></td>
         </tr>
         <tr>
-            <td>26</td>
+            <td>25</td>
             <td>04-16 W</td>
             <td>Social factors, bias and ethics in NLP</td>
             <td><a href="https://aclanthology.org/P16-2096.pdf">Hovy and Spruit 2016</a>, <a href="https://aclanthology.org/2020.acl-main.485.pdf">Blodgett et al. 2020</a></td>
             <td></td>
         </tr>
         <tr>
-            <td>27</td>
+            <td>26</td>
             <td>04-21 M</td>
             <td>Project work time</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>28</td>
+            <td>27</td>
             <td><em>TBD</em></td>
             <td style="font-weight:bold">Project presentations</td>
             <td></td>
