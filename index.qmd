@@ -308,7 +308,7 @@ The overarching learning objective of this course is for students to be able to 
 * Some basic Python knowledge will be assumed. If you are not familiar with Python, see the learning resources below.
 
 # Learning resources
-**Textbook**: Dan Jurafsky and James H. Martin, *Speech and Language Processing*, 3rd edition draft, 2024-08-20. Available completely free online: [https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/)
+**Textbook**: Dan Jurafsky and James H. Martin, *Speech and Language Processing*, 3rd edition draft, 2025-01-12. Available completely free online: [https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/)
 
 **Software and programming languages**: Python and associated data science libraries (pandas, numpy, scipy) are the preferred software for completing coding portions of homework assignments. Some basic knowledge of Python is a prerequisite of the course, as some of the homework assignments require Python. The project may be completed with any programming language or tools.
 
