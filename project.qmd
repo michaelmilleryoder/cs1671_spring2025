@@ -88,7 +88,7 @@ Presentations are not graded. Cover at least these key points:
 1. How you will evaluate your approach
 
 ## Progress report
-*Due 03-20*.  
+*Due 03-27*.  
 **Requirements TBD**. Also list any questions you have or resources you will need to successfully complete the project by the final deadline, if you have any. You do not have to repeat information from the project proposal except for basic descriptions of the project.
 
 ## Final presentation
