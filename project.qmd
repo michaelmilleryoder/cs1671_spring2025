@@ -94,6 +94,7 @@ The progress report will contain a substantive update on your group's progress u
 
 ### Part 1: Data basic statistics and exploratory analysis
 In this part, please provide the following information about your dataset. It's fine to be working with multiple datasets; just complete this for each one or for a final dataset you will be using if you are combining datasets.
+
 1. The number of rows (datapoints) in the dataset and what each datapoint corresponds to. If you are splitting the dataset into a training, test, and possible dev sets, how many rows are in each?
 1. The number of columns in the dataset you will be using and what each corresponds to.
 1. If applicable, the distribution of the target labels you are predicting. So for a binary sentiment classification task, how many rows in each set (except the test set) are marked negative or positive sentiment? This can be in a table or graph format.
