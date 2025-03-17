@@ -89,7 +89,6 @@ Presentations are not graded. Cover at least these key points:
 
 ## Progress report
 *Due 03-27*.  
-**Requirements TBD**. Also list any questions you have or resources you will need to successfully complete the project by the final deadline, if you have any. .
 
 The progress report will contain a substantive update on your group's progress using traditional (usually n-gram based) approaches on your task, as well as a description of how you will use LLMs for your task. You do not have to repeat information from the project proposal except for basic descriptions of the project and Part 1 information if you already provided it in the proposal. Here are the details:
 
