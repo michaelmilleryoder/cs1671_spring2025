@@ -184,7 +184,7 @@ Spring 2025
             <td>03-19 W</td>
             <td><a href="slides/session17_cs1671_spring2025.pdf">Transformers part 2, introduction to LLMs</a></td>
             <td>J+M 9.4-9.6, 10-10.3, 10.6-10.7</td>
-            <td><strong>Quiz due 03-20</strong>,<br/>HW3 out 03-21</td>
+            <td><strong>Quiz due 03-20</strong>,<br/>HW3 out 03-23</td>
         </tr>
         <tr>
             <td>18</td>
