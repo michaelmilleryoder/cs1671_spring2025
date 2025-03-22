@@ -189,7 +189,7 @@ Spring 2025
         <tr>
             <td>18</td>
             <td>03-24 M</td>
-            <td>BERT</td>
+            <td><a href="slides/session18_cs1671_spring2025.pdf">BERT</a></td>
             <td>J+M 11-11.2, 11.4-11.6</td>
             <td></td>
         </tr>
