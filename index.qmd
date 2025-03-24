@@ -184,14 +184,14 @@ Spring 2025
             <td>03-19 W</td>
             <td><a href="slides/session17_cs1671_spring2025.pdf">Transformers part 2, introduction to LLMs</a></td>
             <td>J+M 9.4-9.6, 10-10.3, 10.6-10.7</td>
-            <td><strong>Quiz due 03-20</strong>,<br/>HW3 out 03-23</td>
+            <td><strong>Quiz due 03-20</strong></td>
         </tr>
         <tr>
             <td>18</td>
             <td>03-24 M</td>
             <td><a href="slides/session18_cs1671_spring2025.pdf">BERT</a></td>
             <td>J+M 11-11.2, 11.4-11.6</td>
-            <td></td>
+            <td>HW3 out</td>
         </tr>
         <tr>
             <td>19</td>
@@ -229,7 +229,7 @@ Spring 2025
             <td>04-09 W</td>
             <td>Dialogue systems, chatbots</td>
             <td>J+M 15</td>
-            <td><strong>HW3 due</strong></td>
+            <td><strong>HW3 due 04-10</strong></td>
         </tr>
         <tr>
             <td>24</td>
