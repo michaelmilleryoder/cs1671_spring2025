@@ -74,7 +74,7 @@
     "href": "hw3.html#overview",
     "title": "Homework 3: Large language model (LLM) prompting",
     "section": "Overview",
-    "text": "Overview\nIn this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code. Click on the class nbgitpuller link and edit the template notebook, hw3_template.ipynb."
+    "text": "Overview\nIn this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code. Click on the class nbgitpuller link and edit the template notebook, hw3_template.ipynb. You can run it on the standard CPU server; no GPU is needed."
   },
   {
     "objectID": "hw3.html#openai-account-setup",

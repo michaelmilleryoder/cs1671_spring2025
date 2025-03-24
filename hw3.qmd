@@ -15,6 +15,7 @@ After completing this assignment, students will be able to:
 ## Overview
 In this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code. 
 Click on the [class nbgitpuller link](https://jupyter.crc.pitt.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmichaelmilleryoder%2Fcs1671_jupyterhub&urlpath=lab%2Ftree%2Fcs1671_jupyterhub%2F&branch=main) and edit the template notebook, `hw3_template.ipynb`.
+You can run it on the standard CPU server; no GPU is needed.
 
 ## OpenAI account setup
 Until the class OpenAI account is available, you will have to use your own account with free credits. You will need an OpenAI account and API key, you can [sign up here](https://www.google.com/url?q=https%3A%2F%2Fplatform.openai.com%2Fsignup%3Flaunch) and learn [how to make an API key here](https://www.google.com/url?q=https%3A%2F%2Fhelp.openai.com%2Fen%2Farticles%2F4936850-where-do-i-find-my-secret-api-key). The OpenAI API is paid, however, this homework will stay well under the free \$5 credit given to each account. Be careful not to exhaust your free OpenAI credits while testing. You can check [on this page here](https://www.google.com/url?q=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fusage). To avoid exhausting your credits quickly, avoid running cells over and over again after you've completed an exercise.
