@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Homework 3: LLM prompting – CS 1671/2071 Human Language Technologies</title>
+<title>Homework 3: Large language model (LLM) prompting – CS 1671/2071 Human Language Technologies</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">HW2</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./hw3.html" aria-current="page"> 
+<span class="menu-text">HW3</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./project.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
@@ -128,6 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#openai-account-setup" id="toc-openai-account-setup" class="nav-link" data-scroll-target="#openai-account-setup">OpenAI account setup</a></li>
   <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#background-readings" id="toc-background-readings" class="nav-link" data-scroll-target="#background-readings">Background readings</a></li>
   <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
   </ul>
 </nav>
@@ -137,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Homework 3: LLM prompting</h1>
+<h1 class="title">Homework 3: Large language model (LLM) prompting</h1>
 </div>
 
 
@@ -166,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>In this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code.</p>
+<p>In this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code. Click on the <a href="https://jupyter.crc.pitt.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmichaelmilleryoder%2Fcs1671_jupyterhub&amp;urlpath=lab%2Ftree%2Fcs1671_jupyterhub%2F&amp;branch=main">class nbgitpuller link</a> and edit the template notebook, <code>hw3_template.ipynb</code>.</p>
 </section>
 <section id="openai-account-setup" class="level2">
 <h2 class="anchored" data-anchor-id="openai-account-setup">OpenAI account setup</h2>
@@ -178,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Your code: the Jupyter notebook you modified from the template. Submit:
 <ul>
 <li>your .ipynb file</li>
-<li>a .html export of your notebook**. To get a .html version, click File &gt; Export &gt; HTML from within JupyterLab.</li>
+<li>a <strong>.html export of your notebook</strong>. To get a .html version, click File &gt; Save and Export Notebook As… &gt; HTML from within JupyterLab.</li>
 </ul></li>
 <li>A PDF report with answers to questions provided in the template notebook. Please name your report <code>hw3_{your pitt email id}.pdf</code>. No need to include <span class="citation" data-cites="pitt.edu">@pitt.edu</span>, just use the email ID before that part. For example: <code>report_mmyoder_hw3.pdf</code>. Make sure to include the following additional information:
 <ul>
@@ -189,6 +194,17 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ol>
 <p>Please submit all of this material on Canvas. We will grade your report and may look over your code.</p>
+</section>
+<section id="background-readings" class="level2">
+<h2 class="anchored" data-anchor-id="background-readings">Background readings</h2>
+<p>The following optional readings are good references for LLM prompting:</p>
+<ul>
+<li><a href="https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2005.14165.pdf">Language Models are Few-Shot Learners</a>. Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, …others. ArXiV 2020.</li>
+<li><a href="https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2107.13586.pdf">Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing</a>. Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys 2021.</li>
+<li><a href="https://www.google.com/url?q=https%3A%2F%2Fhelp.openai.com%2Fen%2Farticles%2F6654000-best-practices-for-prompt-engineering-with-openai-api">Best practices for prompt engineering with OpenAI API</a>. Jessica Shieh. OpenAI 2023.</li>
+<li><a href="https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2203.02155.pdf">Training language models to follow instructions with human feedback</a>. Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, …others. ArXiV 2020.</li>
+<li><a href="https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2201.11903.pdf">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a>. Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, brian ichter, Fei Xia, Ed H. Chi, Quoc V Le, Denny Zhou. NeurIPS 2022.</li>
+</ul>
 <!--
 ## Grading
 See rubric on Canvas.

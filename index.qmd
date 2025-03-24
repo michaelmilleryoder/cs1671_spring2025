@@ -191,7 +191,7 @@ Spring 2025
             <td>03-24 M</td>
             <td><a href="slides/session18_cs1671_spring2025.pdf">BERT</a></td>
             <td>J+M 11-11.2, 11.4-11.6</td>
-            <td>HW3 out</td>
+            <td><a href="hw3">HW3</a> out</td>
         </tr>
         <tr>
             <td>19</td>
@@ -229,7 +229,7 @@ Spring 2025
             <td>04-09 W</td>
             <td>Dialogue systems, chatbots</td>
             <td>J+M 15</td>
-            <td><strong>HW3 due 04-10</strong></td>
+            <td><strong><a href="hw3">HW3</a> due 04-10</strong></td>
         </tr>
         <tr>
             <td>24</td>
