@@ -1,0 +1,40 @@
+---
+title: "Homework 3: LLM prompting"
+---
+
+**Due 2025-04-10, 11:59pm**. *Instructions last updated 2025-03-24.*
+
+## Learning objectives
+After completing this assignment, students will be able to:
+
+* Prompt LLMs programmatically with templates (parameterized)
+* Demonstrate the difference between zero-shot, few-shot, and chain-of-thought prompting
+* Engineer and test different prompts
+
+
+## Overview
+In this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code.
+
+## OpenAI account setup
+Until the class OpenAI account is available, you will have to use your own account with free credits. You will need an OpenAI account and API key, you can [sign up here](https://www.google.com/url?q=https%3A%2F%2Fplatform.openai.com%2Fsignup%3Flaunch) and learn [how to make an API key here](https://www.google.com/url?q=https%3A%2F%2Fhelp.openai.com%2Fen%2Farticles%2F4936850-where-do-i-find-my-secret-api-key). The OpenAI API is paid, however, this homework will stay well under the free $5 credit given to each account. Be careful not to exhaust your free OpenAI credits while testing. You can check [on this page here](https://www.google.com/url?q=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fusage). To avoid exhausting your credits quickly, avoid running cells over and over again after you've completed an exercise.
+
+## Deliverables
+
+1. Your code: the Jupyter notebook you modified from the template. Submit:
+	*  your .ipynb file 
+	* a .html export of your notebook**. To get a .html version, click File > Export > HTML from within JupyterLab.
+2. A PDF report with answers to questions provided in the template notebook. Please name your report `hw3_{your pitt email id}.pdf`. No need to include @pitt.edu, just use the email ID before that part. For example: `report_mmyoder_hw3.pdf`. Make sure to include the following additional information:
+	* any additional resources, references, or web pages you've consulted
+	* any person with whom you've discussed the assignment and describe the nature of your discussions
+	* any generative AI tool used, and how it was used
+	* any unresolved issues or problems
+
+Please submit all of this material on Canvas. We will grade your report and may look over your code.
+
+<!--
+## Grading
+See rubric on Canvas.
+-->
+
+## Acknowledgments
+This assignment is based on a homework assignment designed by Mark Yatskar and provided by Lorraine Li.
