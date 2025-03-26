@@ -2,7 +2,7 @@
 title: "Homework 3: Large language model (LLM) prompting"
 ---
 
-**Due 2025-04-10, 11:59pm**. *Instructions last updated 2025-03-24.*
+**Due 2025-04-14, 11:59pm**. *Instructions last updated 2025-03-24.*
 
 ## Learning objectives
 After completing this assignment, students will be able to:

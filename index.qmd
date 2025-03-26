@@ -229,14 +229,14 @@ Spring 2025
             <td>04-09 W</td>
             <td>Dialogue systems, chatbots</td>
             <td>J+M 15</td>
-            <td><strong><a href="hw3">HW3</a> due 04-10</strong></td>
+            <td></td>
         </tr>
         <tr>
             <td>24</td>
             <td>04-14 M</td>
             <td>Information retrieval, RAG</td>
             <td>J+M 14-14.3.1, 14.5</td>
-            <td></td>
+            <td><strong><a href="hw3">HW3</a> due</strong></td>
         </tr>
         <tr>
             <td>25</td>
