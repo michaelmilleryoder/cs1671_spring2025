@@ -196,7 +196,7 @@ Spring 2025
         <tr>
             <td>19</td>
             <td>03-26 W</td>
-            <td><a href="slides/session19_cs1671_spring2025.pdf">Post-training and prompting of LLMs</a></td>
+            <td><a href="slides/session19_cs1671_spring2025.pdf">Post-training and prompting LLMs</a></td>
             <td>J+M 12-12.5, 12.8</td>
             <td><strong>Project progress report due 03-27</strong></td>
         </tr>
