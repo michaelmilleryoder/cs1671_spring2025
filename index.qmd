@@ -196,14 +196,14 @@ Spring 2025
         <tr>
             <td>19</td>
             <td>03-26 W</td>
-            <td><a href="slides/session19_cs1671_spring2025.pdf">Post-training and prompting LLMs</a></td>
+            <td><a href="slides/session19_cs1671_spring2025.pdf">Prompting and post-training LLMs</a></td>
             <td>J+M 12-12.5, 12.8</td>
             <td><strong>Project progress report due 03-27</strong></td>
         </tr>
         <tr>
             <td>20</td>
             <td>03-31 M</td>
-            <td>Exam review</td>
+            <td><a href="slides/session20_cs1671_spring2025.pdf">Exam review</a></td>
             <td></td>
             <td></td>
         </tr>
@@ -276,7 +276,7 @@ Description | Points | Percentage of final grade
 &ensp;Project report | 140 | 14
 **Quizzes total** | **150** | **15**
 &ensp;Each quiz of 5 total | 30 | 3
-**Midterm exam** | **200** | **20**
+**Exam** | **200** | **20**
 **Participation total** | **100** | **10**
 &ensp;Attendance | 60 | 6
 &ensp;Engagement | 40 | 4
