@@ -25,7 +25,7 @@ Spring 2025
 
 
 # Schedule
-*Subject to change. Last revised 2025-02-22. All due dates are at 11:59pm ET except when indicated.*
+*Subject to change. Last revised 2025-04-02. All due dates are at 11:59pm ET except when indicated.*
 
 <table class="schedule">
     <thead>
@@ -250,14 +250,14 @@ Spring 2025
             <td>04-21 M</td>
             <td>Project work time</td>
             <td></td>
-            <td></td>
+            <td><strong>Project report due 04-24</strong></td>
         </tr>
         <tr>
             <td>27</td>
-            <td><em>TBD</em></td>
+            <td><em>04-30 W</em></td>
             <td style="font-weight:bold">Project presentations</td>
             <td></td>
-            <td><strong>Project report due 04-24</strong></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
