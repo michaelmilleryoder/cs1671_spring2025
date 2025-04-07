@@ -220,7 +220,7 @@ Spring 2025
         <tr>
             <td>22</td>
             <td>04-07 M</td>
-            <td>Machine translation</td>
+            <td><a href="slides/session22_cs1671_spring2025.pdf">Machine translation</a></td>
             <td>J+M 13-13.3, 13.6-13.8</td>
             <td></td>
         </tr>
