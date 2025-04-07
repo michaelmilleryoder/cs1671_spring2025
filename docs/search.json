@@ -42,13 +42,6 @@
     "text": "Progress report\nDue 03-27.\nThe progress report will contain a substantive update on your group’s progress using traditional (usually n-gram based) approaches on your task, as well as a description of how you will use LLMs for your task. You do not have to repeat information from the project proposal except for basic descriptions of the project and Part 1 information if you already provided it in the proposal. Here are the details:\n\nPart 1: Data basic statistics and exploratory analysis\nIn this part, please provide the following information about your dataset. It’s fine to be working with multiple datasets; just complete this for each one or for a final dataset you will be using if you are combining datasets.\n\nThe number of rows (datapoints) in the dataset and what each datapoint corresponds to. If you are splitting the dataset into a training, test, and possible dev sets, how many rows are in each?\nThe number of columns in the dataset you will be using and what each corresponds to.\nIf applicable, the distribution of the target labels you are predicting. So for a binary sentiment classification task, how many rows in each set (except the test set) are marked negative or positive sentiment? This can be in a table or graph format.\nOptionally, any other distribution or data visualization that you think is helpful for understanding your dataset or task.\n\n\n\nPart 2: A result from baseline (traditional) approach\nIn your proposal, you described an initial baseline approach to your task, which for most groups was using n-gram features in some way. Please provide one (hopefully quantitative) result from your work so far in this direction. Ideally this would be a performance metric result from your baseline approach on a dev or test set. But if you’re not that far yet, you can also provide an example of working input and output from your system or part of a system, some sort of plot or other output. You can be up front about challenges you are facing for which you might need help; to get a good grade, I’ll just be looking for some sort of output from a working system or part of a system. If you are confused what this means for your project, contact the instructor.\n\n\nPart 3: LLM proposal\nIn the project, you will be comparing your baseline system’s performance to that of an LLM. Please describe how you might use an LLM programmatically to attempt your task. The simplest way to do this would be in a “zero-shot” setting where you simply ask the LLM to do the task, but even that requires setting up and passing your data to the LLM and evaluating it. Please describe what you plan to do and which LLM you plan on using. You can also propose using more advanced approaches such as in-context learning (few-shot prompting), chain-of-thought prompting, prompt optimization or fine-tuning. Not all groups have to use an LLM here if you have already talked to the instructor; in that case, please describe the rest of the approach you will be taking to complete the project.\n\n\nPart 4: Open questions and challenges\nPlease describe any open questions or challenges your group has at this point. Will you need any resources other than the ones provided in class (OpenAI API access, CRCD access) or have any other questions? Also describe if the roles for each of your team members have changed since the proposal and if so, what the new roles are.\n\n\nDeliverable\nAssemble your results and writing for each part in a document to submit as a PDF on Canvas. There is no required format for this document other than being in PDF format."
   },
   {
-    "objectID": "project.html#final-presentation",
-    "href": "project.html#final-presentation",
-    "title": "Project",
-    "section": "Final presentation",
-    "text": "Final presentation\nIn class TBD.\nRequirements TBD. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation."
-  },
-  {
     "objectID": "project.html#final-report",
     "href": "project.html#final-report",
     "title": "Project",
@@ -56,11 +49,18 @@
     "text": "Final report\nDue 04-24.\nRequirements TBD. At the end of the course, groups will provide a written report of their project."
   },
   {
+    "objectID": "project.html#final-presentation",
+    "href": "project.html#final-presentation",
+    "title": "Project",
+    "section": "Final presentation",
+    "text": "Final presentation\nIn class 04-30, 12-1:50p.\nRequirements TBD. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation."
+  },
+  {
     "objectID": "hw3.html",
     "href": "hw3.html",
     "title": "Homework 3: Large language model (LLM) prompting",
     "section": "",
-    "text": "Due 2025-04-14, 11:59pm. Instructions last updated 2025-03-24."
+    "text": "Due 2025-04-14, 11:59pm. Instructions last updated 2025-04-07."
   },
   {
     "objectID": "hw3.html#learning-objectives",
@@ -77,11 +77,11 @@
     "text": "Overview\nIn this assignment, you will explore different prompting techniques for OpenAI LLMs. You will fill in a Jupyter notebook hosted on the Pitt CRCD to run your code.\nTo get started, click on the class nbgitpuller link and edit the template notebook, hw3_template.ipynb. You can run it on the standard CPU server; no GPU is needed."
   },
   {
-    "objectID": "hw3.html#openai-account-setup",
-    "href": "hw3.html#openai-account-setup",
+    "objectID": "hw3.html#openai-account",
+    "href": "hw3.html#openai-account",
     "title": "Homework 3: Large language model (LLM) prompting",
-    "section": "OpenAI account setup",
-    "text": "OpenAI account setup\nUntil the class OpenAI account is available, you will have to use your own account with free credits. You will need an OpenAI account and API key, you can sign up here and learn how to make an API key here. The OpenAI API is paid, however, this homework will stay well under the free $5 credit given to each account. Be careful not to exhaust your free OpenAI credits while testing. You can check on this page here. To avoid exhausting your credits quickly, avoid running cells over and over again after you’ve completed an exercise."
+    "section": "OpenAI account",
+    "text": "OpenAI account\nThe class OpenAI account is available for use in this assignment. Please see Canvas for an announcement with the API key you can use for the class account."
   },
   {
     "objectID": "hw3.html#deliverables",

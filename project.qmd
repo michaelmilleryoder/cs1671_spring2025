@@ -112,18 +112,6 @@ Please describe any open questions or challenges your group has at this point. W
 ### Deliverable
 Assemble your results and writing for each part in a document to submit as a PDF on Canvas. There is no required format for this document other than being in PDF format.
 
-## Final presentation
-*In class TBD*.  
-**Requirements TBD**. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation. 
-<!--Add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/ERvjnz_S-f9PlmDCYMWGBbkBheXSi4dRcAalYyMUOVaftQ).--> 
-<!--
-Cover at least these key points:
-	1. Project motivation (briefly)
-	2. Data
-	3. Methods, or annotation/collection approach for dataset projects
-	4. Results
--->
-
 ## Final report 
 *Due 04-24*.  
 **Requirements TBD**. At the end of the course, groups will provide a written report of their project. 
@@ -164,6 +152,18 @@ Here is the rubric that will be used in grading:
 |Task and roles assigned to this group member were completed sufficiently | 13|
 |***Individual contribution total*** | ***26***|
 |***Grand total*** | ***121***|
+-->
+
+## Final presentation
+*In class 04-30, 12-1:50p*.  
+**Requirements TBD**. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation. 
+<!--Add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/ERvjnz_S-f9PlmDCYMWGBbkBheXSi4dRcAalYyMUOVaftQ).--> 
+<!--
+Cover at least these key points:
+	1. Project motivation (briefly)
+	2. Data
+	3. Methods, or annotation/collection approach for dataset projects
+	4. Results
 -->
 
 <!--
