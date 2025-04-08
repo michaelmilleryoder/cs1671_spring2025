@@ -227,7 +227,7 @@ Spring 2025
         <tr>
             <td>23</td>
             <td>04-09 W</td>
-            <td>Dialogue systems, chatbots</td>
+            <td><a href="slides/session23_cs1671_spring2025.pdf">Dialogue systems, chatbots</a></td>
             <td>J+M 15</td>
             <td></td>
         </tr>
