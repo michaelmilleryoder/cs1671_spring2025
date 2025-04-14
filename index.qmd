@@ -19,7 +19,7 @@ Spring 2025
 |TA|Norah Almousa|
 |TA contact|[nia135@pitt.edu](mailto:nia135@pitt.edu)|
 |TA office hours|By appointment|
-|Textbook (free online)|[[J+M] Jurafsky and Martin, *Speech and Language Processing*, 3e draft, 2024-08-20](https://web.stanford.edu/~jurafsky/slp3)|
+|Textbook (free online)|[[J+M] Jurafsky and Martin, *Speech and Language Processing*, 3e draft, 2025-01-12](https://web.stanford.edu/~jurafsky/slp3)|
 |Class notebooks |[CRCD JupyterHub nbgitpuller link](https://jupyter.crc.pitt.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmichaelmilleryoder%2Fcs1671_jupyterhub&urlpath=lab%2Ftree%2Fcs1671_jupyterhub%2F&branch=main) (Pitt login required, public link to source [here](https://github.com/michaelmilleryoder/cs1671_jupyterhub)).|
 
 
