@@ -248,7 +248,7 @@ Spring 2025
         <tr>
             <td>26</td>
             <td>04-21 M</td>
-            <td>Project work time</td>
+            <td><a href="slides/session26_cs1671_spring2025.pdf">Project work time</a></td>
             <td></td>
             <td><strong>Project report due 04-28</strong></td>
         </tr>
