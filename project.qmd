@@ -161,8 +161,9 @@ Here is the rubric that will be used in grading:
 Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 8-minute presentation. 
 Add your slides to this [shared PowerPoint presentation](https://pitt-my.sharepoint.com/:p:/g/personal/mmyoder_pitt_edu/EdWBs5h0nvRDrqPWUMMPCzgB4c3HkyySL47wUw1DY0y2bw?e=T0kmWQ).
 Cover at least these key points:
-	1. Project motivation (briefly)
-	1. Task description, including example input and output
-	2. Data
-	3. Methods, including your baseline system and your contemporary LLM-based approach (or whatever approaches you took)
-	4. Results or findings from your baseline system and your contemporary LLM-based approach
+
+1. Project motivation (briefly)
+1. Task description, including example input and output
+2. Data
+3. Methods, including your baseline system and your contemporary LLM-based approach (or whatever approaches you took)
+4. Results or findings from your baseline system and your contemporary LLM-based approach
