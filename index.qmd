@@ -255,7 +255,7 @@ Spring 2025
         <tr>
             <td>27</td>
             <td>04-30 W<br/>12-1:50p</td>
-            <td style="font-weight:bold">Project presentations</td>
+            <td style="font-weight:bold"><a href="slides/session27_cs1671_spring2025.pdf">Project presentations</a></td>
             <td></td>
             <td></td>
         </tr>
